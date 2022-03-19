@@ -78,12 +78,24 @@ def draw_contours(image, contours):
     plt.show()
 
 
-def extract_card_text_image(image, card_contours):
+def extract_bird_card_text_image(image, card_contours):
     card_text_images = []
     centres = []
     for c in card_contours:
         x0, y0, w, h = cv2.boundingRect(c)
         card_text_images.append(image[y0:y0 + 40, x0 + 60:x0 + w])
+        centres.append(contour_centre(c))
+    return card_text_images, centres
+
+
+def extract_bonus_card_text_image(image, card_contours):
+    card_text_images = []
+    centres = []
+    for c in card_contours:
+        x0, y0, w, h = cv2.boundingRect(c)
+        card_text_images.append(image[y0 - 15:y0 + 20, x0:x0 + w])
+        plt.imshow(image[y0 - 15:y0 + 20, x0:x0 + w])
+        plt.show()
         centres.append(contour_centre(c))
     return card_text_images, centres
 
@@ -95,15 +107,40 @@ def extract_bird_cards():
     grey = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
     _, thresh = cv2.threshold(grey, 200, 255, cv2.THRESH_BINARY)
     contours = find_contours(thresh)
-    contours = filter_contours_by_area(contours, 80000, 25000)
+    contours = filter_contours_by_area(contours, 100000, 20000)
     contours = filter_contour_by_y_point(contours, 350, 100)
 
-    card_text_images, centres = extract_card_text_image(image, contours)
+    card_text_images, centres = extract_bird_card_text_image(image, contours)
     names = []
     for img in card_text_images:
         custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         text = pytesseract.image_to_string(img, config=custom_config).strip()
         name = min(utils.BIRD_NAMES,
+                   key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').upper(), text.replace(' ', '')))
+        print(text, name)
+        names.append(name)
+    return names, centres
+
+
+def extract_bonus_cards():
+    # TODO fix these magic numbers
+
+    image = np.asarray(ImageGrab.grab(bbox=gui_interactions.WINDOW))
+    grey = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+    _, thresh = cv2.threshold(grey, 200, 255, cv2.THRESH_BINARY)
+    plt.imshow(thresh)
+    plt.show()
+    contours = find_contours(thresh)
+    contours = filter_contours_by_area(contours, 100000, 20000)
+    contours = filter_contour_by_y_point(contours, 350, 100)
+    print(len(contours))
+
+    card_text_images, centres = extract_bonus_card_text_image(image, contours)
+    names = []
+    for img in card_text_images:
+        custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        text = pytesseract.image_to_string(img, config=custom_config).strip()
+        name = min(utils.BONUS_CARD__NAMES,
                    key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').upper(), text.replace(' ', '')))
         print(text, name)
         names.append(name)

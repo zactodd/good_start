@@ -8,6 +8,12 @@ with open(_BIRD_NAMES_FILE, 'r') as f:
     BIRD_NAMES = [line.strip() for line in f]
 
 
+_BONUS_CARD__NAMES_FILE = os.path.join(RESOURCES, 'bonus_card_names.txt')
+
+with open(_BONUS_CARD__NAMES_FILE, 'r') as f:
+    BONUS_CARD__NAMES = [line.strip() for line in f]
+
+
 @cache
 def minimum_edit_distance(a, b, m=None, n=None):
     if m is None:

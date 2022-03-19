@@ -12,7 +12,6 @@ Large Bird Specialist
 Anatomist
 Platform Builder
 Cartographer
-Prairie Manager
 Bird Counter
 Viticulturalist
 Enclosure Builder
@@ -25,3 +24,4 @@ Passerine Specialist
 Bird Feeder
 Backyard Birder
 Diet Specialist
+Prairie Manager

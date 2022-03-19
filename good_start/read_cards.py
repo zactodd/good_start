@@ -143,8 +143,3 @@ def extract_bonus_cards():
         print(f'Guess: {name}\t{text}')
         names.append(name)
     return names, centres
-
-
-import time
-time.sleep(3)
-extract_bird_cards()

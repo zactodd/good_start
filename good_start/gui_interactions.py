@@ -12,19 +12,16 @@ def _window_coords_from_name(name: str)-> tuple:
     return x0, y0, x1 - x0, y1 - y0
 
 
-WINDOW_X0, WINDOW_Y0, WINDOW_W, WINDOW_H = _window_coords_from_name('Wingspan')
+WINDOW = WINDOW_X0, WINDOW_Y0, WINDOW_W, WINDOW_H = _window_coords_from_name('Wingspan')
 
 
 def move_and_click(x: float, y: float) -> None:
-    """
-    Click on a given a relative x, y coordinate
-    :param x:
-    :param y:
-    """
+    if x > 1:
+        x, y = x / WINDOW_W, y / WINDOW_H
     autoit.mouse_click("left", int(WINDOW_X0 + WINDOW_W * x), int(WINDOW_Y0 + WINDOW_H * y), 1)
 
 
-def menu_transition(buttons, wait=2) -> None:
+def menu_transition(buttons, wait=3) -> None:
     for button in buttons:
         move_and_click(*button)
         time.sleep(wait)

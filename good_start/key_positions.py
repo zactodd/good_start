@@ -9,11 +9,13 @@ NEXT_BUTTON = (0.935, 0.906)
 TURN_START_BUTTON = (0.497, 0.678)
 
 # Resource Buttons
-FRUIT_BUTTON = (0.556, 0.883)
-FISH_BUTTON = (0.624, 0.883)
-INVERTEBRATE_BUTTON = (0.692, 0.883)
-RODENT_BUTTON = (0.780, 0.883)
-SEED_BUTTON = (0.848, 0.883)
+RESOURCES_TO_BUTTONS = {
+    'fruit': (0.556, 0.883),
+    'fish': (0.624, 0.883),
+    'invertebrate': (0.692, 0.883),
+    'rodent': (0.780, 0.883),
+    'seed': (0.848, 0.883),
+}
 
 
 # In game Buttons

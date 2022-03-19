@@ -13,6 +13,7 @@ def _window_coords_from_name(name: str)-> tuple:
 
 
 WINDOW = WINDOW_X0, WINDOW_Y0, WINDOW_W, WINDOW_H = _window_coords_from_name('Wingspan')
+WINDOW_X1, WINDOW_Y1 = WINDOW_X0 + WINDOW_W, WINDOW_Y0 + WINDOW_H
 
 
 def move_and_click(x: float, y: float) -> None:

@@ -11,7 +11,6 @@
   {"birds": ["Franklin's Gull", "Ruby-Throated Hummingbird"], "food": ["fish", "invertebrate", "rodent"]},
   {"birds": ["Franklin's Gull", "Anna's Hummingbird"], "food": ["fish", "invertebrate", "rodent"]},
   {"birds": ["Franklin's Gull", "Cedar Waxwing"], "food": ["fruit", "fish", "rodent"]},
-  {"birds": ["Franklin's Gull", "Spotted Towhee"], "food": ["invertebrate", "fish", "rodent"]},
   {"birds": ["Killdeer", "Chihuahuan Raven"], "food": ["invertebrate", "seed", "rodent"]},
   {"birds": ["Killdeer", "Common Raven"], "food": ["invertebrate", "seed", "rodent"]},
   {"birds": ["Killdeer", "Fish Crow"], "food": ["invertebrate", "fish", "rodent"]},
@@ -30,12 +29,7 @@
   {"birds": ["Franklin's Gull", "Purple Martin"], "food": ["fish", "seed", "invertebrate"]},
   {"birds": ["Killdeer", "House Finch"], "food": ["fruit", "seed", "invertebrate"]},
   {"birds": ["Franklin's Gull", "House Finch"], "food": ["fruit", "fish", "seed"]},
-  {"birds": ["Killdeer", "Eastern Phoebe"], "food": ["rodent", "invertebrate", "seed"]},
-  {"birds": ["Killdeer", "Black-Chinned Hummingbird"], "food": ["rodent", "invertebrate", "seed"]},
-  {"birds": ["Franklin's Gull", "Eastern Phoebe"], "food": ["rodent", "fish", "invertebrate"]},
-  {"birds": ["Franklin's Gull", "Black-Chinned Hummingbird"], "food": ["rodent", "fish", "invertebrate"]},
   {"birds": ["Franklin's Gull", "Fish Crow"], "food": ["invertebrate", "fish", "rodent"]},
-  {"birds": ["Franklin's Gull", "Indigo Bunting"], "food": ["fruit", "fish", "seed"]},
   {"birds": ["Killdeer", "Red-Winged Blackbird"], "food": ["rodent", "seed", "invertebrate"]},
   {"birds": ["Killdeer", "White-Throated Swift"], "food": ["rodent", "seed", "invertebrate"]},
   {"birds": ["Franklin's Gull", "White-Throated Swift"], "food": ["fish", "seed", "invertebrate"]},
@@ -45,7 +39,5 @@
   {"birds": ["Killdeer", "Bushtit"], "food": ["rodent", "seed", "invertebrate"]},
   {"birds": ["Franklin's Gull", "Bushtit"], "food": ["fish", "seed", "invertebrate"]},
   {"birds": ["Franklin's Gull", "Brewer's Blackbird"], "food": ["fish", "seed", "invertebrate"]},
-  {"birds": ["Franklin's Gull", "Common Grackle"], "food": ["fish", "seed", "invertebrate"]},
-  {"birds": ["Killdeer"], "food": ["fruit", "invertebrate", "seed", "rodent"]},
-  {"birds": ["Franklin's Gull"], "food": ["fish", "invertebrate", "seed", "rodent"]}
+  {"birds": ["Franklin's Gull", "Common Grackle"], "food": ["fish", "seed", "invertebrate"]}
 ]

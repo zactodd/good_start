@@ -1,4 +1,5 @@
 import os
+import json
 from functools import cache
 
 RESOURCES = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'resources')
@@ -8,10 +9,16 @@ with open(_BIRD_NAMES_FILE, 'r') as f:
     BIRD_NAMES = [line.strip() for line in f]
 
 
-_BONUS_CARD__NAMES_FILE = os.path.join(RESOURCES, 'bonus_card_names.txt')
+_BIRD_IMPORTANCE_FILE = os.path.join(RESOURCES, 'bird_card_importance.json')
 
-with open(_BONUS_CARD__NAMES_FILE, 'r') as f:
-    BONUS_CARD__NAMES = [line.strip() for line in f]
+with open(_BIRD_IMPORTANCE_FILE, 'r') as f:
+    BIRD_IMPORTANCE = json.load(f)
+
+
+_BONUS_IMPORTANCE_FILE = os.path.join(RESOURCES, 'bonus_card_importance.txt')
+
+with open(_BONUS_IMPORTANCE_FILE, 'r') as f:
+    BONUS_IMPORTANCE = [line.strip() for line in f]
 
 
 @cache

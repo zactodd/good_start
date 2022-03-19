@@ -140,7 +140,7 @@ def extract_bonus_cards():
     for img in card_text_images:
         custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         text = pytesseract.image_to_string(img, config=custom_config).strip()
-        name = min(utils.BONUS_CARD__NAMES,
+        name = min(utils.BONUS_IMPORTANCE,
                    key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').upper(), text.replace(' ', '')))
         print(text, name)
         names.append(name)

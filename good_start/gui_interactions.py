@@ -21,16 +21,16 @@ def move_and_click(x: float, y: float) -> None:
     autoit.mouse_click("left", int(WINDOW_X0 + WINDOW_W * x), int(WINDOW_Y0 + WINDOW_H * y), 1)
 
 
-def menu_transition(buttons, wait=3) -> None:
+def click_buttons(buttons, wait=3) -> None:
     for button in buttons:
         move_and_click(*button)
         time.sleep(wait)
 
 
 def menu_from_start() -> None:
-    menu_transition(key_positions.FIRST_MENU_TRAVERSAL)
+    click_buttons(key_positions.FIRST_MENU_TRAVERSAL)
 
 
 def new_game_from_game() -> None:
-    menu_transition(key_positions.NEW_GAME_FROM_GAME)
+    click_buttons(key_positions.NEW_GAME_FROM_GAME)
 

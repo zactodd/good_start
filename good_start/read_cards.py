@@ -83,7 +83,7 @@ def extract_bird_card_text_image(image, card_contours):
     centres = []
     for c in card_contours:
         x0, y0, w, h = cv2.boundingRect(c)
-        card_text_images.append(image[y0:y0 + 45, x0 + 55:x0 + w])
+        card_text_images.append(image[y0:y0 + 45, x0 + 40:x0 + w])
         centres.append(contour_centre(c))
     return card_text_images, centres
 

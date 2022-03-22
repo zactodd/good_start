@@ -9,7 +9,6 @@
   {"birds": ["Killdeer", "Chihuahuan Raven"], "food": ["invertebrate", "seed", "rodent"]},
   {"birds": ["Killdeer", "Common Raven"], "food": ["invertebrate", "seed", "rodent"]},
   {"birds": ["Franklin's Gull", "Belted Kingfisher"], "food": ["invertebrate", "fish", "rodent"]},
-  {"birds": ["Killdeer", "Indigo Bunting"], "food": ["fruit", "invertebrate", "seed"]},
   {"birds": ["Franklin's Gull", "Chihuahuan Raven"], "food": ["invertebrate", "fish", "rodent"]},
   {"birds": ["Franklin's Gull", "Common Raven"], "food": ["invertebrate", "fish", "rodent"]},
   {"birds": ["Killdeer", "Barn Swallow"], "food": ["invertebrate", "rodent", "seed"]},

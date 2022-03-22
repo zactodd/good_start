@@ -117,9 +117,8 @@ def extract_bird_cards():
         name = min(utils.BIRD_NAMES,
                    key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').replace('\'', '').upper(),
                                                              text.replace(' ', '')))
-        print(f'Guess: {name}\t{text}')
         names.append(name)
-    return names, centres
+    return names, centres, image
 
 
 def extract_bonus_cards():
@@ -138,6 +137,5 @@ def extract_bonus_cards():
         text = pytesseract.image_to_string(img, config=custom_config).strip()
         name = min(utils.BONUS_IMPORTANCE,
                    key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').upper(), text.replace(' ', '')))
-        print(f'Guess: {name}\t{text}')
         names.append(name)
-    return names, centres
+    return names, centres, image

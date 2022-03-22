@@ -23,9 +23,5 @@
   {"birds": ["Franklin's Gull", "American Robin"], "food": ["fish", "invertebrate", "rodent"]},
   {"birds": ["Franklin's Gull", "Purple Martin"], "food": ["fish", "seed", "invertebrate"]},
   {"birds": ["Killdeer", "House Finch"], "food": ["fruit", "seed", "invertebrate"]},
-  {"birds": ["Killdeer", "Red-Winged Blackbird"], "food": ["rodent", "seed", "invertebrate"]},
-  {"birds": ["Killdeer", "White-Throated Swift"], "food": ["rodent", "seed", "invertebrate"]},
-  {"birds": ["Franklin's Gull", "White-Throated Swift"], "food": ["fish", "seed", "invertebrate"]},
-  {"birds": ["Franklin's Gull", "Red-Winged Blackbird"], "food": ["fish", "seed", "invertebrate"]},
   {"birds": ["Killdeer", "Bushtit"], "food": ["rodent", "seed", "invertebrate"]}
 ]

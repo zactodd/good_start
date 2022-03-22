@@ -1,6 +1,7 @@
 import os
 import json
 from functools import cache
+import random
 
 RESOURCES = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'resources')
 _BIRD_NAMES_FILE = os.path.join(RESOURCES, 'bird_names.txt')
@@ -38,3 +39,7 @@ def minimum_edit_distance(a, b, m=None, n=None):
             minimum_edit_distance(a, b, m - 1, n - 1)
         )
 
+
+def sample_prob(sample=1000):
+    return sum(any(all(b in hand for b in bird['birds']) for bird in BIRD_IMPORTANCE)
+                    for hand in map(lambda _: random.sample(BIRD_NAMES, 5), range(sample))) / sample

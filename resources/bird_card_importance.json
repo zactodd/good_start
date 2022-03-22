@@ -22,6 +22,5 @@
   {"birds": ["Franklin's Gull", "Barn Swallow"], "food": ["fish", "seed", "invertebrate"]},
   {"birds": ["Franklin's Gull", "American Robin"], "food": ["fish", "invertebrate", "rodent"]},
   {"birds": ["Franklin's Gull", "Purple Martin"], "food": ["fish", "seed", "invertebrate"]},
-  {"birds": ["Killdeer", "House Finch"], "food": ["fruit", "seed", "invertebrate"]},
-  {"birds": ["Killdeer", "Bushtit"], "food": ["rodent", "seed", "invertebrate"]}
+  {"birds": ["Killdeer", "House Finch"], "food": ["fruit", "seed", "invertebrate"]}
 ]

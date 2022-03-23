@@ -16,25 +16,28 @@ def on_kill():
     for i, (birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image) \
             in enumerate(reversed(selected_games)):
         print(f'Game:\n'
-              f'\tbirds: {list(birds)}\t -> {list(selected_birds)}\n'
-              f'\tfood: {food}\n'
-              f'\tbonuses: {bonuses}\t -> {bonus}')
+              f'\tbirds:\t {list(birds)}\t -> \t{list(selected_birds)}\n'
+              f'\tfood:\t {food}\n'
+              f'\tbonuses:\t {bonuses}\t -> {bonus}')
 
         bird_games[tuple(selected_birds)] += 1
         bonus_games[bonus] += 1
 
         birds_image_name = "__".join(b.replace("'", "").replace(" ", "_") for b in selected_birds)
-        plt.imsave(f'game_{i}_birds__{birds_image_name}.png', bird_image)
-        plt.imsave(f'game_{i}_bonus_{bonus}.png', bonus_image)
-
-    plt.bar(*zip(*bird_games.items()), align='center')
+        plt.imsave(f'.selected\\game_{i}_birds__{birds_image_name}.png', bird_image)
+        plt.imsave(f'.selected\\game_{i}_bonus_{bonus}.png', bonus_image)
+    x, y = zip(*bird_games.items())
+    x = '-'.join(b[:2] for b in x)
+    plt.bar(x, y, align='center')
     plt.xticks(range(len(bird_games)), bird_games.keys())
     plt.xlabel('Birds')
     plt.ylabel('Games')
     plt.title('Birds')
     plt.show()
 
-    plt.bar(*zip(*bonus_games.items()), align='center')
+    x, y = zip(*bonus_games.items())
+    x = '-'.join(b[:2] for b in x)
+    plt.bar(x, y, align='center')
     plt.xticks(range(len(bonus_games)), bonus_games.keys())
     plt.xlabel('Bonuses')
     plt.ylabel('Games')

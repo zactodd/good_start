@@ -1,9 +1,10 @@
 import cv2
 import pytesseract
 import numpy as np
-from PIL import ImageGrab
+from PIL import ImageGrab, Image, ImageEnhance
 import matplotlib.pyplot as plt
 import gui_interactions as gi
+import key_positions
 import utils
 
 
@@ -78,13 +79,13 @@ def draw_contours(image, contours):
     plt.show()
 
 
-def extract_bird_card_text_image(image, card_contours):
+def extract_bird_card_text_image(image):
     card_text_images = []
     centres = []
-    for c in card_contours:
-        x0, y0, w, h = cv2.boundingRect(c)
-        card_text_images.append(image[y0:y0 + 45, x0 + 40:x0 + w])
-        centres.append(contour_centre(c))
+    for x0, y0 in key_positions.BIRD_CARD_POSITIONS:
+        sx0, sy0 = int(gi.WINDOW_W * x0), int(gi.WINDOW_H * y0)
+        card_text_images.append(image[sy0:sy0 + 40, sx0:sx0 + 155])
+        centres.append((x0, y0 + 0.1))
     return card_text_images, centres
 
 
@@ -102,16 +103,11 @@ def extract_bird_cards():
     # TODO fix these magic numbers
     bbox = gi.WINDOW_X0, gi.WINDOW_Y0, gi.WINDOW_X1, gi.WINDOW_Y1
     image = np.asarray(ImageGrab.grab(bbox=bbox))
-
-    grey = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
-    _, thresh = cv2.threshold(grey, 200, 255, cv2.THRESH_BINARY)
-    contours = find_contours(thresh)
-    contours = filter_contours_by_area(contours, 100000, 20000)
-    contours = filter_contour_by_y_point(contours, 350, 100)
-
-    card_text_images, centres = extract_bird_card_text_image(image, contours)
+    card_text_images, centres = extract_bird_card_text_image(image)
     names = []
     for img in card_text_images:
+        img = cv2.resize(img, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
+
         custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         text = pytesseract.image_to_string(img, config=custom_config).strip()
         name = min(utils.BIRD_NAMES,

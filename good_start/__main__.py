@@ -24,8 +24,8 @@ def on_kill():
         bonus_games[bonus] += 1
 
         birds_image_name = "__".join(b.replace("'", "").replace(" ", "_") for b in selected_birds)
-        plt.imsave(f'.selected\\game_{i}_birds__{birds_image_name}.png', bird_image)
-        plt.imsave(f'.selected\\game_{i}_bonus_{bonus}.png', bonus_image)
+        plt.imsave(f'..\\.selected\\game_{i}_birds__{birds_image_name}.png', bird_image)
+        plt.imsave(f'..\\.selected\\game_{i}_bonus_{bonus}.png', bonus_image)
     x, y = zip(*bird_games.items())
     x = '-'.join(b[:2] for b in x)
     plt.bar(x, y, align='center')

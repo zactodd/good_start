@@ -18,9 +18,9 @@ def on_kill():
     for i, (birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image) \
             in enumerate(reversed(selected_games)):
         print(f'Game:\n'
-              f'\tbirds:\t {list(birds)}\t -> \t{list(selected_birds)}\n'
+              f'\tbirds:\t {list(birds)}\n\t->\t{list(selected_birds)}\n'
               f'\tfood:\t {food}\n'
-              f'\tbonuses:\t {bonuses}\t -> {bonus}')
+              f'\tbonuses:\t {bonuses}\n\t->\t{bonus}')
 
         bird_games[tuple(selected_birds)] += 1
         bonus_games[bonus] += 1
@@ -46,24 +46,32 @@ if __name__ == '__main__':
 
         selection = bird_selection(birds)
         if selection:
-            selected_birds, food = selection
-            for b in selected_birds:
-                move_and_click(*bird_centres[b])
-                time.sleep(0.5)
-            for f in food:
-                move_and_click(*key_positions.RESOURCES_TO_BUTTONS[f])
-                time.sleep(0.5)
-            move_and_click(*key_positions.NEXT_BUTTON)
+            selected_birds, food, tray_requirements = selection
+
+            move_and_click(*key_positions.OVERVIEW_BUTTON)
+            time.sleep(1)
+            tray = extract_tray_cards()
             time.sleep(1)
 
-            bonuses, centres, bonus_image = extract_bonus_cards()
-            bonus_centres = dict(zip(bonuses, centres))
-            bonus = bonus_selection(bonuses)
+            if any(c in tray_requirements for c in tray):
+                move_and_click(*key_positions.OVERVIEW_BUTTON)
+                for b in selected_birds:
+                    move_and_click(*bird_centres[b])
+                    time.sleep(0.5)
+                for f in food:
+                    move_and_click(*key_positions.RESOURCES_TO_BUTTONS[f])
+                    time.sleep(0.5)
+                move_and_click(*key_positions.NEXT_BUTTON)
+                time.sleep(1)
 
-            selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
+                bonuses, centres, bonus_image = extract_bonus_cards()
+                bonus_centres = dict(zip(bonuses, centres))
+                bonus = bonus_selection(bonuses)
 
-            move_and_click(*bonus_centres[bonus])
-            time.sleep(0.5)
-            move_and_click(*key_positions.NEXT_BUTTON)
-            time.sleep(30)
+                selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
+
+                move_and_click(*bonus_centres[bonus])
+                time.sleep(0.5)
+                move_and_click(*key_positions.NEXT_BUTTON)
+                time.sleep(30)
         new_game_from_game()

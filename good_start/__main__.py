@@ -48,11 +48,13 @@ if __name__ == '__main__':
         if selection:
             selected_birds, food, tray_requirements = selection
 
+            # Read tray
             move_and_click(*key_positions.OVERVIEW_BUTTON)
             time.sleep(1)
             tray = extract_tray_cards()
             time.sleep(1)
 
+            # Select cards and food if tray requirements are met
             if any(c in tray_requirements for c in tray):
                 move_and_click(*key_positions.OVERVIEW_BUTTON)
                 for b in selected_birds:
@@ -64,6 +66,7 @@ if __name__ == '__main__':
                 move_and_click(*key_positions.NEXT_BUTTON)
                 time.sleep(1)
 
+                # Select bonus cards
                 bonuses, centres, bonus_image = extract_bonus_cards()
                 bonus_centres = dict(zip(bonuses, centres))
                 bonus = bonus_selection(bonuses)
@@ -71,6 +74,8 @@ if __name__ == '__main__':
                 selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
 
                 move_and_click(*bonus_centres[bonus])
+
+                # Wait to sve game
                 time.sleep(0.5)
                 move_and_click(*key_positions.NEXT_BUTTON)
                 time.sleep(30)

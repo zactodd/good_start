@@ -94,6 +94,16 @@ def extract_bonus_card_text_image(image, card_contours):
     return card_text_images, centres
 
 
+def extract_tray_card_text_image(image):
+    card_text_images = []
+    for x0, y0 in key_positions.TRAY_CARD_POSITIONS:
+        sx0, sy0 = int(gi.WINDOW_W * x0), int(gi.WINDOW_H * y0)
+        card_text_images.append(image[sy0:sy0 + 18, sx0:sx0 + 160])
+        plt.imshow(card_text_images[-1])
+        plt.show()
+    return card_text_images
+
+
 def extract_bird_cards():
     # TODO fix these magic numbers
     bbox = gi.WINDOW_X0, gi.WINDOW_Y0, gi.WINDOW_X1, gi.WINDOW_Y1
@@ -110,6 +120,23 @@ def extract_bird_cards():
                                                              text.replace(' ', '')))
         names.append(name)
     return names, centres, image
+
+
+def extract_tray_cards():
+    bbox = gi.WINDOW_X0, gi.WINDOW_Y0, gi.WINDOW_X1, gi.WINDOW_Y1
+    image = np.asarray(ImageGrab.grab(bbox=bbox))
+    card_text_images = extract_tray_card_text_image(image)
+    names = []
+    for img in card_text_images:
+        img = cv2.resize(img, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
+
+        custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        text = pytesseract.image_to_string(img, config=custom_config).strip()
+        name = min(utils.BIRD_NAMES,
+                   key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').replace('\'', '').upper(),
+                                                             text.replace(' ', '')))
+        names.append(name)
+    return names
 
 
 def extract_bonus_cards():

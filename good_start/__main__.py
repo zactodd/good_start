@@ -4,6 +4,7 @@ from read_cards import *
 import matplotlib.pyplot as plt
 from collections import Counter
 import atexit
+from datetime import datetime
 
 
 selected_games = []
@@ -13,6 +14,7 @@ def on_kill():
     print("Post run statistics")
     bird_games = Counter()
     bonus_games = Counter()
+    save_time = datetime.now()
     for i, (birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image) \
             in enumerate(reversed(selected_games)):
         print(f'Game:\n'
@@ -23,26 +25,10 @@ def on_kill():
         bird_games[tuple(selected_birds)] += 1
         bonus_games[bonus] += 1
 
-        birds_image_name = "__".join(b.replace("'", "").replace(" ", "_") for b in selected_birds)
-        plt.imsave(f'..\\.selected\\game_{i}_birds__{birds_image_name}.png', bird_image)
-        plt.imsave(f'..\\.selected\\game_{i}_bonus_{bonus}.png', bonus_image)
-    x, y = zip(*bird_games.items())
-    x = '-'.join(b[:2] for b in x)
-    plt.bar(x, y, align='center')
-    plt.xticks(range(len(bird_games)), bird_games.keys())
-    plt.xlabel('Birds')
-    plt.ylabel('Games')
-    plt.title('Birds')
-    plt.show()
+        birds_image_name = "__".join(b.replace("'", "").replace(" ", "_").lower() for b in selected_birds)
 
-    x, y = zip(*bonus_games.items())
-    x = '-'.join(b[:2] for b in x)
-    plt.bar(x, y, align='center')
-    plt.xticks(range(len(bonus_games)), bonus_games.keys())
-    plt.xlabel('Bonuses')
-    plt.ylabel('Games')
-    plt.title('Bonuses')
-    plt.show()
+        plt.imsave(f'..\\.selected\\game_{save_time:%y_%M_%d}__{i}__birds__{birds_image_name}.png', bird_image)
+        plt.imsave(f'..\\.selected\\game_{save_time:%y_%M_%d}__{i}__bonus__{bonus}.png', bonus_image)
 
 
 

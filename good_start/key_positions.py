@@ -21,6 +21,7 @@ RESOURCES_TO_BUTTONS = {
 # In game Buttons
 SETTING_BUTTONS = (0.038, 0.094)
 RETURN_TO_MAIN_MENU_BUTTON = (0.495, 0.588)
+OVERVIEW_BUTTON = (0.062, 0.798)
 
 
 # Menus order
@@ -35,4 +36,10 @@ BIRD_CARD_POSITIONS = [
     (0.458, 0.266),
     (0.600, 0.266),
     (0.746, 0.266)
+]
+
+TRAY_CARD_POSITIONS = [
+    (0.547, 0.743),
+    (0.656, 0.743),
+    (0.764, 0.743)
 ]

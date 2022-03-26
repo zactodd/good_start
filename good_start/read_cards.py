@@ -1,16 +1,11 @@
 import cv2
 import pytesseract
 import numpy as np
-from PIL import ImageGrab, Image, ImageEnhance
+from PIL import ImageGrab
 import matplotlib.pyplot as plt
 import gui_interactions as gi
 import key_positions
 import utils
-
-
-BIRD_CARD_COLOUR_BOUNDS = (
-    (229,221,191), (229,221,191)
-)
 
 
 def find_contours(grey_image):

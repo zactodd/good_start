@@ -50,9 +50,9 @@ if __name__ == '__main__':
 
             # Read tray
             move_and_click(*key_positions.OVERVIEW_BUTTON)
-            time.sleep(1)
+            time.sleep(3)
             tray = extract_tray_cards()
-            time.sleep(1)
+            time.sleep(3)
 
             # Select cards and food if tray requirements are met
             if any(c in tray_requirements for c in tray):

@@ -2,6 +2,7 @@ from card_selection import *
 from gui_interactions import *
 from read_cards import *
 import matplotlib.pyplot as plt
+import utils
 from collections import Counter
 import atexit
 from datetime import datetime
@@ -26,9 +27,9 @@ def on_kill():
         bonus_games[bonus] += 1
 
         birds_image_name = "__".join(b.replace("'", "").replace(" ", "_").lower() for b in selected_birds)
-
-        plt.imsave(f'..\\.selected\\game_{save_time:%y_%M_%d}__{i}__birds__{birds_image_name}.png', bird_image)
-        plt.imsave(f'..\\.selected\\game_{save_time:%y_%M_%d}__{i}__bonus__{bonus}.png', bonus_image)
+        time_prefix = f'{utils.SELECTED_IMAGES}__{save_time:%y_%M_%d}__{i}'
+        plt.imsave(f'{time_prefix}__birds__{birds_image_name}.png', bird_image)
+        plt.imsave(f'{time_prefix}__bonus__{bonus}.png', bonus_image)
 
 
 

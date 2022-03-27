@@ -110,7 +110,6 @@ def extract_bird_cards():
     names = []
     for img in card_text_images:
         img = cv2.resize(img, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
-
         custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         text = pytesseract.image_to_string(img, config=custom_config).strip()
         name = min(utils.BIRD_NAMES,
@@ -127,7 +126,6 @@ def extract_tray_cards():
     names = []
     for img in card_text_images:
         img = cv2.resize(img, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
-
         custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         text = pytesseract.image_to_string(img, config=custom_config).strip()
         name = min(utils.BIRD_NAMES,

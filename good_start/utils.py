@@ -4,6 +4,8 @@ from functools import cache
 import random
 
 RESOURCES = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'resources')
+SELECTED_IMAGES = os.path.join(RESOURCES, '.selected')
+
 _BIRD_NAMES_FILE = os.path.join(RESOURCES, 'bird_names.txt')
 
 with open(_BIRD_NAMES_FILE, 'r') as f:

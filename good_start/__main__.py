@@ -18,9 +18,9 @@ def on_kill():
     for i, (birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image) \
             in enumerate(reversed(selected_games)):
         print(f'Game:\n'
-              f'\tbirds:\t {list(birds)}\n\t->\t{list(selected_birds)}\n'
+              f'\tbirds:\t {list(birds)}\n\t\t->\t{list(selected_birds)}\n'
               f'\tfood:\t {food}\n'
-              f'\tbonuses:\t {bonuses}\n\t->\t{bonus}')
+              f'\tbonuses:\t {bonuses}\n\t\t->\t{bonus}')
 
         bird_games[tuple(selected_birds)] += 1
         bonus_games[bonus] += 1
@@ -35,11 +35,11 @@ def on_kill():
 if __name__ == '__main__':
     time.sleep(3)
     print('Starting...')
-    menu_from_start()
+    # menu_from_start()
     while True:
-        time.sleep(6)
-        move_and_click(*key_positions.TURN_START_BUTTON)
-        time.sleep(2)
+        # time.sleep(6)
+        # move_and_click(*key_positions.TURN_START_BUTTON)
+        # time.sleep(2)
 
         birds, centres, bird_image = extract_bird_cards()
         bird_centres = dict(zip(birds, centres))
@@ -50,13 +50,13 @@ if __name__ == '__main__':
 
             # Read tray
             move_and_click(*key_positions.OVERVIEW_BUTTON)
-            time.sleep(3)
+            time.sleep(1)
             tray = extract_tray_cards()
-            time.sleep(3)
 
             # Select cards and food if tray requirements are met
             if any(c in tray_requirements for c in tray):
                 move_and_click(*key_positions.OVERVIEW_BUTTON)
+                time.sleep(0.5)
                 for b in selected_birds:
                     move_and_click(*bird_centres[b])
                     time.sleep(0.5)
@@ -74,7 +74,7 @@ if __name__ == '__main__':
                 selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
 
                 move_and_click(*bonus_centres[bonus])
-
+                break
                 # Wait to sve game
                 time.sleep(0.5)
                 move_and_click(*key_positions.NEXT_BUTTON)

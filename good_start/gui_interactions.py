@@ -19,7 +19,7 @@ WINDOW_X1, WINDOW_Y1 = WINDOW_X0 + WINDOW_W, WINDOW_Y0 + WINDOW_H
 def move_and_click(x: float, y: float) -> None:
     if x > 1:
         x, y = x / WINDOW_W, y / WINDOW_H
-    autoit.mouse_click("left", int(WINDOW_X0 + WINDOW_W * x), int(WINDOW_Y0 + WINDOW_H * y), 1)
+    autoit.mouse_click("left", round(WINDOW_X0 + x * WINDOW_W), round(WINDOW_Y0 + y * WINDOW_H), 1)
 
 
 def click_buttons(buttons, wait=3) -> None:

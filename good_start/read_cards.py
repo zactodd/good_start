@@ -99,8 +99,6 @@ def extract_tray_card_text_image(image):
     for x0, y0 in key_positions.TRAY_CARD_POSITIONS:
         sx0, sy0 = int(gi.WINDOW_W * x0), int(gi.WINDOW_H * y0)
         card_text_images.append(image[sy0:sy0 + 18, sx0:sx0 + 160])
-        plt.imshow(card_text_images[-1])
-        plt.show()
     return card_text_images
 
 

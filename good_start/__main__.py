@@ -27,7 +27,7 @@ def on_kill():
         bonus_games[bonus] += 1
 
         birds_image_name = "__".join(b.replace("'", "").replace(" ", "_").lower() for b in selected_birds)
-        time_prefix = f'{utils.SELECTED_IMAGES}__{save_time:%y_%M_%d}__{i}'
+        time_prefix = f'{utils.SELECTED_IMAGES}/__{save_time:%y_%M_%d}__{i}'
         plt.imsave(f'{time_prefix}__birds__{birds_image_name}.png', bird_image)
         plt.imsave(f'{time_prefix}__bonus__{bonus}.png', bonus_image)
 

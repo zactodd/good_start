@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
         selection = bird_selection(birds)
         if selection:
-            selected_birds, food, *tray_subsets = selection
+            selected_birds, food, tray_req = selection
 
             # Read tray
             move_and_click(*key_positions.OVERVIEW_BUTTON)
@@ -55,7 +55,7 @@ if __name__ == '__main__':
             tray = extract_tray_cards()
 
             # Select cards and food if tray requirements are met
-            if valid_tray(tray, tray_subsets):
+            if valid_tray(tray, tray_req):
                 move_and_click(*key_positions.OVERVIEW_BUTTON)
                 time.sleep(0.5)
                 for b in selected_birds:

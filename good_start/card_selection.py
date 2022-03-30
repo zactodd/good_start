@@ -15,7 +15,7 @@ def bonus_selection(cards):
     return min(cards, key=lambda c: utils.BONUS_IMPORTANCE.index(c))
 
 
-def valid_tray(tray, tray_subsets):
-    return all(any(b in tray for b in s) for s in tray_subsets)
+def valid_tray(tray, tray_requirements):
+    return any(b in tray for b in tray_requirements)
 
 

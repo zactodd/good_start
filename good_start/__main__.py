@@ -27,7 +27,7 @@ def on_kill():
         bonus_games[bonus] += 1
 
         birds_image_name = "__".join(b.replace("'", "").replace(" ", "_").lower() for b in selected_birds)
-        time_prefix = f'{utils.SELECTED_IMAGES}/__{save_time:%y_%M_%d}__{i}'
+        time_prefix = f'{utils.SELECTED_IMAGES}/game__{save_time:%y_%M_%d}__{i}'
         plt.imsave(f'{time_prefix}__birds__{birds_image_name}.png', bird_image)
         plt.imsave(f'{time_prefix}__bonus__{bonus}.png', bonus_image)
 
@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
         selection = bird_selection(birds)
         if selection:
-            selected_birds, food, tray_requirements = selection
+            selected_birds, food, *tray_subsets = selection
 
             # Read tray
             move_and_click(*key_positions.OVERVIEW_BUTTON)
@@ -55,7 +55,7 @@ if __name__ == '__main__':
             tray = extract_tray_cards()
 
             # Select cards and food if tray requirements are met
-            if any(c in tray_requirements for c in tray):
+            if valid_tray(tray, tray_subsets):
                 move_and_click(*key_positions.OVERVIEW_BUTTON)
                 time.sleep(0.5)
                 for b in selected_birds:

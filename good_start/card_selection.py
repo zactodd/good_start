@@ -16,6 +16,6 @@ def bonus_selection(cards):
 
 
 def valid_tray(tray, tray_requirements):
-    return any(b in tray for b in tray_requirements)
+    return any(b in tray_requirements for b in tray)
 
 

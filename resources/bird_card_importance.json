@@ -132,13 +132,13 @@
   {
     "birds": ["Killdeer"],
     "food": ["fruit", "invertebrate", "seed", "rodent"],
-    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Eastern Phoebe", "Common Raven", "Chihuahuan Raven",
-      "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing"]
+    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Common Raven", "Chihuahuan Raven",
+      "Dark-Eyed Junco", "Cedar Waxwing"]
   },
   {
     "birds": ["Franklin's Gull"],
     "food": ["fish", "invertebrate", "seed", "rodent"],
-    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Eastern Phoebe", "Common Raven", "Chihuahuan Raven",
-      "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing"]
+    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Common Raven", "Chihuahuan Raven",
+      "Dark-Eyed Junco", "Cedar Waxwing"]
   }
 ]

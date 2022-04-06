@@ -23,6 +23,11 @@ _BONUS_IMPORTANCE_FILE = os.path.join(RESOURCES, 'bonus_card_importance.txt')
 with open(_BONUS_IMPORTANCE_FILE, 'r') as f:
     BONUS_IMPORTANCE = [line.strip() for line in f]
 
+_BIRD_GROUPS_FILE = os.path.join(RESOURCES, 'bird_groups.json')
+
+with open(_BIRD_GROUPS_FILE, 'r') as f:
+    BIRD_GROUPS = {b: g for g, birds in json.load(f).items() for b in birds}
+
 
 @cache
 def minimum_edit_distance(a, b, m=None, n=None):
@@ -42,6 +47,4 @@ def minimum_edit_distance(a, b, m=None, n=None):
         )
 
 
-def sample_prob(sample=1000):
-    return sum(any(all(b in hand for b in bird['birds']) for bird in BIRD_IMPORTANCE)
-                    for hand in map(lambda _: random.sample(BIRD_NAMES, 5), range(sample))) / sample
+

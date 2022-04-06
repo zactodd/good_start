@@ -3,25 +3,29 @@
     "birds": ["Killdeer", "Dark-Eyed Junco"],
     "food": ["invertebrate", "seed"],
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
-      "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird"]
+      "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird",
+      "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Killdeer", "Cedar Waxwing"],
     "food": ["fruit", "invertebrate", "seed"],
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
-      "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird"]
+      "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird",
+      "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull", "Dark-Eyed Junco"],
     "food": ["fish", "invertebrate", "seed"],
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
-      "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird"]
+      "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird",
+      "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull", "Cedar Waxwing"],
     "food": ["fruit", "fish", "seed"],
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
-      "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird"]
+      "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird",
+      "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Killdeer", "Eastern Kingbird"],
@@ -29,7 +33,7 @@
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
       "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird", "Dark-Eyed Junco",
       "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift", "Brewer's Blackbird",
-      "Common Grackle"]
+      "Common Grackle", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Killdeer", "Belted Kingfisher"],
@@ -37,7 +41,7 @@
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
       "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird", "Dark-Eyed Junco",
       "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift", "Brewer's Blackbird",
-      "Common Grackle"]
+      "Common Grackle", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull", "Eastern Kingbird"],
@@ -45,7 +49,7 @@
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
       "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird", "Dark-Eyed Junco",
       "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift", "Brewer's Blackbird",
-      "Common Grackle"]
+      "Common Grackle", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Killdeer", "Chihuahuan Raven"],
@@ -61,7 +65,7 @@
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
       "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird", "Dark-Eyed Junco",
       "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift", "Brewer's Blackbird",
-      "Common Grackle"]
+      "Common Grackle", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull", "Belted Kingfisher"],
@@ -69,7 +73,7 @@
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
       "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird", "Dark-Eyed Junco",
       "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift", "Brewer's Blackbird",
-      "Common Grackle"]
+      "Common Grackle", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull", "Chihuahuan Raven"],
@@ -77,7 +81,7 @@
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
       "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird", "Dark-Eyed Junco",
       "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift", "Brewer's Blackbird",
-      "Common Grackle"]
+      "Common Grackle", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull", "Common Raven"],
@@ -85,58 +89,60 @@
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
       "Violet-Green Swallow", "House Finch", "Eastern Phoebe", "Black-Chinned Hummingbird", "Dark-Eyed Junco",
       "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift", "Brewer's Blackbird",
-      "Common Grackle"]
+      "Common Grackle", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Killdeer", "Barn Swallow"],
     "food": ["invertebrate", "fruit", "seed"],
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "House Finch", "Eastern Phoebe",
-      "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing"]
+      "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Killdeer", "American Robin"],
     "food": ["fruit", "invertebrate", "seed"],
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Barn Swallow", "American Robin", "Purple Martin",
-      "Eastern Phoebe", "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing"]
+      "Eastern Phoebe", "Dark-Eyed Junco", "Cedar Waxwing", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Killdeer", "Purple Martin"],
     "food": ["invertebrate", "fruit", "seed"],
-    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "House Finch", "Eastern Phoebe",
-      "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing"]
+    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "House Finch", "Eastern Phoebe", "Dark-Eyed Junco",
+      "Cedar Waxwing", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull", "Barn Swallow"],
     "food": ["fish", "seed", "invertebrate"],
-    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "House Finch", "Eastern Phoebe",
-      "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing"]
+    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "House Finch", "Eastern Phoebe", "Dark-Eyed Junco",
+      "Cedar Waxwing", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull", "American Robin"],
     "food": ["fish", "invertebrate", "seed"],
-    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "House Finch", "Eastern Phoebe",
-      "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing"]
+    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "House Finch", "Eastern Phoebe", "Dark-Eyed Junco",
+      "Cedar Waxwing", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull", "Purple Martin"],
     "food": ["fish", "seed", "invertebrate"],
-    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "House Finch", "Eastern Phoebe",
-      "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing"]
+    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "House Finch", "Eastern Phoebe", "Dark-Eyed Junco",
+      "Cedar Waxwing", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Killdeer", "House Finch"],
     "food": ["fruit", "seed", "invertebrate"],
     "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird", "Eastern Phoebe",
-      "Black-Chinned Hummingbird", "Dark-Eyed Junco", "Cedar Waxwing"]
+      "Dark-Eyed Junco", "Cedar Waxwing", "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Killdeer"],
     "food": ["fruit", "invertebrate", "seed", "rodent"],
-    "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing"]
+    "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing",
+      "Gray Catbird", "Northern Mockingbird"]
   },
   {
     "birds": ["Franklin's Gull"],
     "food": ["fish", "invertebrate", "seed", "rodent"],
-    "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing"]
+    "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing", "Gray Catbird",
+      "Northern Mockingbird"]
   }
 ]

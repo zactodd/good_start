@@ -2,7 +2,7 @@
 # Menu buttons
 PLAY_BUTTON = (0.292, 0.480)
 CUSTOM_GAME_BUTTON = (0.269, 0.778)
-ORDER_BUTTON = (0.790, 0.767)
+ORDER_BUTTON = (0.840, 0.600)
 
 # In Game buttons
 NEXT_BUTTON = (0.935, 0.906)

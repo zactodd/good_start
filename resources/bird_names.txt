@@ -6,7 +6,6 @@ American Crow
 American Goldfinch
 American Kestrel
 American Oystercatcher
-American Redstart
 American Robin
 American White Pelican
 American Woodcock
@@ -29,7 +28,6 @@ Black Tern
 Black Vulture
 Black-Bellied Whistling Duck
 Black-Billed Magpie
-Black-Chinned Hummingbird
 Black-Crowned Night-Heron
 Black-Necked Stilt
 Blue Grosbeak
@@ -37,9 +35,7 @@ Blue Jay
 Blue-Gray Gnatcatcher
 Blue-Winged Warbler
 Bobolink
-Brant
 Brewer's Blackbird
-Broad-Winged Hawk
 Bronzed Cowbird
 Brown Pelican
 Brown-Headed Cowbird
@@ -48,7 +44,6 @@ Bushtit
 California Condor
 California Quail
 Canada Goose
-Canvasback
 Carolina Chickadee
 Carolina Wren
 Cassin's Finch
@@ -117,7 +112,6 @@ Northern Mockingbird
 Northern Shoveler
 Osprey
 Painted Bunting
-Painted Whitestart
 Peregrine Falcon
 Pied-Billed Grebe
 Pileated Woodpecker
@@ -128,7 +122,6 @@ Purple Martin
 Pygmy Nuthatch
 Red Crossbill
 Red-Bellied Woodpecker
-Red-Breasted Merganser
 Red-Breasted Nuthatch
 Red-Cockaded Woodpecker
 Red-Eyed Vireo
@@ -145,7 +138,6 @@ Ruddy Duck
 Sandhill Crane
 Savannah Sparrow
 Say's Phoebe
-Scaled Quail
 Scissor-Tailed Flycatcher
 Snowy Egret
 Song Sparrow
@@ -159,14 +151,12 @@ Tree Swallow
 Trumpeter Swan
 Tufted Titmouse
 Turkey Vulture
-Vaux's Swift
 Violet-Green Swallow
 Western Meadowlark
 Western Tanager
 White-Breasted Nuthatch
 White-Crowned Sparrow
 White-Faced Ibis
-White-Throated Swift
 Whooping Crane
 Wild Turkey
 Willet

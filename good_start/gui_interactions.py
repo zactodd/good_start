@@ -19,10 +19,10 @@ WINDOW_X1, WINDOW_Y1 = WINDOW_X0 + WINDOW_W, WINDOW_Y0 + WINDOW_H
 def move_and_click(x: float, y: float) -> None:
     if x > 1:
         x, y = x / WINDOW_W, y / WINDOW_H
-    autoit.mouse_click("left", round(WINDOW_X0 + x * WINDOW_W), round(WINDOW_Y0 + y * WINDOW_H), 1)
+    autoit.mouse_click("left", round(WINDOW_X0 + x * WINDOW_W), round(WINDOW_Y0 + y * WINDOW_H), 1, 1)
 
 
-def click_buttons(buttons, wait=3) -> None:
+def click_buttons(buttons, wait=1) -> None:
     for button in buttons:
         move_and_click(*button)
         time.sleep(wait)
@@ -33,5 +33,9 @@ def menu_from_start() -> None:
 
 
 def new_game_from_game() -> None:
-    click_buttons(key_positions.NEW_GAME_FROM_GAME)
+    click_buttons(key_positions.MENU_TRAVERSAL)
+
+
+def exit_game() -> None:
+    click_buttons(key_positions.EXIT_GAME)
 

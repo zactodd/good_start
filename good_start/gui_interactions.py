@@ -22,7 +22,7 @@ def move_and_click(x: float, y: float) -> None:
     autoit.mouse_click("left", round(WINDOW_X0 + x * WINDOW_W), round(WINDOW_Y0 + y * WINDOW_H), 1, 1)
 
 
-def click_buttons(buttons, wait=1) -> None:
+def click_buttons(buttons, wait=0.5) -> None:
     for button in buttons:
         move_and_click(*button)
         time.sleep(wait)

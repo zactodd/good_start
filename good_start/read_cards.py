@@ -102,7 +102,7 @@ def extract_tray_card_text_image(image):
     return card_text_images
 
 
-def extract_bird_cards():
+def extract_bird_cards(verbose=False):
     # TODO fix these magic numbers
     bbox = gi.WINDOW_X0, gi.WINDOW_Y0, gi.WINDOW_X1, gi.WINDOW_Y1
     image = np.asarray(ImageGrab.grab(bbox=bbox))
@@ -116,10 +116,14 @@ def extract_bird_cards():
                    key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').replace('\'', '').upper(),
                                                              text.replace(' ', '')))
         names.append(name)
+    if verbose:
+        plt.imshow(image)
+        plt.show()
+        print(f'Birds:\n{names}')
     return names, centres, image
 
 
-def extract_tray_cards():
+def extract_tray_cards(verbose=False):
     bbox = gi.WINDOW_X0, gi.WINDOW_Y0, gi.WINDOW_X1, gi.WINDOW_Y1
     image = np.asarray(ImageGrab.grab(bbox=bbox))
     card_text_images = extract_tray_card_text_image(image)
@@ -132,10 +136,14 @@ def extract_tray_cards():
                    key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').replace('\'', '').upper(),
                                                              text.replace(' ', '')))
         names.append(name)
+    if verbose:
+        plt.imshow(image)
+        plt.show()
+        print(f'Tray:\n{names}')
     return names
 
 
-def extract_bonus_cards():
+def extract_bonus_cards(verbose=False):
     # TODO fix these magic numbers
     bbox = gi.WINDOW_X0, gi.WINDOW_Y0, gi.WINDOW_X1, gi.WINDOW_Y1
     image = np.asarray(ImageGrab.grab(bbox=bbox))
@@ -152,4 +160,8 @@ def extract_bonus_cards():
         name = min(utils.BONUS_IMPORTANCE,
                    key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').upper(), text.replace(' ', '')))
         names.append(name)
+    if verbose:
+        plt.imshow(image)
+        plt.show()
+        print(f'Bonus:\n{names}')
     return names, centres, image

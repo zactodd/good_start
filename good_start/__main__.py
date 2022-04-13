@@ -38,24 +38,26 @@ if __name__ == '__main__':
     print('Starting...')
     menu_from_start()
     while True:
-        time.sleep(6)
-        move_and_click(*key_positions.TURN_START_BUTTON)
+        # Read tray
+        move_and_click(*key_positions.OVERVIEW_BUTTON)
         time.sleep(2)
+        tray = extract_tray_cards()
+
+        time.sleep(2)
+        move_and_click(*key_positions.TURN_START_BUTTON)
+        time.sleep(1)
 
         birds, centres, bird_image = extract_bird_cards()
         bird_centres = dict(zip(birds, centres))
-
         selection = bird_selection(birds)
-        if selection:
-            selected_birds, food, tray_req = selection
 
-            # Read tray
-            move_and_click(*key_positions.OVERVIEW_BUTTON)
-            time.sleep(1)
-            tray = extract_tray_cards()
+        if selection:
+            print(f'Selected birds: {selection}')
+            selected_birds, food, tray_requirements = selection
 
             # Select cards and food if tray requirements are met
-            if valid_tray(tray, tray_req):
+            if any(c in tray_requirements for c in tray):
+                print('Tray requirements met')
                 move_and_click(*key_positions.OVERVIEW_BUTTON)
                 time.sleep(0.5)
                 for b in selected_birds:
@@ -76,8 +78,11 @@ if __name__ == '__main__':
 
                 move_and_click(*bonus_centres[bonus])
 
-                # Wait to sve game
+                # Wait to save game
                 time.sleep(0.5)
                 move_and_click(*key_positions.NEXT_BUTTON)
-                time.sleep(30)
+                time.sleep(3)
+
+        exit_game()
+        time.sleep(3)
         new_game_from_game()

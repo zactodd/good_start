@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
         time.sleep(3)
         move_and_click(*key_positions.TURN_START_BUTTON)
-        time.sleep(0.5)
+        time.sleep(2)
 
         birds, centres, bird_image = extract_bird_cards()
         print(f'Birds:\n\t{birds}')

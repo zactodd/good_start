@@ -35,37 +35,38 @@ def on_kill():
 
 if __name__ == '__main__':
     time.sleep(3)
-    print('Starting...')
     menu_from_start()
     while True:
-        # Read tray
         time.sleep(0.5)
+
+        # Read tray before hand loads
         move_and_click(*key_positions.OVERVIEW_BUTTON)
         time.sleep(2)
         tray = extract_tray_cards()
-        print(f'Tray: {tray}')
-
         time.sleep(3)
+
+        # Start Turn
         move_and_click(*key_positions.TURN_START_BUTTON)
         time.sleep(2)
 
+        # Read bird cards
         birds, centres, bird_image = extract_bird_cards()
-        print(f'Birds:\n\t{birds}')
         bird_centres = dict(zip(birds, centres))
         selection = bird_selection(birds)
 
+        # Select birds, food and bonus cards if valid birds in hand
         if selection:
-            print(f'Selected birds: {selection}')
             selected_birds, food, tray_requirements = selection
 
-            # Select cards and food if tray requirements are met
+            # Check if tray cards are valid
             if any(c in tray_requirements for c in tray):
-                print('Tray requirements met')
-                move_and_click(*key_positions.OVERVIEW_BUTTON)
+                # Select birds
                 time.sleep(0.5)
                 for b in selected_birds:
                     move_and_click(*bird_centres[b])
                     time.sleep(0.5)
+
+                # Select food
                 for f in food:
                     move_and_click(*key_positions.RESOURCES_TO_BUTTONS[f])
                     time.sleep(0.5)
@@ -76,16 +77,15 @@ if __name__ == '__main__':
                 bonuses, centres, bonus_image = extract_bonus_cards()
                 bonus_centres = dict(zip(bonuses, centres))
                 bonus = bonus_selection(bonuses)
-
-                selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
-
                 move_and_click(*bonus_centres[bonus])
-
-                # Wait to save game
                 time.sleep(0.5)
+
+                # Save game
+                selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
                 move_and_click(*key_positions.NEXT_BUTTON)
                 time.sleep(3)
 
+        # New Game
         exit_game()
         time.sleep(2)
         new_game_from_game()

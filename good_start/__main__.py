@@ -6,6 +6,10 @@ import utils
 from collections import Counter
 import atexit
 from datetime import datetime
+import subprocess
+
+
+WINGSPAN_PATH = 'C:\\Users\\thoma\\Desktop\\Wingspan.url'
 
 
 selected_games = []
@@ -35,58 +39,64 @@ def on_kill():
 successes = 0
 
 if __name__ == '__main__':
-    time.sleep(3)
-    menu_from_start()
     while True:
+        if not utils.check_if_process_running('Wingspan.exe'):
+            time.sleep(10)
+            subprocess.call(['start', WINGSPAN_PATH], shell=True)
+            time.sleep(10)
+            menu_from_start()
         time.sleep(0.5)
 
-        # Read tray before hand loads
-        move_and_click(*key_positions.OVERVIEW_BUTTON)
-        time.sleep(2)
-        tray = extract_tray_cards()
-        time.sleep(3)
-
-        # Start Turn
-        move_and_click(*key_positions.TURN_START_BUTTON)
-        time.sleep(2)
-
-        # Read bird cards
-        birds, centres, bird_image = extract_bird_cards()
-        bird_centres = dict(zip(birds, centres))
-        selection = bird_selection(birds, tray)
-
-        # Select birds, food and bonus cards if valid birds in hand
-        if selection:
-            selected_birds, food, tray_requirements = selection
-
-            # Select birds
-            time.sleep(0.5)
-            for b in selected_birds:
-                move_and_click(*bird_centres[b])
-                time.sleep(0.5)
-
-            # Select food
-            for f in food:
-                move_and_click(*key_positions.RESOURCES_TO_BUTTONS[f])
-                time.sleep(0.5)
-            move_and_click(*key_positions.NEXT_BUTTON)
-            time.sleep(1)
-
-            # Select bonus cards
-            bonuses, centres, bonus_image = extract_bonus_cards()
-            bonus_centres = dict(zip(bonuses, centres))
-            bonus = bonus_selection(bonuses)
-            move_and_click(*bonus_centres[bonus])
-            time.sleep(0.5)
-
-            # Save game
-            selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
-            move_and_click(*key_positions.NEXT_BUTTON)
+        try:
+            # Read tray before hand loads
+            move_and_click(*key_positions.OVERVIEW_BUTTON)
+            time.sleep(2)
+            tray = extract_tray_cards()
             time.sleep(3)
-            successes += 1
-            print(f'{successes} Successes {datetime.now():%H:%M:%S}')
 
-        # New Game
-        exit_game()
-        time.sleep(3)
-        new_game_from_game()
+            # Start Turn
+            move_and_click(*key_positions.TURN_START_BUTTON)
+            time.sleep(2)
+
+            # Read bird cards
+            birds, centres, bird_image = extract_bird_cards()
+            bird_centres = dict(zip(birds, centres))
+            selection = bird_selection(birds, tray)
+
+            # Select birds, food and bonus cards if valid birds in hand
+            if selection:
+                selected_birds, food, tray_requirements = selection
+
+                # Select birds
+                time.sleep(0.5)
+                for b in selected_birds:
+                    move_and_click(*bird_centres[b])
+                    time.sleep(0.5)
+
+                # Select food
+                for f in food:
+                    move_and_click(*key_positions.RESOURCES_TO_BUTTONS[f])
+                    time.sleep(0.5)
+                move_and_click(*key_positions.NEXT_BUTTON)
+                time.sleep(1)
+
+                # Select bonus cards
+                bonuses, centres, bonus_image = extract_bonus_cards()
+                bonus_centres = dict(zip(bonuses, centres))
+                bonus = bonus_selection(bonuses)
+                move_and_click(*bonus_centres[bonus])
+                time.sleep(0.5)
+
+                # Save game
+                selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
+                move_and_click(*key_positions.NEXT_BUTTON)
+                time.sleep(3)
+                successes += 1
+                print(f'{successes} Successes {datetime.now():%H:%M:%S}')
+
+            # New Game
+            exit_game()
+            time.sleep(3)
+            new_game_from_game()
+        except SystemError as e:
+            pass

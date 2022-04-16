@@ -4,16 +4,16 @@ Rodentologist
 Falconer
 Omnivore Specialist
 Fishery Manager
-Historian
+Viticulturalist
 Wetland Scientist
 Visionary Leader
-Food Web Expert
 Large Bird Specialist
 Anatomist
+Food Web Expert
 Platform Builder
 Cartographer
 Bird Counter
-Viticulturalist
+Historian
 Enclosure Builder
 Photographer
 Forester

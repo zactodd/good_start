@@ -13,9 +13,3 @@ def bird_selection(hand, tray):
 
 def bonus_selection(cards):
     return min(cards, key=lambda c: utils.BONUS_IMPORTANCE.index(c))
-
-
-def valid_tray(tray, tray_requirements):
-    return any(b in tray_requirements for b in tray)
-
-

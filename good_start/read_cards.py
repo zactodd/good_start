@@ -77,8 +77,9 @@ def draw_contours(image, contours):
 def extract_bird_card_text_image(image):
     card_text_images = []
     centres = []
+    w, h = gi.window_dimensions()
     for x0, y0 in key_positions.BIRD_CARD_POSITIONS:
-        sx0, sy0 = int(gi.WINDOW_W * x0), int(gi.WINDOW_H * y0)
+        sx0, sy0 = int(w * x0), int(w * y0)
         card_text_images.append(image[sy0:sy0 + 40, sx0:sx0 + 155])
         centres.append((x0, y0 + 0.1))
     return card_text_images, centres
@@ -96,16 +97,16 @@ def extract_bonus_card_text_image(image, card_contours):
 
 def extract_tray_card_text_image(image):
     card_text_images = []
+    w, h = gi.window_dimensions()
     for x0, y0 in key_positions.TRAY_CARD_POSITIONS:
-        sx0, sy0 = int(gi.WINDOW_W * x0), int(gi.WINDOW_H * y0)
+        sx0, sy0 = int(w * x0), int(h * y0)
         card_text_images.append(image[sy0:sy0 + 18, sx0:sx0 + 160])
     return card_text_images
 
 
 def extract_bird_cards(verbose=False):
     # TODO fix these magic numbers
-    bbox = gi.WINDOW_X0, gi.WINDOW_Y0, gi.WINDOW_X1, gi.WINDOW_Y1
-    image = np.asarray(ImageGrab.grab(bbox=bbox))
+    image = np.asarray(ImageGrab.grab(bbox=gi.window_bbox()))
     card_text_images, centres = extract_bird_card_text_image(image)
     names = []
     for img in card_text_images:
@@ -124,8 +125,7 @@ def extract_bird_cards(verbose=False):
 
 
 def extract_tray_cards(verbose=False):
-    bbox = gi.WINDOW_X0, gi.WINDOW_Y0, gi.WINDOW_X1, gi.WINDOW_Y1
-    image = np.asarray(ImageGrab.grab(bbox=bbox))
+    image = np.asarray(ImageGrab.grab(bbox=gi.window_bbox()))
     card_text_images = extract_tray_card_text_image(image)
     names = []
     for img in card_text_images:
@@ -145,8 +145,7 @@ def extract_tray_cards(verbose=False):
 
 def extract_bonus_cards(verbose=False):
     # TODO fix these magic numbers
-    bbox = gi.WINDOW_X0, gi.WINDOW_Y0, gi.WINDOW_X1, gi.WINDOW_Y1
-    image = np.asarray(ImageGrab.grab(bbox=bbox))
+    image = np.asarray(ImageGrab.grab(bbox=gi.window_bbox()))
     grey = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
     _, thresh = cv2.threshold(grey, 200, 255, cv2.THRESH_BINARY)
     contours = find_contours(thresh)

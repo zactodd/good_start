@@ -1,7 +1,7 @@
 import os
 import json
 from functools import cache
-import random
+import psutil
 
 RESOURCES = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'resources')
 SELECTED_IMAGES = os.path.join(RESOURCES, '.selected')
@@ -47,4 +47,11 @@ def minimum_edit_distance(a, b, m=None, n=None):
         )
 
 
-
+def check_if_process_running(name):
+    for proc in psutil.process_iter():
+        try:
+            if name.lower() in proc.name().lower():
+                return True
+        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+            pass
+    return False

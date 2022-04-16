@@ -32,6 +32,7 @@ def on_kill():
         plt.imsave(f'{time_prefix}__bonus__{bonus}.png', bonus_image)
 
 
+successes = 0
 
 if __name__ == '__main__':
     time.sleep(3)
@@ -52,40 +53,40 @@ if __name__ == '__main__':
         # Read bird cards
         birds, centres, bird_image = extract_bird_cards()
         bird_centres = dict(zip(birds, centres))
-        selection = bird_selection(birds)
+        selection = bird_selection(birds, tray)
 
         # Select birds, food and bonus cards if valid birds in hand
         if selection:
             selected_birds, food, tray_requirements = selection
 
-            # Check if tray cards are valid
-            if any(c in tray_requirements for c in tray):
-                # Select birds
-                time.sleep(0.5)
-                for b in selected_birds:
-                    move_and_click(*bird_centres[b])
-                    time.sleep(0.5)
-
-                # Select food
-                for f in food:
-                    move_and_click(*key_positions.RESOURCES_TO_BUTTONS[f])
-                    time.sleep(0.5)
-                move_and_click(*key_positions.NEXT_BUTTON)
-                time.sleep(1)
-
-                # Select bonus cards
-                bonuses, centres, bonus_image = extract_bonus_cards()
-                bonus_centres = dict(zip(bonuses, centres))
-                bonus = bonus_selection(bonuses)
-                move_and_click(*bonus_centres[bonus])
+            # Select birds
+            time.sleep(0.5)
+            for b in selected_birds:
+                move_and_click(*bird_centres[b])
                 time.sleep(0.5)
 
-                # Save game
-                selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
-                move_and_click(*key_positions.NEXT_BUTTON)
-                time.sleep(3)
+            # Select food
+            for f in food:
+                move_and_click(*key_positions.RESOURCES_TO_BUTTONS[f])
+                time.sleep(0.5)
+            move_and_click(*key_positions.NEXT_BUTTON)
+            time.sleep(1)
+
+            # Select bonus cards
+            bonuses, centres, bonus_image = extract_bonus_cards()
+            bonus_centres = dict(zip(bonuses, centres))
+            bonus = bonus_selection(bonuses)
+            move_and_click(*bonus_centres[bonus])
+            time.sleep(0.5)
+
+            # Save game
+            selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
+            move_and_click(*key_positions.NEXT_BUTTON)
+            time.sleep(3)
+            successes += 1
+            print(f'{successes} Successes {datetime.now():%H:%M:%S}')
 
         # New Game
         exit_game()
-        time.sleep(2)
+        time.sleep(3)
         new_game_from_game()

@@ -43,9 +43,9 @@ if __name__ == '__main__':
         if not utils.check_if_process_running('Wingspan.exe'):
             time.sleep(10)
             subprocess.call(['start', WINGSPAN_PATH], shell=True)
-            time.sleep(10)
+            time.sleep(20)
             menu_from_start()
-        time.sleep(0.5)
+        time.sleep(1)
 
         try:
             # Read tray before hand loads
@@ -65,7 +65,7 @@ if __name__ == '__main__':
 
             # Select birds, food and bonus cards if valid birds in hand
             if selection:
-                selected_birds, food, tray_requirements = selection
+                selected_birds, food = selection
 
                 # Select birds
                 time.sleep(0.5)

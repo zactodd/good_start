@@ -79,7 +79,7 @@ def extract_bird_card_text_image(image):
     centres = []
     w, h = gi.window_dimensions()
     for x0, y0 in key_positions.BIRD_CARD_POSITIONS:
-        sx0, sy0 = int(w * x0), int(w * y0)
+        sx0, sy0 = int(w * x0), int(h * y0)
         card_text_images.append(image[sy0:sy0 + 40, sx0:sx0 + 155])
         centres.append((x0, y0 + 0.1))
     return card_text_images, centres

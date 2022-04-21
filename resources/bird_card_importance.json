@@ -42,8 +42,8 @@
   {
     "birds": ["Killdeer", "Belted Kingfisher"],
     "food": ["invertebrate", "fish", "seed"],
-    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird",  "Dark-Eyed Junco", "Cedar Waxwing",
-      "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird",  "Dark-Eyed Junco", "Cedar Waxwing", "Common Raven",
+      "Chihuahuan Raven"]
   },
   {
     "birds": ["Franklin's Gull", "Eastern Kingbird"],
@@ -69,9 +69,8 @@
   {
     "birds": ["Franklin's Gull", "Belted Kingfisher"],
     "food": ["invertebrate", "fish", "seed"],
-    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
-      "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Canada Goose", "Sandhill Crane"]
+    "tray": ["Anna's Hummingbird", "Ruby-Throated Hummingbird",  "Dark-Eyed Junco", "Cedar Waxwing", "Common Raven",
+      "Chihuahuan Raven"]
   },
   {
     "birds": ["Franklin's Gull", "Chihuahuan Raven"],

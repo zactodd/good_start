@@ -77,8 +77,7 @@ def exit_game() -> None:
 
 
 def select_bird_and_play(bird, n) -> None:
-    autoit.send('{UP}')
-
+    autoit.send('{LEFT}')
 
 
 
@@ -149,6 +148,15 @@ def draw_contours(image: np.ndarray, contours: List[List[int]]) -> None:
     plt.show()
 
 
+def text_from_image(image, words):
+    img = cv2.resize(image, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
+    custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    text = pytesseract.image_to_string(img, config=custom_config).strip()
+    return min(words,
+               key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').replace('\'', '').upper(),
+                                                         text.replace(' ', '')))
+
+
 def extract_bird_card_text_image(image: np.ndarray) -> Tuple[List[np.ndarray], List[Tuple[float, float]]]:
     card_text_images = []
     centres = []
@@ -184,15 +192,7 @@ def extract_bird_cards(verbose: bool = False):
     # TODO fix these magic numbers
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
     card_text_images, centres = extract_bird_card_text_image(image)
-    names = []
-    for img in card_text_images:
-        img = cv2.resize(img, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
-        custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        text = pytesseract.image_to_string(img, config=custom_config).strip()
-        name = min(utils.BIRD_NAMES,
-                   key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').replace('\'', '').upper(),
-                                                             text.replace(' ', '')))
-        names.append(name)
+    names = [text_from_image(i, utils.BIRD_NAMES) for i in card_text_images]
     if verbose:
         plt.imshow(image)
         plt.show()
@@ -203,15 +203,7 @@ def extract_bird_cards(verbose: bool = False):
 def extract_tray_cards(verbose: bool = False):
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
     card_text_images = extract_tray_card_text_image(image)
-    names = []
-    for img in card_text_images:
-        img = cv2.resize(img, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
-        custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        text = pytesseract.image_to_string(img, config=custom_config).strip()
-        name = min(utils.BIRD_NAMES,
-                   key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').replace('\'', '').upper(),
-                                                             text.replace(' ', '')))
-        names.append(name)
+    names = [text_from_image(i, utils.BIRD_NAMES) for i in card_text_images]
     if verbose:
         plt.imshow(image)
         plt.show()
@@ -228,13 +220,7 @@ def extract_bonus_cards(verbose: bool = False):
     contours = filter_contours_by_area(contours, 100000, 20000)
     contours = filter_contour_by_y_point(contours, 350, 150)
     card_text_images, centres = extract_bonus_card_text_image(image, contours)
-    names = []
-    for img in card_text_images:
-        custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        text = pytesseract.image_to_string(img, config=custom_config).strip()
-        name = min(utils.BONUS_IMPORTANCE,
-                   key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').upper(), text.replace(' ', '')))
-        names.append(name)
+    names = [text_from_image(i, utils.BONUS_IMPORTANCE) for i in card_text_images]
     if verbose:
         plt.imshow(image)
         plt.show()
@@ -253,20 +239,30 @@ def extract_player_board(verbose: bool = False):
         _, thresh = cv2.threshold(grey, 200, 255, cv2.THRESH_BINARY_INV)
         contours = find_contours(thresh)
         contours = filter_contours_by_area(contours, 100000, 3000)
-
-        names = []
-        for c in contours:
-            cx, cy, cw, ch = cv2.boundingRect(c)
-            text_image = habitat_image[cy:cy + ch, cx:cx + cw]
-            text_image = cv2.resize(text_image, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
-            custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-            text = pytesseract.image_to_string(text_image, config=custom_config).strip()
-            name = min(utils.BIRD_NAMES,
-                       key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').upper(),
-                                                                 text.replace(' ', '')))
-            names.append(name)
-        board.append(names)
+        board.append([text_from_image(habitat_image[cy:cy + ch, cx:cx + cw], utils.BIRD_NAMES)
+                      for cx, cy, cw, ch in map(cv2.boundingRect, contours)])
     return board
 
 
+def extract_highlighted_card():
+    w, h = window_dimensions()
+    x0, y0, x1, y1 = kp.HIGHLIGHTED_CARD_BBOX
+    sx0, sy0, sx1, sy1 = int(w * x0), int(h * y0), int(w * x1), int(h * y1)
+    image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
+    image = image[sy0:sy1, sx0:sx1]
 
+    grey = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+    _, thresh = cv2.threshold(grey, 200, 255, cv2.THRESH_BINARY_INV)
+    plt.imshow(thresh)
+    plt.show()
+    contours = find_contours(thresh)
+    contours = filter_contours_by_area(contours, 80000, 6000)
+    draw_contours(image, contours)
+    cx, cy, cw, ch = cv2.boundingRect(contours[0])
+    plt.imshow(image[cy:cy + ch, cx:cx + cw])
+    plt.show()
+    return text_from_image(image[cy:cy + ch, cx:cx + cw], utils.BIRD_NAMES)
+
+activate_window()
+time.sleep(3)
+print(extract_highlighted_card())

@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
             # Start Turn
             move_and_click(*key_positions.TURN_START_BUTTON)
-            time.sleep(2)
+            time.sleep(1)
 
             # Read bird cards
             birds, centres, bird_image = extract_bird_cards()

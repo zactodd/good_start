@@ -12,8 +12,8 @@ def bird_selection(hand: List[str], tray: List[str]) -> Tuple[List[str], Set[str
                 return birds + [next(c for c in hand if c not in birds)], food_suggestion
             else:
                 food_count = 5 - len(birds)
-                food = {f for b in birds + tray_wants for _, fs in utils.BIRD_FOOD[b] for f in fs.keys()}
-                food -= {'Wild'}
+                food = {f for b in birds + tray_wants for f in utils.BIRD_FOOD[b][1].keys()}
+                food -= {'Wild', 'Nectar'}
                 if len(food) == food_count:
                     return birds, food
                 elif len(food) < food_count:

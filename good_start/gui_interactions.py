@@ -76,8 +76,50 @@ def exit_game() -> None:
     click_buttons(kp.EXIT_GAME)
 
 
-def select_bird_and_play(bird, n) -> None:
-    autoit.send('{LEFT}')
+def select_bird(bird, n) -> None:
+    autoit.send('{UP}')
+    for _ in range(n):
+        time.sleep(1)
+        if bird == extract_highlighted_card():
+            autoit.send('{SPACE}')
+
+            # TODO logic
+            if bird == 'Killdeer':
+                food = ['seed']
+            elif bird == 'Dark-Eyed Junco':
+                food = ['seed', 'invertebrate']
+            elif bird == 'Franklin\'s Gull':
+                food = ['fish', 'invertebrate']
+            else:
+                raise ValueError('Not implemented')
+
+            habitats = utils.BIRD_HABITATS[bird]
+            idx = habitats.index('Grassland')
+
+            if len(habitats) == 2:
+                move_and_click(*kp.TWO_HABITAT_BUTTON_POSITIONS[idx])
+
+            elif len(habitats) == 3:
+                move_and_click(*kp.THREE_HABITAT_BUTTON_POSITIONS[idx])
+            time.sleep(0.2)
+            move_and_click(*kp.NEXT_BUTTON)
+            time.sleep(0.2)
+            move_and_click(*kp.CHANGE_FOOD_BUTTON)
+            time.sleep(0.2)
+
+            for f in food:
+                move_and_click(*kp.FOOD_PAY_BUTTONS[f])
+                time.sleep(0.2)
+
+            move_and_click(*kp.NEXT_BUTTON)
+            time.sleep(0.2)
+            move_and_click(*kp.NEXT_BUTTON)
+            break
+
+        time.sleep(1)
+        autoit.send('{LEFT}')
+    else:
+        raise ValueError('Could not find bird')
 
 
 
@@ -253,16 +295,8 @@ def extract_highlighted_card():
 
     grey = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
     _, thresh = cv2.threshold(grey, 200, 255, cv2.THRESH_BINARY_INV)
-    plt.imshow(thresh)
-    plt.show()
     contours = find_contours(thresh)
     contours = filter_contours_by_area(contours, 80000, 6000)
-    draw_contours(image, contours)
-    cx, cy, cw, ch = cv2.boundingRect(contours[0])
-    plt.imshow(image[cy:cy + ch, cx:cx + cw])
-    plt.show()
-    return text_from_image(image[cy:cy + ch, cx:cx + cw], utils.BIRD_NAMES)
 
-activate_window()
-time.sleep(3)
-print(extract_highlighted_card())
+    cx, cy, cw, ch = cv2.boundingRect(contours[0])
+    return text_from_image(image[cy:cy + ch, cx:cx + cw], utils.BIRD_NAMES)

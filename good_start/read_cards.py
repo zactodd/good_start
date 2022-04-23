@@ -6,9 +6,10 @@ import matplotlib.pyplot as plt
 import gui_interactions as gi
 import key_positions
 import utils
+from typing import Tuple, List
 
 
-def find_contours(grey_image):
+def find_contours(grey_image) -> List[List[int]]:
     """
     Finds all the contours from a grey scale image.
     :param grey_image: A grey scale image.
@@ -18,7 +19,7 @@ def find_contours(grey_image):
     contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     return contours
 
-def contour_centre(contour):
+def contour_centre(contour) -> Tuple[float, float]:
     """
     Calculates the centre of the contour.
     :param contour: The contour in which to obtain the centre.
@@ -27,7 +28,7 @@ def contour_centre(contour):
     m = cv2.moments(contour)
     return m["m10"] / m["m00"], m["m01"] / m["m00"]
 
-def filter_contours_by_area(contours, upper, lower):
+def filter_contours_by_area(contours, upper, lower) -> List[List[int]]:
     """
     Filters a list of contours by area.
     :param contours: A list of contours.
@@ -38,7 +39,7 @@ def filter_contours_by_area(contours, upper, lower):
     return [c for c in contours if upper >= cv2.contourArea(c) >= lower]
 
 
-def filter_contour_by_y_point(contour, y, distance):
+def filter_contour_by_y_point(contour, y, distance) -> List[List[int]]:
     """
     Filters a contour by the y point.
     :param contour: The contour to filter.
@@ -49,7 +50,7 @@ def filter_contour_by_y_point(contour, y, distance):
     return [c for c in contour if (cy := contour_centre(c)[1]) <= y + distance and cy >= y - distance]
 
 
-def draw_contours(image, contours):
+def draw_contours(image: np.ndarray, contours: List[List[int]]) -> None:
     """
     Draws contours on the image.
     :param image: The image to draw on top of.
@@ -74,7 +75,7 @@ def draw_contours(image, contours):
     plt.show()
 
 
-def extract_bird_card_text_image(image):
+def extract_bird_card_text_image(image: np.ndarray) -> Tuple[List[np.ndarray], List[Tuple[float, float]]]:
     card_text_images = []
     centres = []
     w, h = gi.window_dimensions()
@@ -85,17 +86,18 @@ def extract_bird_card_text_image(image):
     return card_text_images, centres
 
 
-def extract_bonus_card_text_image(image, card_contours):
+def extract_bonus_card_text_image(image:np.ndarray, contours:List[List[int]]) -> \
+        Tuple[List[np.ndarray], List[Tuple[float, float]]]:
     card_text_images = []
     centres = []
-    for c in card_contours:
+    for c in contours:
         x0, y0, w, h = cv2.boundingRect(c)
         card_text_images.append(image[y0 - 15:y0 + 20, x0:x0 + w])
         centres.append(contour_centre(c))
     return card_text_images, centres
 
 
-def extract_tray_card_text_image(image):
+def extract_tray_card_text_image(image:np.ndarray) -> List[np.ndarray]:
     card_text_images = []
     w, h = gi.window_dimensions()
     for x0, y0 in key_positions.TRAY_CARD_POSITIONS:
@@ -104,7 +106,7 @@ def extract_tray_card_text_image(image):
     return card_text_images
 
 
-def extract_bird_cards(verbose=False):
+def extract_bird_cards(verbose: bool = False):
     # TODO fix these magic numbers
     image = np.asarray(ImageGrab.grab(bbox=gi.window_bbox()))
     card_text_images, centres = extract_bird_card_text_image(image)
@@ -124,7 +126,7 @@ def extract_bird_cards(verbose=False):
     return names, centres, image
 
 
-def extract_tray_cards(verbose=False):
+def extract_tray_cards(verbose: bool = False):
     image = np.asarray(ImageGrab.grab(bbox=gi.window_bbox()))
     card_text_images = extract_tray_card_text_image(image)
     names = []
@@ -143,7 +145,7 @@ def extract_tray_cards(verbose=False):
     return names
 
 
-def extract_bonus_cards(verbose=False):
+def extract_bonus_cards(verbose: bool = False):
     # TODO fix these magic numbers
     image = np.asarray(ImageGrab.grab(bbox=gi.window_bbox()))
     grey = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)

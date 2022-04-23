@@ -71,3 +71,28 @@ BIRDS_IN_HABITAT_NAMES_BBOXS = [
 
 
 HIGHLIGHTED_CARD_BBOX = (0, 0.305, 1, 0.375)
+
+
+TWO_HABITAT_BUTTON_POSITIONS = [
+    (0.656, 0.840),
+    (0.768, 0.840),
+]
+
+
+THREE_HABITAT_BUTTON_POSITIONS = [
+    (0.638, 0.840),
+    (0.713, 0.840),
+    (0.788, 0.840),
+]
+
+
+
+# food cost buttons
+CHANGE_FOOD_BUTTON = (0.728, 0.870)
+FOOD_PAY_BUTTONS = {
+    'fruit': (0.600, 0.870),
+    'fish': (0.638, 0.870),
+    'invertebrate': (0.688, 0.870),
+    'rodent': (0.731, 0.870),
+    'seed': (0.781, 0.870),
+}

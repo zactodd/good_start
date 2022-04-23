@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
                 # Select food
                 for f in food:
-                    gi.move_and_click(*kp.RESOURCES_TO_BUTTONS[f])
+                    gi.move_and_click(*kp.RESOURCES_TO_BUTTONS[f.lower()])
                     time.sleep(0.5)
                 gi.move_and_click(*kp.NEXT_BUTTON)
                 time.sleep(1)

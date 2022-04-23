@@ -2,9 +2,10 @@ import autoit
 import key_positions
 import time
 import ctypes
+from typing import List, Tuple
 
 
-def _window_bbox_from_name(name: str)-> tuple:
+def _window_bbox_from_name(name: str)-> Tuple[int, int, int, int]:
     hwnd = ctypes.windll.user32.FindWindowW(0, name)
     rect = ctypes.wintypes.RECT()
     ctypes.windll.user32.GetWindowRect(hwnd, ctypes.pointer(rect))
@@ -12,11 +13,11 @@ def _window_bbox_from_name(name: str)-> tuple:
     return x0, y0, x1, y1
 
 
-def window_bbox() -> tuple:
+def window_bbox() -> Tuple[int, int, int, int]:
     return _window_bbox_from_name('Wingspan')
 
 
-def window_dimensions() -> tuple:
+def window_dimensions() -> Tuple[int, int]:
     x0, y0, x1, y1 = window_bbox()
     return x1 - x0, y1 - y0
 
@@ -29,7 +30,7 @@ def move_and_click(x: float, y: float) -> None:
     autoit.mouse_click("left", round(x0 + x * w), round(y0 + y * h), 1, 1)
 
 
-def activate_window():
+def activate_window() -> None:
     autoit.win_activate('Wingspan')
 
 

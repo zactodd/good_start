@@ -3,7 +3,6 @@ import time
 from card_selection import *
 import gui_interactions as gi
 import key_positions as kp
-from read_cards import *
 import matplotlib.pyplot as plt
 import utils
 from collections import Counter
@@ -47,22 +46,22 @@ if __name__ == '__main__':
             time.sleep(10)
             subprocess.call(['start', WINGSPAN_PATH], shell=True)
             time.sleep(20)
-            menu_from_start()
+            gi.menu_from_start()
         time.sleep(1)
 
         try:
             # Read tray before hand loads
             gi.move_and_click(*kp.OVERVIEW_BUTTON)
             time.sleep(2)
-            tray = extract_tray_cards()
+            tray = gi.extract_tray_cards()
             time.sleep(3)
 
             # Start Turn
-            gi.move_and_click(*gp.TURN_START_BUTTON)
+            gi.move_and_click(*kp.TURN_START_BUTTON)
             time.sleep(1)
 
             # Read bird cards
-            birds, centres, bird_image = extract_bird_cards()
+            birds, centres, bird_image = gi.extract_bird_cards()
             bird_centres = dict(zip(birds, centres))
             selection = bird_selection(birds, tray)
 
@@ -84,30 +83,35 @@ if __name__ == '__main__':
                 time.sleep(1)
 
                 # Select bonus cards
-                bonuses, centres, bonus_image = extract_bonus_cards()
+                bonuses, centres, bonus_image = gi.extract_bonus_cards()
                 bonus_centres = dict(zip(bonuses, centres))
                 bonus = bonus_selection(bonuses)
                 gi.move_and_click(*bonus_centres[bonus])
                 time.sleep(0.5)
 
                 gi.move_and_click(*kp.NEXT_BUTTON)
-                if True:
-                    time.sleep(3)
+                if any(b in utils.BIRD_GROUPS and 'Hummingbird' in utils.BIRD_GROUPS[b] for b in tray):
+                    time.sleep(0.5)
                     # Save game
                     selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
                     successes += 1
                     print(f'{successes} Successes {datetime.now():%H:%M:%S}')
-                    gi.exit_game()
-                    time.sleep(3)
                     gi.new_game_from_game()
                 else:
                     time.sleep(20)
                     gi.move_and_click(*kp.TURN_START_BUTTON)
 
+                    for pos in kp.PLAYER_BOARDS_POSITIONS[1:]:
+                        gi.move_and_click(*pos)
+                        time.sleep(0.5)
+                        if any(b in utils.BIRD_GROUPS and 'Hummingbird' in utils.BIRD_GROUPS[b]
+                               for h in gi.extract_player_board() for b in h):
+                            print(f'{successes} Successes {datetime.now():%H:%M:%S}')
+                            gi.new_game_from_game()
+                            break
+                    else:
+                        gi.new_game_from_game_with_delete()
             else:
-                # New Game
-                gi.exit_game()
-                time.sleep(3)
                 gi.new_game_from_game()
         except SystemError as e:
             pass

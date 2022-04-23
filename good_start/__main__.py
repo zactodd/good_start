@@ -100,6 +100,11 @@ if __name__ == '__main__':
                 else:
                     time.sleep(20)
                     gi.move_and_click(*kp.TURN_START_BUTTON)
+                    time.sleep(0.5)
+                    gi.select_bird(selected_birds[0], len(selected_birds))
+                    time.sleep(20)
+                    gi.move_and_click(*kp.TURN_START_BUTTON)
+                    time.sleep(0.5)
 
                     for pos in kp.PLAYER_BOARDS_POSITIONS[1:]:
                         gi.move_and_click(*pos)

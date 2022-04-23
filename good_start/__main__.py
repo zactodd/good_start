@@ -1,5 +1,8 @@
+import time
+
 from card_selection import *
-from gui_interactions import *
+import gui_interactions as gi
+import key_positions as kp
 from read_cards import *
 import matplotlib.pyplot as plt
 import utils
@@ -49,13 +52,13 @@ if __name__ == '__main__':
 
         try:
             # Read tray before hand loads
-            move_and_click(*key_positions.OVERVIEW_BUTTON)
+            gi.move_and_click(*kp.OVERVIEW_BUTTON)
             time.sleep(2)
             tray = extract_tray_cards()
             time.sleep(3)
 
             # Start Turn
-            move_and_click(*key_positions.TURN_START_BUTTON)
+            gi.move_and_click(*gp.TURN_START_BUTTON)
             time.sleep(1)
 
             # Read bird cards
@@ -70,33 +73,41 @@ if __name__ == '__main__':
                 # Select birds
                 time.sleep(0.5)
                 for b in selected_birds:
-                    move_and_click(*bird_centres[b])
+                    gi.move_and_click(*bird_centres[b])
                     time.sleep(0.5)
 
                 # Select food
                 for f in food:
-                    move_and_click(*key_positions.RESOURCES_TO_BUTTONS[f])
+                    gi.move_and_click(*kp.RESOURCES_TO_BUTTONS[f])
                     time.sleep(0.5)
-                move_and_click(*key_positions.NEXT_BUTTON)
+                gi.move_and_click(*kp.NEXT_BUTTON)
                 time.sleep(1)
 
                 # Select bonus cards
                 bonuses, centres, bonus_image = extract_bonus_cards()
                 bonus_centres = dict(zip(bonuses, centres))
                 bonus = bonus_selection(bonuses)
-                move_and_click(*bonus_centres[bonus])
+                gi.move_and_click(*bonus_centres[bonus])
                 time.sleep(0.5)
 
-                # Save game
-                selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
-                move_and_click(*key_positions.NEXT_BUTTON)
-                time.sleep(3)
-                successes += 1
-                print(f'{successes} Successes {datetime.now():%H:%M:%S}')
+                gi.move_and_click(*kp.NEXT_BUTTON)
+                if True:
+                    time.sleep(3)
+                    # Save game
+                    selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
+                    successes += 1
+                    print(f'{successes} Successes {datetime.now():%H:%M:%S}')
+                    gi.exit_game()
+                    time.sleep(3)
+                    gi.new_game_from_game()
+                else:
+                    time.sleep(20)
+                    gi.move_and_click(*kp.TURN_START_BUTTON)
 
-            # New Game
-            exit_game()
-            time.sleep(3)
-            new_game_from_game()
+            else:
+                # New Game
+                gi.exit_game()
+                time.sleep(3)
+                gi.new_game_from_game()
         except SystemError as e:
             pass

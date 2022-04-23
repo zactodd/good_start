@@ -1,10 +1,12 @@
+import time
+
 import cv2
 import pytesseract
 import numpy as np
 from PIL import ImageGrab
 import matplotlib.pyplot as plt
 import gui_interactions as gi
-import key_positions
+import key_positions as kp
 import utils
 from typing import Tuple, List
 
@@ -79,7 +81,7 @@ def extract_bird_card_text_image(image: np.ndarray) -> Tuple[List[np.ndarray], L
     card_text_images = []
     centres = []
     w, h = gi.window_dimensions()
-    for x0, y0 in key_positions.BIRD_CARD_POSITIONS:
+    for x0, y0 in kp.BIRD_CARD_POSITIONS:
         sx0, sy0 = int(w * x0), int(h * y0)
         card_text_images.append(image[sy0:sy0 + 40, sx0:sx0 + 155])
         centres.append((x0, y0 + 0.1))
@@ -100,7 +102,7 @@ def extract_bonus_card_text_image(image:np.ndarray, contours:List[List[int]]) ->
 def extract_tray_card_text_image(image:np.ndarray) -> List[np.ndarray]:
     card_text_images = []
     w, h = gi.window_dimensions()
-    for x0, y0 in key_positions.TRAY_CARD_POSITIONS:
+    for x0, y0 in kp.TRAY_CARD_POSITIONS:
         sx0, sy0 = int(w * x0), int(h * y0)
         card_text_images.append(image[sy0:sy0 + 18, sx0:sx0 + 160])
     return card_text_images
@@ -166,3 +168,30 @@ def extract_bonus_cards(verbose: bool = False):
         plt.show()
         print(f'Bonus:\n{names}')
     return names, centres, image
+
+
+def extract_player_board(verbose: bool = False):
+    image = np.asarray(ImageGrab.grab(bbox=gi.window_bbox()))
+    w, h = gi.window_dimensions()
+    board = []
+    for x0, y0, x1, y1 in kp.BIRDS_IN_HABITAT_NAMES_BBOXS:
+        sx0, sy0, sx1, sy1 = int(w * x0), int(h * y0), int(w * x1), int(h * y1)
+        habitat_image = image[sy0:sy1, sx0:sx1]
+        grey = cv2.cvtColor(habitat_image, cv2.COLOR_RGB2GRAY)
+        _, thresh = cv2.threshold(grey, 200, 255, cv2.THRESH_BINARY_INV)
+        contours = find_contours(thresh)
+        contours = filter_contours_by_area(contours, 100000, 3000)
+
+        names = []
+        for c in contours:
+            cx, cy, cw, ch = cv2.boundingRect(c)
+            text_image = habitat_image[cy:cy + ch, cx:cx + cw]
+            text_image = cv2.resize(text_image, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
+            custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            text = pytesseract.image_to_string(text_image, config=custom_config).strip()
+            name = min(utils.BIRD_NAMES,
+                       key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').upper(),
+                                                                 text.replace(' ', '')))
+            names.append(name)
+        board.append(names)
+    return board

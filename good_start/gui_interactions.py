@@ -108,7 +108,7 @@ def select_bird(bird, n) -> None:
             time.sleep(0.2)
 
             for f in food:
-                move_and_click(*kp.FOOD_PAY_BUTTONS[f])
+                move_and_click(*kp.FOOD_PAY_BUTTONS[f.lower()])
                 time.sleep(0.2)
 
             move_and_click(*kp.NEXT_BUTTON)

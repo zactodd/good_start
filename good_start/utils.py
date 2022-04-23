@@ -30,7 +30,7 @@ with open(_BIRD_GROUPS_FILE, 'r') as f:
 
 
 @cache
-def minimum_edit_distance(a, b, m=None, n=None):
+def minimum_edit_distance(a, b, m=None, n=None) -> int:
     if m is None:
         m, n = len(a),  len(b)
     if m == 0:
@@ -47,7 +47,7 @@ def minimum_edit_distance(a, b, m=None, n=None):
         )
 
 
-def check_if_process_running(name):
+def check_if_process_running(name) -> bool:
     for proc in psutil.process_iter():
         try:
             if name.lower() in proc.name().lower():

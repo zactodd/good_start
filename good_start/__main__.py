@@ -91,7 +91,7 @@ if __name__ == '__main__':
 
                 gi.move_and_click(*kp.NEXT_BUTTON)
                 if any(b in utils.BIRD_GROUPS and 'Hummingbird' in utils.BIRD_GROUPS[b] for b in tray):
-                    time.sleep(0.5)
+                    time.sleep(3)
                     # Save game
                     selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
                     successes += 1
@@ -110,14 +110,16 @@ if __name__ == '__main__':
 
                     for pos in kp.PLAYER_BOARDS_POSITIONS[1:]:
                         gi.move_and_click(*pos)
-                        time.sleep(0.5)
+                        time.sleep(3)
                         if any(b in utils.BIRD_GROUPS and 'Hummingbird' in utils.BIRD_GROUPS[b]
                                for h in gi.extract_player_board() for b in h):
+                            selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
+                            successes += 1
                             print(f'{successes} Successes {datetime.now():%H:%M:%S}')
                             gi.new_game_from_game()
                             break
                     else:
-                        gi.new_game_from_game_with_delete()
+                        gi.new_game_from_game()
             else:
                 gi.new_game_from_game()
         except SystemError as e:

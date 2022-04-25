@@ -8,7 +8,7 @@ import psutil
 RESOURCES = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'resources')
 SELECTED_IMAGES = os.path.join(RESOURCES, '.selected')
 HABITATS = ['Forest', 'Grassland', 'Wetland']
-FOOD = ['Fruit', 'Fish', 'Invertebrate', 'Rodent', 'Seed', 'Nectar']
+FOOD = ['Fruit', 'Fish', 'Invertebrate', 'Rodent', 'Seed']
 
 _BIRD_NAMES_FILE = os.path.join(RESOURCES, 'bird_names.txt')
 
@@ -40,11 +40,12 @@ with open(_FULL_CARD_INFO_FILE, 'r', encoding='cp437') as f:
     BIRD_HABITATS = {}
     BIRD_FOOD = {}
     for r in _FULL_CARD_INFO:
-        BIRD_HABITATS[r['Common name']] = tuple(h for h in HABITATS if r[h] == 'X')
+        BIRD_HABITATS[r['Common name'].strip()] = tuple(h for h in HABITATS if r[h] == 'X')
 
         food_cost = {f: int(c) for f in _FOOD_COST if (c := r[f])}
         total = 1 if r['/ (food cost)'] == 'X' else sum(food_cost.values())
-        BIRD_FOOD[r['Common name']] = (total , food_cost)
+        BIRD_FOOD[r['Common name'].strip()] = (total , food_cost)
+
 
 @cache
 def minimum_edit_distance(a, b, m=None, n=None) -> int:

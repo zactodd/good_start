@@ -11,13 +11,14 @@
     "food": ["invertebrate", "seed", "fruit"],
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch", "Bluethroat",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Common Chaffinch"]
+      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Common Chaffinch",
+      "Franklin's Gull"]
   },
   {
     "birds": ["Franklin's Gull", "Common Chaffinch"],
     "food": ["invertebrate", "seed", "fish"],
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch", "Bluethroat",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Common Chaffinch"]
+      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Common Chaffinch", "Killdeer"]
   }
 ]

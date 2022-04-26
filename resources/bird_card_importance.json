@@ -33,7 +33,7 @@
     "birds": ["Killdeer", "Eastern Kingbird"],
     "food": ["invertebrate", "seed", "fruit"],
     "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
   },
   {
     "birds": ["Killdeer", "Belted Kingfisher"],
@@ -44,14 +44,14 @@
     "birds": ["Franklin's Gull", "Eastern Kingbird"],
     "food": ["invertebrate", "fish", "seed"],
     "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
   },
   {
     "birds": ["Killdeer", "Chihuahuan Raven"],
     "food": ["invertebrate", "seed", "rodent"],
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird"]
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Gray Catbird", "Northern Mockingbird", "Canada Goose", "Sandhill Crane"]
   },
   {
     "birds": ["Killdeer", "Common Raven"],
@@ -70,14 +70,16 @@
     "food": ["invertebrate", "fish", "rodent"],
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Canada Goose", "Sandhill Crane"]
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Gray Catbird", "Northern Mockingbird", "Canada Goose",
+      "Sandhill Crane"]
   },
   {
     "birds": ["Franklin's Gull", "Common Raven"],
     "food": ["invertebrate", "fish", "rodent"],
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Canada Goose", "Sandhill Crane"]
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Gray Catbird", "Northern Mockingbird", "Canada Goose",
+      "Sandhill Crane"]
   },
   {
     "birds": ["Killdeer", "Barn Swallow"],

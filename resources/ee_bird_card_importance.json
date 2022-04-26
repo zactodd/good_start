@@ -2,23 +2,42 @@
   {
     "birds": ["Killdeer", "Eurasian Tree Sparrow"],
     "food": ["invertebrate", "seed", "fruit"],
-    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch", "Bluethroat",
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
       "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Common Chaffinch"]
   },
   {
     "birds": ["Killdeer", "Common Chaffinch"],
     "food": ["invertebrate", "seed", "fruit"],
-    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch", "Bluethroat",
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Common Chaffinch",
-      "Franklin's Gull"]
+      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Franklin's Gull"]
   },
   {
     "birds": ["Franklin's Gull", "Common Chaffinch"],
     "food": ["invertebrate", "seed", "fish"],
-    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch", "Bluethroat",
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
-      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Common Chaffinch", "Killdeer"]
+      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Killdeer"]
+  },
+  {
+    "birds": ["Mute Swan", "Eurasian Tree Sparrow"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
+  },
+  {
+    "birds": ["Mute Swan", "Eastern Kingbird"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
+  },
+  {
+    "birds": ["Mute Swan", "Brown-Headed Cowbird"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["Barn Swallow", "American Robin", "House Finch"]
+  },
+  {
+    "birds": ["Mute Swan", "Bronzed Cowbird"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["Barn Swallow", "American Robin", "House Finch"]
   }
 ]

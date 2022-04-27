@@ -47,6 +47,7 @@ with open(_FULL_CARD_INFO_FILE, 'r', encoding='cp437') as f:
         BIRD_FOOD[r['Common name'].strip()] = (total , food_cost)
 
 
+
 @cache
 def minimum_edit_distance(a, b, m=None, n=None) -> int:
     if m is None:

@@ -42,10 +42,12 @@ successes = 0
 
 if __name__ == '__main__':
     while True:
-        if not utils.check_if_process_running('Wingspan.exe'):
+        if not gi.is_responding():
+            gi.kill_window()
             time.sleep(10)
             subprocess.call(['start', WINGSPAN_PATH], shell=True)
             time.sleep(20)
+            gi.activate_window()
             gi.menu_from_start()
         time.sleep(1)
 

@@ -63,11 +63,11 @@ if __name__ == '__main__':
             # Read bird cards
             birds, centres, bird_image = gi.extract_bird_cards()
             bird_centres = dict(zip(birds, centres))
-            selection = bird_selection(birds, tray)
 
             # Select birds, food and bonus cards if valid birds in hand
-            if selection:
+            if selection := bird_selection(birds, tray):
                 selected_birds, food = selection
+                print('Selection')
 
                 # Select birds
                 time.sleep(0.5)
@@ -90,7 +90,7 @@ if __name__ == '__main__':
                 time.sleep(0.5)
 
                 gi.move_and_click(*kp.NEXT_BUTTON)
-                if any(b in utils.BIRD_GROUPS and 'Hummingbird' in utils.BIRD_GROUPS[b] for b in tray):
+                if any(b in utils.BIRD_GROUPS and 'hummingbird' in utils.BIRD_GROUPS[b].lower() for b in tray):
                     time.sleep(3)
                     # Save game
                     selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
@@ -119,6 +119,7 @@ if __name__ == '__main__':
                             gi.new_game_from_game()
                             break
                     else:
+                        print('No hummingbird')
                         gi.new_game_from_game()
             else:
                 gi.new_game_from_game()

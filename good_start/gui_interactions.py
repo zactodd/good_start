@@ -8,6 +8,7 @@ import pytesseract
 import numpy as np
 from PIL import ImageGrab
 import matplotlib.pyplot as plt
+import subprocess
 import utils
 
 
@@ -44,8 +45,24 @@ def move(x: float, y: float) -> None:
     autoit.mouse_move(round(x0 + x * w), round(y0 + y * h), 1)
 
 
+
+def _is_responding(name: str) -> bool:
+    cmd = f'tasklist /FI "IMAGENAME eq {name}" /FI "STATUS eq running"'
+    status = subprocess.Popen(cmd, stdout=subprocess.PIPE).stdout.read()
+    return name in str(status)
+
+
+
+def is_responding() -> bool:
+    return _is_responding('Wingspan.exe')
+
+
 def activate_window() -> None:
     autoit.win_activate('Wingspan')
+
+
+def kill_window() -> None:
+    autoit.win_kill('Wingspan')
 
 
 def click_buttons(buttons, wait=0.5) -> None:
@@ -310,4 +327,3 @@ def extract_highlighted_card(verbose: bool = False) -> str:
         plt.show()
         print(f'Highlighted card: {name}')
     return name
-

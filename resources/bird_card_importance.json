@@ -1,6 +1,6 @@
 [
   {
-    "birds": ["Dark-Eyed Junco", "Killdeer"],
+    "birds": ["Dark-Eyed Junco", "Killdeer", "*"],
     "food": ["invertebrate", "seed"],
     "tray": ["Common Raven", "Chihuahuan Raven", "Barn Swallow", "American Robin", "Purple Martin",
       "Violet-Green Swallow", "House Finch", "Gray Catbird", "Northern Mockingbird"]

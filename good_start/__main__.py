@@ -103,13 +103,13 @@ if __name__ == '__main__':
                     print(f'{successes} Successes {datetime.now():%H:%M:%S}')
                     gi.new_game_from_game()
                 else:
-                    time.sleep(20)
+                    time.sleep(30)
                     gi.move_and_click(*kp.TURN_START_BUTTON)
-                    time.sleep(0.5)
+                    time.sleep(1)
                     gi.move_and_click(*kp.OVERVIEW_BUTTON)
                     time.sleep(1)
                     gi.select_bird(selected_birds[0], len(selected_birds))
-                    time.sleep(20)
+                    time.sleep(30)
                     gi.move_and_click(*kp.TURN_START_BUTTON)
                     time.sleep(0.5)
 

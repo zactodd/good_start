@@ -65,6 +65,10 @@ def kill_window() -> None:
     autoit.win_kill('Wingspan')
 
 
+def window_exists() -> None:
+    autoit.win_exists('Wingspan')
+
+
 def click_buttons(buttons, wait=0.5) -> None:
     for button in buttons:
         move_and_click(*button)

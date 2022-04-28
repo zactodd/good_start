@@ -41,9 +41,12 @@ def on_kill():
 successes = 0
 
 if __name__ == '__main__':
+    if gi.window_exists():
+        gi.kill_window()
     while True:
         if not gi.is_responding():
-            gi.kill_window()
+            if gi.window_exists():
+                gi.kill_window()
             time.sleep(10)
             subprocess.call(['start', WINGSPAN_PATH], shell=True)
             time.sleep(20)

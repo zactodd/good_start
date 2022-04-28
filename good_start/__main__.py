@@ -128,5 +128,6 @@ if __name__ == '__main__':
                         gi.new_game_from_game()
             else:
                 gi.new_game_from_game()
-        except SystemError as e:
-            pass
+        except (SystemError, ValueError) as e:
+            gi.kill_window()
+            time.sleep(30)

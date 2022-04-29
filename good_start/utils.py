@@ -1,7 +1,12 @@
 import os
 import json
 import csv
+from typing import Iterable, TypeVar, Callable, Any
 from functools import cache
+from threading import Thread
+
+
+F = TypeVar('F', bound=Callable[..., Any])
 
 
 RESOURCES = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'resources')
@@ -47,7 +52,7 @@ with open(_FULL_CARD_INFO_FILE, 'r', encoding='cp437') as f:
 
 
 @cache
-def minimum_edit_distance(a, b, m=None, n=None) -> int:
+def minimum_edit_distance(a: str, b: str, m=None, n=None) -> int:
     if m is None:
         m, n = len(a),  len(b)
     if m == 0:
@@ -62,3 +67,26 @@ def minimum_edit_distance(a, b, m=None, n=None) -> int:
             minimum_edit_distance(a, b, m - 1, n),
             minimum_edit_distance(a, b, m - 1, n - 1)
         )
+
+
+def start_join_threads(threads: Iterable['Thread']) -> None:
+    """
+    Starts all threads in threads and joins all the threads.
+    :param threads: AN iterable of threads.
+    """
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+
+
+def thread_wrapper(func: F) -> F:
+    """
+    Wraps a function into a thread call.
+    :param func: The function to be wrapped.
+    :return: A function wrapped to a thread call.
+    """
+    def wrapper(*args, **kwargs):
+        return Thread(target=func, args=args, kwargs=kwargs)
+    return wrapper
+

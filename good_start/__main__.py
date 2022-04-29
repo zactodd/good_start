@@ -1,4 +1,5 @@
 import time
+import logging
 
 from card_selection import *
 import gui_interactions as gi
@@ -15,6 +16,7 @@ WINGSPAN_PATH = 'C:\\Users\\thoma\\Desktop\\Wingspan.url'
 
 
 selected_games = []
+root_logger = logging.getLogger()
 
 @atexit.register
 def on_kill():
@@ -72,7 +74,7 @@ if __name__ == '__main__':
             # Select birds, food and bonus cards if valid birds in hand
             if selection := bird_selection(birds, tray):
                 selected_birds, food = selection
-                print('Selection')
+                logging.info(f'Selected birds: {selected_birds}')
 
                 # Select birds
                 time.sleep(0.5)
@@ -100,7 +102,7 @@ if __name__ == '__main__':
                     # Save game
                     selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
                     successes += 1
-                    print(f'{successes} Successes {datetime.now():%H:%M:%S}')
+                    logging.info(f'Successes: {successes} humming bird in tray.')
                     gi.new_game_from_game()
                 else:
                     time.sleep(30)
@@ -120,14 +122,15 @@ if __name__ == '__main__':
                                for h in gi.extract_player_board() for b in h):
                             selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
                             successes += 1
-                            print(f'{successes} Successes {datetime.now():%H:%M:%S}')
+                            logging.info(f'{successes} Successes')
                             gi.new_game_from_game()
                             break
                     else:
-                        print('No hummingbird')
+                        logging.info(f'No Hummingbird found in player boards.')
                         gi.new_game_from_game()
             else:
                 gi.new_game_from_game()
         except (SystemError, ValueError) as e:
+            root_logger.error(e)
             gi.kill_window()
             time.sleep(30)

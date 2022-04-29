@@ -20,7 +20,7 @@ selected_games = []
 root_logger = logging.getLogger()
 
 @atexit.register
-def on_kill() -> None:
+def _on_kill() -> None:
     print("Post run statistics")
     bird_games = Counter()
     bonus_games = Counter()
@@ -41,16 +41,9 @@ def on_kill() -> None:
         plt.imsave(f'{time_prefix}__bonus__{bonus}.png', bonus_image)
 
 
-def finish_run() -> None:
-    while keyboard.is_pressed("q"):
-       time.sleep(0.1)
-    sys.exit()
-
-
-
-successes = 0
 
 if __name__ == '__main__':
+    successes = 0
     if gi.window_exists():
         gi.kill_window()
     while True:

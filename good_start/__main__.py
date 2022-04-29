@@ -1,6 +1,6 @@
 import time
 import logging
-
+import keyboard
 from card_selection import *
 import gui_interactions as gi
 import key_positions as kp
@@ -10,6 +10,7 @@ from collections import Counter
 import atexit
 from datetime import datetime
 import subprocess
+import sys
 
 
 WINGSPAN_PATH = 'C:\\Users\\thoma\\Desktop\\Wingspan.url'
@@ -19,7 +20,7 @@ selected_games = []
 root_logger = logging.getLogger()
 
 @atexit.register
-def on_kill():
+def on_kill() -> None:
     print("Post run statistics")
     bird_games = Counter()
     bonus_games = Counter()
@@ -38,6 +39,13 @@ def on_kill():
         time_prefix = f'{utils.SELECTED_IMAGES}/game__{save_time:%y_%M_%d}__{i}'
         plt.imsave(f'{time_prefix}__birds__{birds_image_name}.png', bird_image)
         plt.imsave(f'{time_prefix}__bonus__{bonus}.png', bonus_image)
+
+
+def quit() -> None:
+    while keyboard.is_pressed("q"):
+       time.sleep(0.1)
+    sys.exit()
+
 
 
 successes = 0

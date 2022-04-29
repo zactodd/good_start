@@ -41,7 +41,7 @@ def on_kill() -> None:
         plt.imsave(f'{time_prefix}__bonus__{bonus}.png', bonus_image)
 
 
-def quit() -> None:
+def finish_run() -> None:
     while keyboard.is_pressed("q"):
        time.sleep(0.1)
     sys.exit()

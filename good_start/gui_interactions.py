@@ -106,7 +106,7 @@ def select_bird(bird, n) -> None:
 
             # TODO logic
             if bird == 'Killdeer':
-                food = ['seed']
+                food = ['invertebrate']
             elif bird == 'Dark-Eyed Junco':
                 food = ['seed', 'invertebrate']
             elif bird == 'Franklin\'s Gull':

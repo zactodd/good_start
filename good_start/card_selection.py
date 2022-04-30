@@ -6,7 +6,7 @@ import random
 def bird_selection(hand: List[str], tray: List[str]) -> Tuple[List[str], Set[str]]:
     for items in utils.BIRD_IMPORTANCE:
         birds, food_suggestion, tray_req = items.values()
-        if all(b in hand or b == '*' for b in birds) and any(b in tray_req for b in tray):
+        if all(b in hand for b in birds) and any(b in tray_req for b in tray):
             tray_wants = [b for b in tray if b in tray_req]
             if len(birds) + len(food_suggestion) < 5:
                 return birds + [next(c for c in hand if c not in birds)], food_suggestion

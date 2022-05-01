@@ -1,8 +1,7 @@
 Ecologist
+Omnivore Expert
 Oologist
 Rodentologist
-Falconer
-Omnivore Specialist
 Fishery Manager
 Viticulturalist
 Wetland Scientist
@@ -12,6 +11,7 @@ Anatomist
 Food Web Expert
 Platform Builder
 Cartographer
+Falconer
 Bird Counter
 Historian
 Enclosure Builder

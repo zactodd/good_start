@@ -133,5 +133,6 @@ if __name__ == '__main__':
                 gi.new_game_from_game()
         except (SystemError, ValueError) as e:
             root_logger.error(e)
-            gi.kill_window()
+            if gi.window_exists():
+                gi.kill_window()
             time.sleep(30)

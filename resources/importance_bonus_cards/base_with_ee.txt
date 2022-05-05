@@ -1,10 +1,13 @@
 Ecologist
 Omnivore Expert
+Diet Specialist
+Bird Bander
 Oologist
 Rodentologist
 Fishery Manager
 Viticulturalist
 Wetland Scientist
+Behaviourist
 Visionary Leader
 Large Bird Specialist
 Anatomist
@@ -15,8 +18,10 @@ Falconer
 Bird Counter
 Historian
 Enclosure Builder
-Photographer
+Citizen Scientist
 Forester
+Ethologist
+Photographer
 Wildlife Gardener
 Breeding Manager
 Nest Box Builder

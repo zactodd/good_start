@@ -178,3 +178,84 @@ Yellow-Billed Cuckoo
 Yellow-Breasted Chat
 Yellow-Headed Blackbird
 Yellow-Rumped Warbler
+Audouin's Gull
+Black Redstart
+Black Woodpecker
+Black-Headed Gull
+Black-Tailed Godwit
+Black-Throated Diver
+Bluethroat
+Bonelli's Eagle
+Bullfinch
+Carrion Crow
+Cetti's Warbler
+Coal Tit
+Common Blackbird
+Common Buzzard
+Common Chaffinch
+Common Chiffchaff
+Common Cuckoo
+Common Goldeneye
+Common Kingfisher
+Common Little Bittern
+Common Moorhen
+Common Nightingale
+Common Starling
+Common Swift
+Corsican Nuthatch
+Dunnock
+Eastern Imperial Eagle
+Eleonora's Falcon
+Eurasian Collared-Dove
+Eurasian Golden Oriole
+Eurasian Green Woodpecker
+Eurasian Hobby
+Eurasian Jay
+Eurasian Magpie
+Eurasian Nutcracker
+Eurasian Nuthatch
+Eurasian Sparrowhawk
+Eurasian Tree Sparrow
+European Bee-Eater
+European Goldfinch
+European Honey Buzzard
+European Robin
+European Roller
+European Turtle Dove
+Goldcrest
+Great Crested Grebe
+Great Tit
+Greater Flamingo
+Grey Heron
+Greylag Goose
+Griffon Vulture
+Hawfinch
+Hooded Crow
+House Sparrow
+Lesser Whitethroat
+Little Bustard
+Little Owl
+Long-Tailed Tit
+Moltoni's Warbler
+Montagu's Harrier
+Mute Swan
+Northern Gannet
+Northern Goshawk
+Parrot Crossbill
+Red Kite
+Red Knot
+Red-Backed Shrike
+Red-Legged Partridge
+Ruff
+Savi's Warbler
+Short-Toed Treecreeper
+Snow Bunting
+Snowy Owl
+Squacco Heron
+Thekla's Lark
+White Stork
+White Wagtail
+White-Backed Woodpecker
+White-Throated Dipper
+Wilson's Storm Petrel
+Yellowhammer

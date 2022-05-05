@@ -1,5 +1,67 @@
 [
   {
+    "birds": ["Common Chiffchaff", "Bushtit"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["American Coot", "Barn Swallow", "House Finch", "Purple Martin", "Ring-Billed Gull", "Tree Swallow",
+      "Violet-Green Swallow", "Audouin's Gull", "Greater Flaningo", "Mute Swan","Gray Catbird",
+      "Northern Mockingbird", "Savi's Warbler"]
+  },
+  {
+    "birds": ["Common Chiffchaff", "Common Grackle"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["American Coot", "Barn Swallow", "House Finch", "Purple Martin", "Ring-Billed Gull", "Tree Swallow",
+      "Violet-Green Swallow", "Audouin's Gull", "Greater Flaningo", "Mute Swan","Gray Catbird",
+      "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Common Chiffchaff", "Red-Winged Blackbird"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["American Coot", "Barn Swallow", "House Finch", "Purple Martin", "Ring-Billed Gull", "Tree Swallow",
+      "Violet-Green Swallow", "Audouin's Gull", "Greater Flaningo", "Mute Swan","Gray Catbird",
+      "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Common Chiffchaff", "Yellow-Headed Blackbird"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["American Coot", "Barn Swallow", "House Finch", "Purple Martin", "Ring-Billed Gull", "Tree Swallow",
+      "Violet-Green Swallow", "Audouin's Gull", "Greater Flaningo", "Mute Swan","Gray Catbird",
+      "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Audouin's Gull", "Bushtit"],
+    "food": ["fish", "seed", "invertebrate"],
+    "tray": ["Common Chiffchaff"]
+  },
+  {
+    "birds": ["Audouin's Gull", "Common Grackle"],
+    "food": ["fish", "seed", "invertebrate"],
+    "tray": ["Common Chiffchaff"]
+  },
+  {
+    "birds": ["Audouin's Gull", "Red-Winged Blackbird"],
+    "food": ["fish", "seed", "invertebrate"],
+    "tray": ["Common Chiffchaff"]
+  },
+  {
+    "birds": ["Audouin's Gull", "Yellow-Headed Blackbird"],
+    "food": ["fish", "seed", "invertebrate"],
+    "tray": ["Common Chiffchaff"]
+  },
+  {
+    "birds": ["Common Chiffchaff", "Brown-Headed Cowbird"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["American Coot", "Barn Swallow", "House Finch", "Purple Martin", "Ring-Billed Gull", "Tree Swallow",
+      "Violet-Green Swallow", "Audouin's Gull", "Greater Flaningo", "Mute Swan", "Gray Catbird",
+      "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Common Chiffchaff", "Brown-Headed Cowbird"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["American Coot", "Barn Swallow", "House Finch", "Purple Martin", "Ring-Billed Gull", "Tree Swallow",
+      "Violet-Green Swallow", "Audouin's Gull", "Greater Flaningo", "Mute Swan", "Gray Catbird",
+      "Northern Mockingbird"]
+  },
+  {
     "birds": ["Killdeer", "Eurasian Tree Sparrow"],
     "food": ["invertebrate", "seed", "fruit"],
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
@@ -39,5 +101,140 @@
     "birds": ["Mute Swan", "Bronzed Cowbird"],
     "food": ["invertebrate", "seed", "fruit"],
     "tray": ["Barn Swallow", "American Robin", "House Finch"]
+  },
+
+  {
+    "birds": ["Dark-Eyed Junco", "Killdeer"],
+    "food": ["invertebrate", "seed"],
+    "tray": ["Common Raven", "Chihuahuan Raven", "Barn Swallow", "American Robin", "Purple Martin",
+      "Violet-Green Swallow", "House Finch", "Gray Catbird", "Northern Mockingbird", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "Dark-Eyed Junco"],
+    "food": ["invertebrate", "seed", "rodent"],
+    "tray": ["Common Raven", "Chihuahuan Raven", "Barn Swallow", "American Robin", "Purple Martin",
+      "Violet-Green Swallow", "House Finch", "Gray Catbird", "Northern Mockingbird", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "Cedar Waxwing"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch", "Gray Catbird",
+      "Northern Mockingbird", "Common Raven", "Chihuahuan Raven", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Dark-Eyed Junco"],
+    "food": ["fish", "invertebrate", "seed"],
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",  "Gray Catbird",
+      "Northern Mockingbird", "Common Raven", "Chihuahuan Raven", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Cedar Waxwing"],
+    "food": ["fruit", "fish", "seed"],
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch", "Gray Catbird",
+      "Northern Mockingbird", "Common Raven", "Chihuahuan Raven", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "Eastern Kingbird"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+    "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "Belted Kingfisher"],
+    "food": ["invertebrate", "fish", "seed"],
+    "tray": [ "Dark-Eyed Junco", "Cedar Waxwing", "Common Raven", "Chihuahuan Raven", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Eastern Kingbird"],
+    "food": ["invertebrate", "fish", "seed"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "Chihuahuan Raven"],
+    "food": ["invertebrate", "seed", "rodent"],
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
+      "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Gray Catbird", "Northern Mockingbird", "Canada Goose",
+      "Sandhill Crane", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "Common Raven"],
+    "food": ["invertebrate", "seed", "rodent"],
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
+      "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Canada Goose", "Sandhill Crane",
+      "Common Chaffinch"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Belted Kingfisher"],
+    "food": ["invertebrate", "fish", "seed"],
+    "tray": [ "Dark-Eyed Junco", "Cedar Waxwing", "Common Raven", "Chihuahuan Raven", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Chihuahuan Raven"],
+    "food": ["invertebrate", "fish", "rodent"],
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
+      "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Gray Catbird", "Northern Mockingbird", "Canada Goose",
+      "Sandhill Crane", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Common Raven"],
+    "food": ["invertebrate", "fish", "rodent"],
+    "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
+      "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Gray Catbird", "Northern Mockingbird", "Canada Goose",
+      "Sandhill Crane", "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "Barn Swallow"],
+    "food": ["invertebrate", "fruit", "seed"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "American Robin"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "Purple Martin"],
+    "food": ["invertebrate", "fruit", "seed"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Common Chaffinch"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Barn Swallow"],
+    "food": ["fish", "seed", "invertebrate"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Common Chaffinch"]
+  },
+  {
+    "birds": ["Franklin's Gull", "American Robin"],
+    "food": ["fish", "invertebrate", "seed"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Common Chaffinch"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Purple Martin"],
+    "food": ["fish", "seed", "invertebrate"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer", "House Finch"],
+    "food": ["fruit", "seed", "invertebrate"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Common Chaffinch"]
+  },
+  {
+    "birds": ["Killdeer"],
+    "food": ["fruit", "invertebrate", "seed", "rodent"],
+    "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird",
+      "Common Chaffinch"]
   }
 ]

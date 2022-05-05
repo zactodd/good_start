@@ -14,22 +14,6 @@ SELECTED_IMAGES = os.path.join(RESOURCES, '.selected')
 HABITATS = ['Forest', 'Grassland', 'Wetland']
 FOOD = ['Fruit', 'Fish', 'Invertebrate', 'Rodent', 'Seed']
 
-_BIRD_NAMES_FILE = os.path.join(RESOURCES, 'bird_names.txt')
-
-with open(_BIRD_NAMES_FILE, 'r') as f:
-    BIRD_NAMES = [line.strip() for line in f]
-
-
-_BIRD_IMPORTANCE_FILE = os.path.join(RESOURCES, 'bird_card_importance.json')
-
-with open(_BIRD_IMPORTANCE_FILE, 'r') as f:
-    BIRD_IMPORTANCE = json.load(f)
-
-
-_BONUS_IMPORTANCE_FILE = os.path.join(RESOURCES, 'bonus_card_importance.txt')
-
-with open(_BONUS_IMPORTANCE_FILE, 'r') as f:
-    BONUS_IMPORTANCE = [line.strip() for line in f]
 
 _BIRD_GROUPS_FILE = os.path.join(RESOURCES, 'bird_groups.json')
 

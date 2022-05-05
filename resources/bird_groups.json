@@ -4,6 +4,8 @@
   "Ravens": ["Common Raven", "Chihuahuan Raven"],
   "Copies": ["Gray Catbird", "Northern Mockingbird"],
   "Tuck Draw": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch"],
+  "Tuck Heavy Draw": ["Mute Swan", "Greater Flamingo", "Audouin's Gull"],
+  "Tuck Heavy": ["Common Chiffchaff", "Common Chaffinch"],
   "Tuck Lay": ["Bushtit", "Red-Winged Blackbird", "White-Throated Swift", "Brewer's Blackbird", "Common Grackle"],
   "Tuck Food": ["Dark-Eyed Junco", "Cedar Waxwing"],
   "Draw": ["Killdeer", "Franklin's Gull"],

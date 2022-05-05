@@ -3,8 +3,8 @@ from typing import Set, Tuple, List
 import random
 
 
-def bird_selection(hand: List[str], tray: List[str]) -> Tuple[List[str], Set[str]]:
-    for items in utils.BIRD_IMPORTANCE:
+def bird_selection(bird_importance, hand: List[str], tray: List[str]) -> Tuple[List[str], Set[str]]:
+    for items in bird_importance:
         birds, food_suggestion, tray_req = items.values()
         if all(b in hand for b in birds) and any(b in tray_req for b in tray):
             tray_wants = [b for b in tray if b in tray_req]
@@ -22,6 +22,5 @@ def bird_selection(hand: List[str], tray: List[str]) -> Tuple[List[str], Set[str
                     return birds, food_suggestion
 
 
-
-def bonus_selection(cards: List[str]) -> str:
-    return min(cards, key=lambda c: utils.BONUS_IMPORTANCE.index(c))
+def bonus_selection(importance, cards: List[str]) -> str:
+    return min(cards, key=lambda c: importance.index(c))

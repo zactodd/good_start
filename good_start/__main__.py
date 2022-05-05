@@ -1,7 +1,7 @@
 import time
 import logging
-import keyboard
-from card_selection import *
+import card_selection as cs
+import cards
 import gui_interactions as gi
 import key_positions as kp
 import matplotlib.pyplot as plt
@@ -10,10 +10,11 @@ from collections import Counter
 import atexit
 from datetime import datetime
 import subprocess
-import sys
 
 
 WINGSPAN_PATH = 'C:\\Users\\thoma\\Desktop\\Wingspan.url'
+
+BIRD_NAMES, BONUS_CARDS, BIRD_IMPORTANCE, BONUS_IMPORTANCE = cards.build_deck(['base', 'ss', 'ee'])
 
 
 selected_games = []
@@ -61,7 +62,7 @@ if __name__ == '__main__':
             # Read tray before hand loads
             gi.move_and_click(*kp.OVERVIEW_BUTTON)
             time.sleep(2)
-            tray = gi.extract_tray_cards()
+            tray = gi.extract_tray_cards(BIRD_NAMES)
             time.sleep(3)
 
             # Start Turn
@@ -69,11 +70,11 @@ if __name__ == '__main__':
             time.sleep(1)
 
             # Read bird cards
-            birds, centres, bird_image = gi.extract_bird_cards()
+            birds, centres, bird_image = gi.extract_bird_cards(BIRD_NAMES)
             bird_centres = dict(zip(birds, centres))
 
             # Select birds, food and bonus cards if valid birds in hand
-            if selection := bird_selection(birds, tray):
+            if selection := cs.bird_selection(BIRD_IMPORTANCE, birds, tray):
                 selected_birds, food = selection
                 logging.info(f'Selected birds: {selected_birds}')
 
@@ -91,9 +92,9 @@ if __name__ == '__main__':
                 time.sleep(1)
 
                 # Select bonus cards
-                bonuses, centres, bonus_image = gi.extract_bonus_cards()
+                bonuses, centres, bonus_image = gi.extract_bonus_cards(BIRD_NAMES)
                 bonus_centres = dict(zip(bonuses, centres))
-                bonus = bonus_selection(bonuses)
+                bonus = cs.bonus_selection(BONUS_IMPORTANCE, bonuses)
                 gi.move_and_click(*bonus_centres[bonus])
                 time.sleep(0.5)
 
@@ -120,7 +121,7 @@ if __name__ == '__main__':
                         gi.move_and_click(*pos)
                         time.sleep(3)
                         if any(b in utils.BIRD_GROUPS and 'Hummingbird' in utils.BIRD_GROUPS[b]
-                               for h in gi.extract_player_board() for b in h):
+                               for h in gi.extract_player_board(BIRD_NAMES) for b in h):
                             selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
                             successes += 1
                             logging.info(f'{successes} Successes')

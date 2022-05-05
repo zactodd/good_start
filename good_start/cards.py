@@ -1,4 +1,5 @@
 import os.path as osp
+import json
 from typing import List, Tuple
 import utils
 
@@ -13,12 +14,12 @@ with open(osp.join(_BIRD_NAMES, 'ee.txt'), 'r') as f:
     _EE_BIRDS = f.read().splitlines()
 
 _BIRD_IMPORTANCE = osp.join(utils.RESOURCES, 'bird_importance')
-with open(osp.join(_BIRD_IMPORTANCE, 'base.txt'), 'r') as f:
-    _BASE_BIRD_IMPORTANCE = f.read().splitlines()
-with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss.txt'), 'r') as f:
-    _BASE_WITH_SS_BIRD_IMPORTANCE = f.read().splitlines()
-with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss_ee.txt'), 'r') as f:
-    _BASE_WITH_SS_EE_BIRD_IMPORTANCE = f.read().splitlines()
+with open(osp.join(_BIRD_IMPORTANCE, 'base.json'), 'r') as f:
+    _BASE_BIRD_IMPORTANCE = json.load(f)
+with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss.json'), 'r') as f:
+    _BASE_WITH_SS_BIRD_IMPORTANCE = json.load(f)
+with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss_ee.json'), 'r') as f:
+    _BASE_WITH_SS_EE_BIRD_IMPORTANCE = json.load(f)
 
 
 _BONUS_CARDS = osp.join(utils.RESOURCES, 'bonus_cards')
@@ -34,8 +35,6 @@ with open(osp.join(_BONUS_CARD_IMPORTANCE, 'base_with_ee.txt'), 'r') as f:
     _BASE_WITH_EE_BONUS_CARD_IMPORTANCE = f.read().splitlines()
 
 
-
-ALL_BIRDS_DECK = _BASE_BIRDS + _SS_BIRDS + _EE_BIRDS
 BASE_DECK = _BASE_BIRDS
 _BIRD_DECKS = {
     'base': _BASE_BIRDS,
@@ -71,6 +70,9 @@ def build_deck(sub_decks: List[str]) -> Tuple[List[str], List[str], List[str]]:
     for d in sub_decks:
         birds.extend(_BIRD_DECKS[d])
         bonus_cards.extend(_BONUS_CARD_DECKS[d])
-    return birds, bonus_cards, _BONUS_CARD_IMPORTANCE_DECKS[frozenset(sub_decks)]
+    decks = frozenset(sub_decks)
+    return birds, bonus_cards, _BIRD_IMPORTANCE_DECKS[decks], _BONUS_CARD_IMPORTANCE_DECKS[decks]
 
+
+ALL_DECK = build_deck(['base', 'ss', 'ee'])
 

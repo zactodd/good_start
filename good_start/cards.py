@@ -1,6 +1,6 @@
 import os.path as osp
 import json
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 import utils
 
 
@@ -64,7 +64,7 @@ _BONUS_CARD_IMPORTANCE_DECKS = {
 }
 
 
-def build_deck(sub_decks: List[str]) -> Tuple[List[str], List[str], List[str]]:
+def build_deck(sub_decks: List[str]) -> Tuple[List[str], List[Dict], List[Dict]]:
     birds = []
     bonus_cards = []
     for d in sub_decks:

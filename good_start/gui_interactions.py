@@ -274,7 +274,7 @@ def extract_tray_cards(bird_deck: List[str], verbose: bool = False) -> List[str]
     return names
 
 
-def extract_bonus_cards(verbose: bool = False):
+def extract_bonus_cards(bonus_cards: List[str], verbose: bool = False):
     # TODO fix these magic numbers
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
     grey = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
@@ -283,7 +283,7 @@ def extract_bonus_cards(verbose: bool = False):
     contours = filter_contours_by_area(contours, 100000, 20000)
     contours = filter_contour_by_y_point(contours, 350, 150)
     card_text_images, centres = extract_bonus_card_text_image(image, contours)
-    names = [text_from_image(i, utils.BONUS_IMPORTANCE) for i in card_text_images]
+    names = [text_from_image(i, bonus_cards) for i in card_text_images]
     if verbose:
         plt.imshow(image)
         plt.show()

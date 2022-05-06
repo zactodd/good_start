@@ -1,4 +1,6 @@
 import time
+import traceback
+import sys
 import logging
 import card_selection as cs
 import cards
@@ -133,6 +135,7 @@ if __name__ == '__main__':
             else:
                 gi.new_game_from_game()
         except (SystemError, ValueError) as e:
+            traceback.print_exception(*sys.exc_info())
             root_logger.error(e)
             if gi.window_exists():
                 gi.kill_window()

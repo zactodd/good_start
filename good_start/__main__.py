@@ -114,7 +114,7 @@ if __name__ == '__main__':
                     time.sleep(1)
                     gi.move_and_click(*kp.OVERVIEW_BUTTON)
                     time.sleep(1)
-                    gi.select_bird(selected_birds[0], len(selected_birds))
+                    gi.select_bird(BIRD_NAMES, selected_birds[0], len(selected_birds))
                     time.sleep(30)
                     gi.move_and_click(*kp.TURN_START_BUTTON)
                     time.sleep(0.5)

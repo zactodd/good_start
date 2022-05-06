@@ -94,7 +94,7 @@ if __name__ == '__main__':
                 time.sleep(1)
 
                 # Select bonus cards
-                bonuses, centres, bonus_image = gi.extract_bonus_cards(BIRD_NAMES)
+                bonuses, centres, bonus_image = gi.extract_bonus_cards(BONUS_IMPORTANCE)
                 bonus_centres = dict(zip(bonuses, centres))
                 bonus = cs.bonus_selection(BONUS_IMPORTANCE, bonuses)
                 gi.move_and_click(*bonus_centres[bonus])

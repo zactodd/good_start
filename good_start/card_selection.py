@@ -5,7 +5,7 @@ import cards
 
 
 def bird_selection(hand: List[str], tray: List[str]) -> Tuple[List[str], Set[str]]:
-    for items in cards.Deck().birds:
+    for items in cards.Deck().bird_importance:
         birds, food_suggestion, tray_req = items.values()
         if all(b in hand for b in birds) and any(b in tray_req for b in tray):
             tray_wants = [b for b in tray if b in tray_req]
@@ -23,5 +23,5 @@ def bird_selection(hand: List[str], tray: List[str]) -> Tuple[List[str], Set[str
                     return birds, food_suggestion
 
 
-def bonus_selection(cards: List[str]) -> str:
-    return min(cards, key=lambda c: cards.Deck().bonus_importance.index(c))
+def bonus_selection(bonus_cards: List[str]) -> str:
+    return min(bonus_cards, key=lambda c: cards.Deck().bonus_importance.index(c))

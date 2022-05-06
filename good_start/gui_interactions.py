@@ -97,11 +97,11 @@ def exit_game() -> None:
     click_buttons(kp.EXIT_GAME)
 
 
-def select_bird(bird, n) -> None:
+def select_bird(bird_names, bird, n) -> None:
     autoit.send('{UP}')
     for _ in range(n):
         time.sleep(1)
-        if bird == extract_highlighted_card():
+        if bird == extract_highlighted_card(bird_names):
             autoit.send('{SPACE}')
 
             # TODO logic
@@ -112,7 +112,7 @@ def select_bird(bird, n) -> None:
             elif bird == 'Franklin\'s Gull':
                 food = ['fish', 'invertebrate']
             else:
-                raise ValueError('Not implemented')
+                return
 
             habitats = utils.BIRD_HABITATS[bird]
             idx = habitats.index('Grassland')

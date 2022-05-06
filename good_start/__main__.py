@@ -14,7 +14,7 @@ import subprocess
 
 WINGSPAN_PATH = 'C:\\Users\\thoma\\Desktop\\Wingspan.url'
 
-BIRD_NAMES, BONUS_CARDS, BIRD_IMPORTANCE, BONUS_IMPORTANCE = cards.build_deck(['base', 'ss', 'ee'])
+BIRD_NAMES, BONUS_CARDS, BIRD_IMPORTANCE, BONUS_IMPORTANCE = cards.build_deck(['base', 'ee'])
 
 
 selected_games = []

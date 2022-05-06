@@ -1,5 +1,6 @@
 {
-  "Good Hummingbird": ["Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+  "Good Hummingbird": ["Anna's Hummingbird", "Ruby-Throated Hummingbird",
+    "Common Nightingale", "Bluethroat"],
   "Bad Hummingbird": ["Eastern Phoebe", "Black-Chinned Hummingbird"],
   "Ravens": ["Common Raven", "Chihuahuan Raven"],
   "Copies": ["Gray Catbird", "Northern Mockingbird"],

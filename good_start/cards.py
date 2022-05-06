@@ -2,6 +2,7 @@ import os.path as osp
 import json
 from typing import List, Tuple, Dict
 import utils
+from patterns import Singleton
 
 
 
@@ -64,15 +65,15 @@ _BONUS_CARD_IMPORTANCE_DECKS = {
 }
 
 
-def build_deck(sub_decks: List[str]) -> Tuple[List[str], List[Dict], List[Dict]]:
-    birds = []
-    bonus_cards = []
-    for d in sub_decks:
-        birds.extend(_BIRD_DECKS[d])
-        bonus_cards.extend(_BONUS_CARD_DECKS[d])
-    decks = frozenset(sub_decks)
-    return birds, bonus_cards, _BIRD_IMPORTANCE_DECKS[decks], _BONUS_CARD_IMPORTANCE_DECKS[decks]
+class Deck(metaclass=Singleton):
 
+    def __init__(self, sub_decks : List[str] = ['base'] ) -> None:
+        self.birds = []
+        self.bonus_cards = []
+        for d in sub_decks:
+            self.birds.extend(_BIRD_DECKS[d])
+            self.bonus_cards.extend(_BONUS_CARD_DECKS[d])
 
-ALL_DECK = build_deck(['base', 'ss', 'ee'])
-
+        decks = frozenset(sub_decks)
+        self.bird_importance = _BIRD_IMPORTANCE_DECKS[decks]
+        self.bonus_importance = _BONUS_CARD_IMPORTANCE_DECKS[decks]

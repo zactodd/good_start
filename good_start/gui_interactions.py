@@ -10,6 +10,7 @@ from PIL import ImageGrab
 import matplotlib.pyplot as plt
 import subprocess
 import utils
+import cards
 
 
 def _window_bbox_from_name(name: str)-> Tuple[int, int, int, int]:
@@ -45,12 +46,10 @@ def move(x: float, y: float) -> None:
     autoit.mouse_move(round(x0 + x * w), round(y0 + y * h), 1)
 
 
-
 def _is_responding(name: str) -> bool:
     cmd = f'tasklist /FI "IMAGENAME eq {name}" /FI "STATUS eq running"'
     status = subprocess.Popen(cmd, stdout=subprocess.PIPE).stdout.read()
     return name in str(status)
-
 
 
 def is_responding() -> bool:
@@ -84,6 +83,7 @@ def new_game_from_game() -> None:
     time.sleep(3)
     click_buttons(kp.MENU_TRAVERSAL)
 
+
 def new_game_from_game_with_delete() -> None:
     time.sleep(3)
     move_and_click(*kp.PLAY_BUTTON)
@@ -97,11 +97,11 @@ def exit_game() -> None:
     click_buttons(kp.EXIT_GAME)
 
 
-def select_bird(bird_names, bird, n) -> None:
+def select_bird(bird, n) -> None:
     autoit.send('{UP}')
     for _ in range(n):
         time.sleep(1)
-        if bird == extract_highlighted_card(bird_names):
+        if bird == extract_highlighted_card():
             autoit.send('{SPACE}')
 
             # TODO logic
@@ -251,11 +251,11 @@ def extract_tray_card_text_image(image:np.ndarray) -> List[np.ndarray]:
     return card_text_images
 
 
-def extract_bird_cards(bird_deck: List[str], verbose: bool = False):
+def extract_bird_cards(verbose: bool = False):
     # TODO fix these magic numbers
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
     card_text_images, centres = extract_bird_card_text_image(image)
-    names = [text_from_image(i, bird_deck) for i in card_text_images]
+    names = [text_from_image(i, cards.Deck().birds) for i in card_text_images]
     if verbose:
         plt.imshow(image)
         plt.show()
@@ -263,10 +263,10 @@ def extract_bird_cards(bird_deck: List[str], verbose: bool = False):
     return names, centres, image
 
 
-def extract_tray_cards(bird_deck: List[str], verbose: bool = False) -> List[str]:
+def extract_tray_cards(verbose: bool = False) -> List[str]:
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
     card_text_images = extract_tray_card_text_image(image)
-    names = [text_from_image(i, bird_deck) for i in card_text_images]
+    names = [text_from_image(i, cards.Deck().birds) for i in card_text_images]
     if verbose:
         plt.imshow(image)
         plt.show()
@@ -274,7 +274,7 @@ def extract_tray_cards(bird_deck: List[str], verbose: bool = False) -> List[str]
     return names
 
 
-def extract_bonus_cards(bonus_cards: List[str], verbose: bool = False):
+def extract_bonus_cards(verbose: bool = False):
     # TODO fix these magic numbers
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
     grey = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
@@ -283,7 +283,7 @@ def extract_bonus_cards(bonus_cards: List[str], verbose: bool = False):
     contours = filter_contours_by_area(contours, 100000, 20000)
     contours = filter_contour_by_y_point(contours, 350, 150)
     card_text_images, centres = extract_bonus_card_text_image(image, contours)
-    names = [text_from_image(i, bonus_cards) for i in card_text_images]
+    names = [text_from_image(i, cards.Deck().bonus_cards) for i in card_text_images]
     if verbose:
         plt.imshow(image)
         plt.show()
@@ -291,7 +291,7 @@ def extract_bonus_cards(bonus_cards: List[str], verbose: bool = False):
     return names, centres, image
 
 
-def extract_player_board(bird_deck: List[str], verbose: bool = False) -> List[List[str]]:
+def extract_player_board(verbose: bool = False) -> List[List[str]]:
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
     w, h = window_dimensions()
     board = []
@@ -302,7 +302,7 @@ def extract_player_board(bird_deck: List[str], verbose: bool = False) -> List[Li
         _, thresh = cv2.threshold(grey, 200, 255, cv2.THRESH_BINARY_INV)
         contours = find_contours(thresh)
         contours = filter_contours_by_area(contours, 100000, 3000)
-        board.append([text_from_image(habitat_image[cy:cy + ch, cx:cx + cw], bird_deck)
+        board.append([text_from_image(habitat_image[cy:cy + ch, cx:cx + cw], cards.Deck().birds)
                       for cx, cy, cw, ch in map(cv2.boundingRect, contours)])
     if verbose:
         plt.imshow(image)
@@ -311,7 +311,7 @@ def extract_player_board(bird_deck: List[str], verbose: bool = False) -> List[Li
     return board
 
 
-def extract_highlighted_card(bird_deck: List[str], verbose: bool = False) -> str:
+def extract_highlighted_card(verbose: bool = False) -> str:
     w, h = window_dimensions()
     x0, y0, x1, y1 = kp.HIGHLIGHTED_CARD_BBOX
     sx0, sy0, sx1, sy1 = int(w * x0), int(h * y0), int(w * x1), int(h * y1)
@@ -324,7 +324,7 @@ def extract_highlighted_card(bird_deck: List[str], verbose: bool = False) -> str
     contours = filter_contours_by_area(contours, 80000, 6000)
 
     cx, cy, cw, ch = cv2.boundingRect(contours[0])
-    name = text_from_image(image[cy:cy + ch, cx:cx + cw], bird_deck)
+    name = text_from_image(image[cy:cy + ch, cx:cx + cw], cards.Deck().birds)
 
     if verbose:
         plt.imshow(image)

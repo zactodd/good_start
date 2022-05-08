@@ -21,6 +21,7 @@ cards.Deck(['base', 'ss', 'ee'])
 
 selected_games = []
 root_logger = logging.getLogger()
+root_logger.setLevel(logging.DEBUG)
 
 @atexit.register
 def _on_kill() -> None:
@@ -46,6 +47,8 @@ def _on_kill() -> None:
 
 
 if __name__ == '__main__':
+    average_time = 0
+    checks = 0
     successes = 0
     if gi.window_exists():
         gi.kill_window()
@@ -53,6 +56,8 @@ if __name__ == '__main__':
     start = time.perf_counter()
     while True:
         if round(time.perf_counter() - start + 1) % 7200 == 0:
+            logging.info(f'Average run time: {average_time:.2f}s')
+            logging.info(f'Success rate: {checks / successes * 100:.8f}%')
             gi.kill_window()
             time.sleep(3)
         if not gi.is_responding():
@@ -62,8 +67,9 @@ if __name__ == '__main__':
             time.sleep(20)
             gi.activate_window()
             gi.menu_from_start()
+        checks += 1
+        run_time = time.perf_counter()
         time.sleep(1)
-
         try:
             # Read tray before hand loads
             gi.move_and_click(*kp.OVERVIEW_BUTTON)
@@ -143,3 +149,4 @@ if __name__ == '__main__':
             root_logger.error(e)
             gi.kill_window()
             time.sleep(3)
+        average_time = (average_time * (checks - 1) + (time.perf_counter() - run_time)) / checks

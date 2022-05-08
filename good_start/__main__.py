@@ -49,10 +49,14 @@ if __name__ == '__main__':
     successes = 0
     if gi.window_exists():
         gi.kill_window()
+
+    start = time.perf_counter()
     while True:
+        if round(time.perf_counter() - start + 1) % 7200 == 0:
+            gi.kill_window()
+            time.sleep(3)
         if not gi.is_responding():
-            if gi.window_exists():
-                gi.kill_window()
+            gi.kill_window()
             time.sleep(10)
             subprocess.call(['start', WINGSPAN_PATH], shell=True)
             time.sleep(20)
@@ -101,7 +105,7 @@ if __name__ == '__main__':
                 time.sleep(0.5)
 
                 gi.move_and_click(*kp.NEXT_BUTTON)
-                if any(b in utils.BIRD_GROUPS and 'hummingbird' in utils.BIRD_GROUPS[b].lower() for b in tray):
+                if True: #any(b in utils.BIRD_GROUPS and 'hummingbird' in utils.BIRD_GROUPS[b].lower() for b in tray):
                     time.sleep(3)
                     # Save game
                     selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
@@ -137,6 +141,5 @@ if __name__ == '__main__':
         except (SystemError, ValueError) as e:
             traceback.print_exception(*sys.exc_info())
             root_logger.error(e)
-            if gi.window_exists():
-                gi.kill_window()
-            time.sleep(30)
+            gi.kill_window()
+            time.sleep(3)

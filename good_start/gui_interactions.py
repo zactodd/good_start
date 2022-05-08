@@ -61,7 +61,8 @@ def activate_window() -> None:
 
 
 def kill_window() -> None:
-    autoit.win_kill('Wingspan')
+    if window_exists():
+        autoit.win_kill('Wingspan')
 
 
 def window_exists() -> bool:

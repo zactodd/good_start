@@ -77,3 +77,6 @@ class Deck(metaclass=Singleton):
         decks = frozenset(sub_decks)
         self.bird_importance = _BIRD_IMPORTANCE_DECKS[decks]
         self.bonus_importance = _BONUS_CARD_IMPORTANCE_DECKS[decks]
+
+        self.possible_tray_birds = {b for items in self.bird_importance for b in items['tray']}
+

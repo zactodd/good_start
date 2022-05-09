@@ -95,7 +95,7 @@ def new_game_from_game_with_delete() -> None:
 
 
 def exit_game() -> None:
-    click_buttons(kp.EXIT_GAME)
+    click_buttons(kp.EXIT_GAME, wait=1)
 
 
 def select_bird(bird, n) -> None:

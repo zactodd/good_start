@@ -2,8 +2,10 @@ import utils
 from typing import Set, Tuple, List
 import random
 import cards
+from functools import cache
 
 
+@cache
 def bird_selection(hand: List[str], tray: List[str]) -> Tuple[List[str], Set[str]]:
     for items in cards.Deck().bird_importance:
         birds, food_suggestion, tray_req = items.values()
@@ -23,5 +25,6 @@ def bird_selection(hand: List[str], tray: List[str]) -> Tuple[List[str], Set[str
                     return birds, food_suggestion
 
 
+@cache
 def bonus_selection(bonus_cards: List[str]) -> str:
     return min(bonus_cards, key=lambda c: cards.Deck().bonus_importance.index(c))

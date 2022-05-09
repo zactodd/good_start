@@ -12,7 +12,6 @@ from collections import Counter
 import atexit
 from datetime import datetime
 import subprocess
-import autoit
 
 
 WINGSPAN_PATH = 'C:\\Users\\thoma\\Desktop\\Wingspan.url'
@@ -146,7 +145,7 @@ if __name__ == '__main__':
                 average_time = (average_time * checks + (time.perf_counter() - run_time)) / (checks + 1)
                 checks += 1
                 gi.new_game_from_game()
-        except (SystemError, ValueError, autoit.autoit.AutoItError) as e:
+        except (SystemError, ValueError) as e:
             traceback.print_exception(*sys.exc_info())
             root_logger.error(e)
             gi.kill_window()

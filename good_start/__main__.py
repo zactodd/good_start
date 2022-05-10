@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
     start = time.perf_counter()
     while True:
-        if round(time.perf_counter() - start + 1) % 7200 == 0:
+        if int(time.perf_counter() - start + 1) % 1800 == 0:
             logging.info(f'Average run time: {average_time:.2f}s')
             logging.info(f'Success rate: {checks / successes * 100:.8f}%')
             gi.kill_window()

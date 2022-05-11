@@ -2,12 +2,13 @@ import autoit
 import key_positions as kp
 import time
 import ctypes
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 import cv2
 import pytesseract
 import numpy as np
 from PIL import ImageGrab
 import matplotlib.pyplot as plt
+import card_selection as cs
 import subprocess
 import utils
 import cards
@@ -22,15 +23,30 @@ def _window_bbox_from_name(name: str)-> Tuple[int, int, int, int]:
 
 
 def window_bbox() -> Tuple[int, int, int, int]:
+    """
+    Gets the bounding box of the game.
+    :return: The bounding box of the game, x0, y0, x1, y1.
+    """
     return _window_bbox_from_name('Wingspan')
 
 
 def window_dimensions() -> Tuple[int, int]:
+    """
+    Gets the dimensions of the game window.
+    :return: The dimensions of the game window, width, height.
+    """
     x0, y0, x1, y1 = window_bbox()
     return x1 - x0, y1 - y0
 
 
 def move_and_click(x: float, y: float) -> None:
+    """
+    Moves the mouse to the given coordinates and clicks.
+    The x and y coords are scaled to the size of thw game window.
+    :param x: The x coordinate.
+    :param y: The y coordinate.
+    :return:
+    """
     w, h = window_dimensions()
     x0, y0, *_ = window_bbox()
     if x > 1:
@@ -39,6 +55,13 @@ def move_and_click(x: float, y: float) -> None:
 
 
 def move(x: float, y: float) -> None:
+    """
+    Moves the mouse to the given coordinates.
+    The x and y coords are scaled to the size of thw game window.
+    :param x: The x coordinate.
+    :param y: The y coordinate.
+    :return:
+    """
     w, h = window_dimensions()
     x0, y0, *_ = window_bbox()
     if x > 1:
@@ -53,39 +76,73 @@ def _is_responding(name: str) -> bool:
 
 
 def is_responding() -> bool:
+    """
+    Checks if the game is responding.
+    :return: True if the game is responding, False otherwise.
+    """
     return _is_responding('Wingspan.exe')
 
 
 def activate_window() -> None:
+    """
+    Activates the game window.
+    :return:
+    """
     autoit.win_activate('Wingspan')
 
 
 def kill_window() -> None:
+    """
+    Kills the game window, if it exists.
+    :return:
+    """
     if window_exists():
         autoit.win_kill('Wingspan')
 
 
 def window_exists() -> bool:
+    """
+    Checks if the game window exists.
+    :return:
+    """
     return autoit.win_exists('Wingspan')
 
 
 def click_buttons(buttons, wait=0.5) -> None:
+    """
+    Moves and clicks the mouse on the given buttons.
+    :param buttons: A list of buttons to click.
+    :param wait: The amount of time to wait between clicks.
+    :return:
+    """
     for button in buttons:
         move_and_click(*button)
         time.sleep(wait)
 
 
 def menu_from_start() -> None:
+    """
+    Moves the mouse to the menu from the start screen.
+    :return:
+    """
     click_buttons(kp.FIRST_MENU_TRAVERSAL)
 
 
 def new_game_from_game() -> None:
+    """
+    Moves from the current thought the menus to a new game.
+    :return:
+    """
     exit_game()
     time.sleep(3)
     click_buttons(kp.MENU_TRAVERSAL)
 
 
 def new_game_from_game_with_delete() -> None:
+    """
+    Moves from the current thought the menus to a new game, while deleting the current game.
+    :return:
+    """
     time.sleep(3)
     move_and_click(*kp.PLAY_BUTTON)
     time.sleep(0.2)
@@ -95,12 +152,22 @@ def new_game_from_game_with_delete() -> None:
 
 
 def exit_game() -> None:
+    """
+    Moves from the current thought the menus to the exit game.
+    :return:
+    """
     click_buttons(kp.EXIT_GAME, wait=1)
 
 
-def select_bird(bird, n) -> None:
+def select_and_play_bird(bird: str, attempts: int = 10) -> None:
+    """
+    Selects the given bird and plays it.
+    :param bird: The bird to select.
+    :param attempts: The number of attempts to select the bird.
+    :return:
+    """
     autoit.send('{UP}')
-    for _ in range(n):
+    for _ in range(attempts):
         time.sleep(1)
         if bird == extract_highlighted_card():
             autoit.send('{SPACE}')
@@ -144,9 +211,33 @@ def select_bird(bird, n) -> None:
         raise ValueError('Could not find bird')
 
 
+def select_starting_cards(birds: List[str], bird_locations: Dict[str, Tuple[int, int]], food: List[str]) -> None:
+    """
+    Selects the given birds, food and bonus cards.
+    :param birds:
+    :param bird_locations:
+    :param food:
+    :return:
+    """
+    for b in birds:
+        move_and_click(*bird_locations[b])
+        time.sleep(0.5)
+    for f in food:
+        move_and_click(*kp.RESOURCES_TO_BUTTONS[f.lower()])
+        time.sleep(0.5)
+    move_and_click(*kp.NEXT_BUTTON)
+    time.sleep(1)
+
+    bonuses, centres, bonus_image = extract_bonus_cards()
+    bonus_centres = dict(zip(bonuses, centres))
+    bonus = cs.bonus_selection(bonuses)
+    move_and_click(*bonus_centres[bonus])
+    time.sleep(0.5)
+    move_and_click(*kp.NEXT_BUTTON)
 
 
-def find_contours(grey_image) -> List[List[int]]:
+
+def find_contours(grey_image: np.ndarray) -> List[List[int]]:
     """
     Finds all the contours from a grey scale image.
     :param grey_image: A grey scale image.
@@ -156,7 +247,7 @@ def find_contours(grey_image) -> List[List[int]]:
     contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     return contours
 
-def contour_centre(contour) -> Tuple[float, float]:
+def contour_centre(contour: List[int]) -> Tuple[float, float]:
     """
     Calculates the centre of the contour.
     :param contour: The contour in which to obtain the centre.
@@ -165,7 +256,7 @@ def contour_centre(contour) -> Tuple[float, float]:
     m = cv2.moments(contour)
     return m["m10"] / m["m00"], m["m01"] / m["m00"]
 
-def filter_contours_by_area(contours, upper, lower) -> List[List[int]]:
+def filter_contours_by_area(contours: List[List[int]], upper: int, lower: int) -> List[List[int]]:
     """
     Filters a list of contours by area.
     :param contours: A list of contours.
@@ -212,7 +303,13 @@ def draw_contours(image: np.ndarray, contours: List[List[int]]) -> None:
     plt.show()
 
 
-def text_from_image(image, words):
+def text_from_image(image: np.ndarray, words: List[str]) -> str:
+    """
+    Extracts text from an image.
+    :param image: The image to extract from.
+    :param words: A list of possible words that are contained within the image.
+    :return: The matched word.
+    """
     img = cv2.resize(image, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
     custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     text = pytesseract.image_to_string(img, config=custom_config).strip()

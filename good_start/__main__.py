@@ -55,7 +55,7 @@ if __name__ == '__main__':
     while True:
         if time.perf_counter() - start > 7200:
             logging.info(f'Average run time: {average_time:.2f}s')
-            logging.info(f'Success rate: {checks / successes * 100 if successes else 0.00:.8f}%')
+            logging.info(f'Success rate: {successes / checks:.8f}%')
             gi.kill_window()
             time.sleep(3)
             start = time.perf_counter()
@@ -92,6 +92,7 @@ if __name__ == '__main__':
                     time.sleep(0.5)
                     gi.select_starting_cards(selected_birds, bird_centres, food)
                     gi.post_starting_selection_validation()
+                    successes += 1
             else:
                 average_time = (average_time * checks + (time.perf_counter() - run_time)) / (checks + 1)
                 checks += 1

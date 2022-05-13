@@ -13,8 +13,8 @@ with open(osp.join(_BIRD_NAMES, 'ss.txt'), 'r') as f:
     _SS_BIRDS = f.read().splitlines()
 with open(osp.join(_BIRD_NAMES, 'ee.txt'), 'r') as f:
     _EE_BIRDS = f.read().splitlines()
-with open(osp.join(_BIRD_NAMES, 'oe.txt'), 'r') as f:
-    _OE_BIRDS = f.read().splitlines()
+# with open(osp.join(_BIRD_NAMES, 'oe.txt'), 'r') as f:
+#     _OE_BIRDS = f.read().splitlines()
 
 _BIRD_IMPORTANCE = osp.join(utils.RESOURCES, 'bird_importance')
 with open(osp.join(_BIRD_IMPORTANCE, 'base.json'), 'r') as f:
@@ -45,7 +45,7 @@ _BIRD_DECKS = {
     'base': _BASE_BIRDS,
     'ss': _SS_BIRDS,
     'ee': _EE_BIRDS,
-    'oe': _OE_BIRDS
+    # 'oe': _OE_BIRDS
 }
 
 _BIRD_IMPORTANCE_DECKS = {

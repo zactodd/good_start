@@ -28,6 +28,8 @@ with open(osp.join(_BONUS_CARDS, 'base.txt'), 'r') as f:
     _BASE_BONUS_CARDS = f.read().splitlines()
 with open(osp.join(_BONUS_CARDS, 'ee.txt'), 'r') as f:
     _EE_BONUS_CARDS = f.read().splitlines()
+with open(osp.join(_BONUS_CARDS, 'oe.txt'), 'r') as f:
+    _OE_BONUS_CARDS = f.read().splitlines()
 
 _BONUS_CARD_IMPORTANCE = osp.join(utils.RESOURCES, 'importance_bonus_cards')
 with open(osp.join(_BONUS_CARD_IMPORTANCE, 'base.txt'), 'r') as f:
@@ -48,13 +50,19 @@ _BIRD_IMPORTANCE_DECKS = {
     frozenset({'base', 'ss'}): _BASE_WITH_SS_BIRD_IMPORTANCE,
     frozenset({'base', 'ee'}): _BASE_WITH_SS_EE_BIRD_IMPORTANCE,
     frozenset({'base', 'ss', 'ee'}): _BASE_WITH_SS_EE_BIRD_IMPORTANCE,
-
+    # frozenset({'base', 'oe'}): ,
+    # frozenset({'base', 'ss', 'oe'}): ,
+    # frozenset({'base', 'ee', 'oe'}): ,
+    # frozenset({'base', 'ss', 'ee', 'oe'}): ,
+    # frozenset({'ee', 'oe'}): ,
+    # frozenset({'ss', 'ee', 'oe'}):
 }
 
 _BONUS_CARD_DECKS = {
     'base': _BASE_BONUS_CARDS,
     'ss': [],
-    'ee': _EE_BONUS_CARDS
+    'ee': _EE_BONUS_CARDS,
+    'oe': _OE_BONUS_CARDS
 }
 
 _BONUS_CARD_IMPORTANCE_DECKS = {

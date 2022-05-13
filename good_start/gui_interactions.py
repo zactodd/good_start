@@ -236,32 +236,35 @@ def select_starting_cards(birds: List[str], bird_locations: Dict[str, Tuple[int,
     move_and_click(*kp.NEXT_BUTTON)
 
 
-def post_starting_selection_validation():
-    if True:  # any(b in utils.BIRD_GROUPS and 'hummingbird' in utils.BIRD_GROUPS[b].lower() for b in tray):
+def post_starting_selection_validation(birds, tray) -> bool:
+    success = True
+    if any(b in utils.BIRD_GROUPS and 'hummingbird' in utils.BIRD_GROUPS[b].lower() for b in tray):
         time.sleep(3)
-        new_game_from_game()
     else:
-        time.sleep(30)
-        move_and_click(*kp.TURN_START_BUTTON)
-        time.sleep(1)
-        move_and_click(*kp.OVERVIEW_BUTTON)
-        time.sleep(1)
-        select_and_play_bird(selected_birds[0], len(selected_birds))
-        time.sleep(30)
-        move_and_click(*kp.TURN_START_BUTTON)
-        time.sleep(0.5)
+        if utils.BIRD_GROUPS[birds[0]] == 'Draw':
+            time.sleep(30)
+            move_and_click(*kp.TURN_START_BUTTON)
+            time.sleep(1)
+            move_and_click(*kp.OVERVIEW_BUTTON)
+            time.sleep(1)
+            select_and_play_bird(birds[0], len(birds))
+            time.sleep(30)
+            move_and_click(*kp.TURN_START_BUTTON)
+            time.sleep(0.5)
 
-        for pos in kp.PLAYER_BOARDS_POSITIONS[1:]:
-            move_and_click(*pos)
-            time.sleep(3)
-            if any(b in utils.BIRD_GROUPS and 'Hummingbird' in utils.BIRD_GROUPS[b]
-                   for h in gi.extract_player_board() for b in h):
-                selected_games.append((birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image))
-                successes += 1
-                new_game_from_game()
-                break
-        else:
+            for pos in kp.PLAYER_BOARDS_POSITIONS[1:]:
+                move_and_click(*pos)
+                time.sleep(3)
+                if any(b in utils.BIRD_GROUPS and 'Hummingbird' in utils.BIRD_GROUPS[b]
+                       for h in extract_player_board() for b in h):
+                    break
+            else:
+                success = False
+        if success:
             new_game_from_game()
+        else:
+            new_game_from_game_with_delete()
+        return success
 
 
 def find_contours(grey_image: np.ndarray) -> List[List[int]]:

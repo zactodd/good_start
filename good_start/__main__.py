@@ -91,8 +91,7 @@ if __name__ == '__main__':
                     # Select birds
                     time.sleep(0.5)
                     gi.select_starting_cards(selected_birds, bird_centres, food)
-                    gi.post_starting_selection_validation(selected_birds, tray)
-                    successes += 1
+                    successes += gi.post_starting_selection_validation(selected_birds, tray)
             else:
                 average_time = (average_time * checks + (time.perf_counter() - run_time)) / (checks + 1)
                 checks += 1

@@ -259,12 +259,12 @@ def post_starting_selection_validation(birds, tray) -> bool:
                        for h in extract_player_board() for b in h):
                     break
             else:
-                success = False
-        if success:
-            new_game_from_game()
-        else:
-            new_game_from_game_with_delete()
-        return success
+                pass # success = False
+    if success:
+        new_game_from_game()
+    else:
+        new_game_from_game_with_delete()
+    return success
 
 
 def find_contours(grey_image: np.ndarray) -> List[List[int]]:

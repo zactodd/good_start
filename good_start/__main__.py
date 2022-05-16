@@ -6,11 +6,6 @@ import card_selection as cs
 import cards
 import gui_interactions as gi
 import key_positions as kp
-import matplotlib.pyplot as plt
-import utils
-from collections import Counter
-import atexit
-from datetime import datetime
 import subprocess
 
 
@@ -18,31 +13,8 @@ WINGSPAN_PATH = 'C:\\Users\\thoma\\Desktop\\Wingspan.url'
 
 cards.Deck(['base', 'ss', 'ee'])
 
-
-selected_games = []
 root_logger = logging.getLogger()
 root_logger.setLevel(logging.DEBUG)
-
-@atexit.register
-def _on_kill() -> None:
-    print("Post run statistics")
-    bird_games = Counter()
-    bonus_games = Counter()
-    save_time = datetime.now()
-    for i, (birds, selected_birds, food, bonuses, bonus, bird_image, bonus_image) \
-            in enumerate(reversed(selected_games)):
-        print(f'Game:\n'
-              f'\tbirds:\t {list(birds)}\n\t\t->\t{list(selected_birds)}\n'
-              f'\tfood:\t {food}\n'
-              f'\tbonuses:\t {bonuses}\n\t\t->\t{bonus}')
-
-        bird_games[tuple(selected_birds)] += 1
-        bonus_games[bonus] += 1
-
-        birds_image_name = "__".join(b.replace("'", "").replace(" ", "_").lower() for b in selected_birds)
-        time_prefix = f'{utils.SELECTED_IMAGES}/game__{save_time:%y_%M_%d}__{i}'
-        plt.imsave(f'{time_prefix}__birds__{birds_image_name}.png', bird_image)
-        plt.imsave(f'{time_prefix}__bonus__{bonus}.png', bonus_image)
 
 
 if __name__ == '__main__':

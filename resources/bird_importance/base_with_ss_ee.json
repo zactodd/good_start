@@ -102,7 +102,6 @@
     "food": ["invertebrate", "seed", "fruit"],
     "tray": ["Barn Swallow", "American Robin", "House Finch"]
   },
-
   {
     "birds": ["Dark-Eyed Junco", "Killdeer"],
     "food": ["invertebrate", "seed"],

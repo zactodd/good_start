@@ -342,5 +342,10 @@
     "birds": ["Ruby-Throated Hummingbird", "Bronzed Cowbird"],
     "food": ["fruit", "invertebrate", "seed"],
     "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Wood Duck", "Pileated Woodpecker"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Eurasian Nutcracker"]
   }
 ]

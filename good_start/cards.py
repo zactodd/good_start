@@ -25,6 +25,8 @@ with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ee.json'), 'r') as f:
     _BASE_WITH_EE_BIRD_IMPORTANCE = json.load(f)
 with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss_ee.json'), 'r') as f:
     _BASE_WITH_SS_EE_BIRD_IMPORTANCE = json.load(f)
+with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss_oe.json'), 'r') as f:
+    _BASE_WITH_SS_OE_BIRD_IMPORTANCE = json.load(f)
 
 
 _BONUS_CARDS = osp.join(utils.RESOURCES, 'bonus_cards')
@@ -60,7 +62,7 @@ _BIRD_IMPORTANCE_DECKS = {
     # frozenset({'base', 'ee', 'oe'}): ,
     # frozenset({'base', 'ss', 'ee', 'oe'}): ,
     # frozenset({'ee', 'oe'}): ,
-    # frozenset({'ss', 'ee', 'oe'}):
+    frozenset({'ss', 'ee', 'oe'}): _BASE_WITH_SS_OE_BIRD_IMPORTANCE
 }
 
 _BONUS_CARD_DECKS = {

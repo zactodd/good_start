@@ -234,6 +234,7 @@ def select_starting_cards(birds: List[str], bird_locations: Dict[str, Tuple[int,
     move_and_click(*bonus_centres[bonus])
     time.sleep(0.5)
     move_and_click(*kp.NEXT_BUTTON)
+    time.sleep(2)
 
 
 def post_starting_selection_validation(birds, tray) -> bool:

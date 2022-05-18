@@ -82,7 +82,7 @@
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
       "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Gray Catbird", "Northern Mockingbird", "Canada Goose",
-      "Sandhill Crane", "Budgerigar", "Galah"]
+      "Sandhill Crane", "Budgerigar", "Galah", "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Killdeer", "Common Raven"],
@@ -90,12 +90,13 @@
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
       "Brewer's Blackbird", "Common Grackle", "Gray Catbird", "Northern Mockingbird", "Canada Goose", "Sandhill Crane",
-      "Budgerigar", "Galah"]
+      "Budgerigar", "Galah", "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Franklin's Gull", "Belted Kingfisher"],
     "food": ["invertebrate", "fish", "seed"],
-    "tray": [ "Dark-Eyed Junco", "Cedar Waxwing", "Common Raven", "Chihuahuan Raven", "Budgerigar"]
+    "tray": [ "Dark-Eyed Junco", "Cedar Waxwing", "Common Raven", "Chihuahuan Raven", "Budgerigar", 
+      "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Franklin's Gull", "Chihuahuan Raven"],
@@ -103,7 +104,7 @@
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
       "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Gray Catbird", "Northern Mockingbird", "Canada Goose",
-      "Sandhill Crane", "Budgerigar", "Galah"]
+      "Sandhill Crane", "Budgerigar", "Galah", "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Franklin's Gull", "Common Raven"],
@@ -111,47 +112,55 @@
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
       "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Gray Catbird", "Northern Mockingbird", "Canada Goose",
-      "Sandhill Crane", "Budgerigar", "Galah"]
+      "Sandhill Crane", "Budgerigar", "Galah", "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Killdeer", "Barn Swallow"],
     "food": ["invertebrate", "fruit", "seed"],
-    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Killdeer", "American Robin"],
     "food": ["fruit", "invertebrate", "seed"],
-    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Killdeer", "Purple Martin"],
     "food": ["invertebrate", "fruit", "seed"],
-    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Franklin's Gull", "Barn Swallow"],
     "food": ["fish", "seed", "invertebrate"],
-    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Franklin's Gull", "American Robin"],
     "food": ["fish", "invertebrate", "seed"],
-    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Franklin's Gull", "Purple Martin"],
     "food": ["fish", "seed", "invertebrate"],
-    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Killdeer", "House Finch"],
     "food": ["fruit", "seed", "invertebrate"],
-    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven"]
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Killdeer"],
     "food": ["fruit", "invertebrate", "seed", "rodent"],
-    "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird"]
+    "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird",
+      "Major Mitchell's Cockatoo"]
   },
   {
     "birds": ["Red-Winged Blackbird", "Anna's Hummingbird"],

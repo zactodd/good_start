@@ -120,5 +120,45 @@
     "birds": ["Killdeer"],
     "food": ["fruit", "invertebrate", "seed", "rodent"],
     "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing", "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Red-Winged Blackbird", "Anna's Hummingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Northern Mockingbird"]
+  },
+  {
+    "birds": ["Red-Winged Blackbird", "Ruby-Throated Hummingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Northern Mockingbird"]
+  },
+  {
+    "birds": ["Anna's Hummingbird", "Northern Mockingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
+  },
+  {
+    "birds": ["Ruby-Throated Hummingbird", "Northern Mockingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
+  },
+  {
+    "birds": ["Anna's Hummingbird", "Brown-Headed Cowbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Ruby-Throated Hummingbird", "Brown-Headed Cowbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Anna's Hummingbird", "Bronzed Cowbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Ruby-Throated Hummingbird", "Bronzed Cowbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
   }
 ]

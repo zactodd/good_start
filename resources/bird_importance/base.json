@@ -132,14 +132,46 @@
     "tray": ["Northern Mockingbird"]
   },
   {
+    "birds": ["Yellow-Headed Blackbird", "Anna's Hummingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Northern Mockingbird"]
+  },
+  {
+    "birds": ["Yellow-Headed Blackbird", "Ruby-Throated Hummingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Northern Mockingbird"]
+  },
+  {
+    "birds": ["Common Grackle", "Anna's Hummingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Northern Mockingbird"]
+  },
+  {
+    "birds": ["Common Grackle", "Ruby-Throated Hummingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Northern Mockingbird"]
+  },
+  {
+    "birds": ["Bushtit", "Anna's Hummingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Northern Mockingbird"]
+  },
+  {
+    "birds": ["Bushtit", "Ruby-Throated Hummingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Northern Mockingbird"]
+  },
+  {
     "birds": ["Anna's Hummingbird", "Northern Mockingbird"],
     "food": ["fruit", "invertebrate", "seed"],
-    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Brown-Headed Cowbird",
+      "Bronzed Cowbird"]
   },
   {
     "birds": ["Ruby-Throated Hummingbird", "Northern Mockingbird"],
     "food": ["fruit", "invertebrate", "seed"],
-    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Brown-Headed Cowbird",
+      "Bronzed Cowbird"]
   },
   {
     "birds": ["Anna's Hummingbird", "Brown-Headed Cowbird"],

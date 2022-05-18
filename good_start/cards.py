@@ -21,6 +21,8 @@ with open(osp.join(_BIRD_IMPORTANCE, 'base.json'), 'r') as f:
     _BASE_BIRD_IMPORTANCE = json.load(f)
 with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss.json'), 'r') as f:
     _BASE_WITH_SS_BIRD_IMPORTANCE = json.load(f)
+with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ee.json'), 'r') as f:
+    _BASE_WITH_EE_BIRD_IMPORTANCE = json.load(f)
 with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss_ee.json'), 'r') as f:
     _BASE_WITH_SS_EE_BIRD_IMPORTANCE = json.load(f)
 
@@ -51,7 +53,7 @@ _BIRD_DECKS = {
 _BIRD_IMPORTANCE_DECKS = {
     frozenset({'base'}): _BASE_BIRD_IMPORTANCE,
     frozenset({'base', 'ss'}): _BASE_WITH_SS_BIRD_IMPORTANCE,
-    frozenset({'base', 'ee'}): _BASE_WITH_SS_EE_BIRD_IMPORTANCE,
+    frozenset({'base', 'ee'}): _BASE_WITH_EE_BIRD_IMPORTANCE,
     frozenset({'base', 'ss', 'ee'}): _BASE_WITH_SS_EE_BIRD_IMPORTANCE,
     # frozenset({'base', 'oe'}): ,
     # frozenset({'base', 'ss', 'oe'}): ,

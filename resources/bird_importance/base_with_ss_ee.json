@@ -235,7 +235,7 @@
     "food": ["fruit", "invertebrate", "seed", "rodent"],
     "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing"]
   },
-    {
+  {
     "birds": ["Common Nightingale", "Ruby-Throated Hummingbird"],
     "food": ["fruit", "invertebrate", "seed"],
     "tray": ["Northern Mockingbird"]

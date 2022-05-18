@@ -30,7 +30,21 @@
       "Northern Mockingbird", "Common Raven", "Chihuahuan Raven", "Budgerigar"]
   },
   {
+    "birds": ["Killdeer", "Sacred Kingfisher"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Budgerigar"]
+  },
+  {
     "birds": ["Killdeer", "Eastern Kingbird"],
+    "food": ["invertebrate", "seed", "fruit"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Budgerigar"]
+  },
+  {
+    "birds": ["Killdeer", "Australian Owlet-Nightjar"],
     "food": ["invertebrate", "seed", "fruit"],
     "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
       "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
@@ -40,6 +54,20 @@
     "birds": ["Killdeer", "Belted Kingfisher"],
     "food": ["invertebrate", "fish", "seed"],
     "tray": [ "Dark-Eyed Junco", "Cedar Waxwing", "Common Raven", "Chihuahuan Raven", "Budgerigar"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Sacred Kingfisher"],
+    "food": ["invertebrate", "fish", "seed"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Budgerigar"]
+  },
+  {
+    "birds": ["Franklin's Gull", "Australian Owlet-Nightjar"],
+    "food": ["invertebrate", "fish", "seed"],
+    "tray": ["Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",
+      "Brewer's Blackbird", "Common Grackle", "Dickcissel", "Northern Mockingbird", "Common Raven", "Chihuahuan Raven",
+      "Budgerigar"]
   },
   {
     "birds": ["Franklin's Gull", "Eastern Kingbird"],

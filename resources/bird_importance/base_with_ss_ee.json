@@ -344,7 +344,7 @@
     "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
   },
   {
-    "birds": ["Wood Duck", "Pileated Woodpecker"],
+    "birds": ["Pileated Woodpecker", "Wood Duck"],
     "food": ["fruit", "invertebrate", "seed"],
     "tray": ["Eurasian Nutcracker"]
   }

@@ -302,6 +302,12 @@
       "Bronzed Cowbird", "Common Cuckoo"]
   },
   {
+    "birds": ["Black-Headed Gull", "Northern Mockingbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Brown-Headed Cowbird",
+      "Bronzed Cowbird", "Common Cuckoo"]
+  },
+  {
     "birds": ["Anna's Hummingbird", "Northern Mockingbird"],
     "food": ["fruit", "invertebrate", "seed"],
     "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Brown-Headed Cowbird",
@@ -319,6 +325,11 @@
     "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
   },
   {
+    "birds": ["Common Nightingale", "Black-Headed Gull"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
+  },
+  {
     "birds": ["Anna's Hummingbird", "Brown-Headed Cowbird"],
     "food": ["fruit", "invertebrate", "seed"],
     "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
@@ -330,6 +341,11 @@
   },
   {
     "birds": ["Common Nightingale", "Bronzed Cowbird"],
+    "food": ["fruit", "invertebrate", "seed"],
+    "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
+  },
+  {
+    "birds": ["Black-Headed Gull", "Bronzed Cowbird"],
     "food": ["fruit", "invertebrate", "seed"],
     "tray": ["Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird", "Northern Mockingbird"]
   },

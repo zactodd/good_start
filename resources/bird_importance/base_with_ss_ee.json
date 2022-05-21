@@ -113,16 +113,6 @@
     "tray": ["Brown-Headed Cowbird", "Bushtit", "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
   },
   {
-    "birds": ["Mute Swan", "Brown-Headed Cowbird"],
-    "food": ["invertebrate", "seed", "fruit"],
-    "tray": ["Barn Swallow", "American Robin", "House Finch"]
-  },
-  {
-    "birds": ["Mute Swan", "Bronzed Cowbird"],
-    "food": ["invertebrate", "seed", "fruit"],
-    "tray": ["Barn Swallow", "American Robin", "House Finch"]
-  },
-  {
     "birds": ["Dark-Eyed Junco", "Killdeer"],
     "food": ["invertebrate", "seed"],
     "tray": ["Common Raven", "Chihuahuan Raven", "Barn Swallow", "American Robin", "Purple Martin",

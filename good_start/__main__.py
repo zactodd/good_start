@@ -2,7 +2,7 @@ import time
 import traceback
 import sys
 import logging
-import card_selection as cs
+import selection
 import cards
 import gui_interactions as gi
 import key_positions as kp
@@ -56,8 +56,8 @@ if __name__ == '__main__':
                 bird_centres = dict(zip(birds, centres))
 
                 # Select birds, food and bonus cards if valid birds in hand
-                if selection := cs.bird_selection(birds, tray):
-                    selected_birds, food = selection
+                if selection_items := selection.bird_selection(birds, tray):
+                    selected_birds, food = selection_items
                     logging.info(f'Selected birds: {selected_birds}')
 
                     # Select birds

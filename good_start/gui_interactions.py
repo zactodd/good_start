@@ -8,7 +8,7 @@ import pytesseract
 import numpy as np
 from PIL import ImageGrab
 import matplotlib.pyplot as plt
-import card_selection as cs
+import selection
 import subprocess
 import utils
 import cards
@@ -230,7 +230,7 @@ def select_starting_cards(birds: List[str], bird_locations: Dict[str, Tuple[int,
 
     bonuses, centres, bonus_image = extract_bonus_cards()
     bonus_centres = dict(zip(bonuses, centres))
-    bonus = cs.bonus_selection(bonuses)
+    bonus = selection.bonus_selection(bonuses)
     move_and_click(*bonus_centres[bonus])
     time.sleep(0.5)
     move_and_click(*kp.NEXT_BUTTON)

@@ -68,11 +68,18 @@
     "tray": ["Common Chiffchaff", "Mute Swan", "Greater Flaningo"]
   },
   {
-    "birds": ["Common Chiffchaff", "Brown-Headed Cowbird"],
+    "birds": ["Common Chiffchaff", "Savi's Warbler"],
     "food": ["invertebrate", "seed", "fruit"],
     "tray": ["American Coot", "Barn Swallow", "House Finch", "Purple Martin", "Ring-Billed Gull", "Tree Swallow",
-      "Violet-Green Swallow", "Audouin's Gull", "Greater Flaningo", "Mute Swan", "Gray Catbird",
-      "Northern Mockingbird", "Savi's Warbler"]
+      "Violet-Green Swallow", "Audouin's Gull", "Greater Flaningo", "Mute Swan", "Northern Mockingbird", "Bushtit",
+      "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
+  },
+    {
+    "birds": ["Common Chiffchaff", "Audouin's Gull"],
+    "food": ["invertebrate", "seed", "fish"],
+    "tray": ["American Coot", "Barn Swallow", "House Finch", "Purple Martin", "Ring-Billed Gull", "Tree Swallow",
+      "Violet-Green Swallow", "Savi's Warbler", "Greater Flaningo", "Mute Swan", "Northern Mockingbird", "Bushtit",
+      "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
   },
   {
     "birds": ["Common Chiffchaff", "Brown-Headed Cowbird"],
@@ -373,5 +380,11 @@
     "birds": ["Pileated Woodpecker", "Wood Duck"],
     "food": ["fruit", "invertebrate", "seed"],
     "tray": ["Eurasian Nutcracker"]
+  },
+  {
+    "birds": ["Savi's Warbler", "Audouin's Gull"],
+    "food": ["fish", "invertebrate", "seed"],
+    "tray": ["Common Chiffchaff", "Mute Swan", "Greater Flaningo", "Bushtit", "Red-Winged Blackbird", "Common Grackle",
+      "Yellow-Headed Blackbird", "Northern Mockingbird"]
   }
 ]

@@ -89,7 +89,7 @@
       "Northern Mockingbird", "Savi's Warbler"]
   },
   {
-    "birds": ["Killdeer", "Eurasian Tree Sparrow"],
+    "birds": ["Eurasian Tree Sparrow", "Killdeer"],
     "food": ["invertebrate", "seed", "fruit"],
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",
       "Dark-Eyed Junco", "Cedar Waxwing", "Bushtit", "Red-Winged Blackbird", "White-Throated Swift",

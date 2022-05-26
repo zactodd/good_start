@@ -242,7 +242,7 @@ def post_starting_selection_validation(birds, tray) -> bool:
     if any(b in utils.BIRD_GROUPS and 'hummingbird' in utils.BIRD_GROUPS[b].lower() for b in tray):
         time.sleep(3)
     else:
-        if utils.BIRD_GROUPS[birds[0]] == 'Draw':
+        if birds[0] in utils.BIRD_GROUPS and utils.BIRD_GROUPS[birds[0]] == 'Draw':
             time.sleep(30)
             move_and_click(*kp.TURN_START_BUTTON)
             time.sleep(1)

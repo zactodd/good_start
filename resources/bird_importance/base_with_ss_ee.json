@@ -82,13 +82,6 @@
       "Red-Winged Blackbird", "Common Grackle", "Yellow-Headed Blackbird"]
   },
   {
-    "birds": ["Common Chiffchaff", "Brown-Headed Cowbird"],
-    "food": ["invertebrate", "seed", "fruit"],
-    "tray": ["American Coot", "Barn Swallow", "House Finch", "Purple Martin", "Ring-Billed Gull", "Tree Swallow",
-      "Violet-Green Swallow", "Audouin's Gull", "Greater Flaningo", "Mute Swan", "Gray Catbird",
-      "Northern Mockingbird", "Savi's Warbler"]
-  },
-  {
     "birds": ["Eurasian Tree Sparrow", "Killdeer"],
     "food": ["invertebrate", "seed", "fruit"],
     "tray": ["Barn Swallow", "American Robin", "Purple Martin", "Violet-Green Swallow", "House Finch",

@@ -278,6 +278,7 @@ def find_contours(grey_image: np.ndarray) -> List[List[int]]:
     contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     return contours
 
+
 def contour_centre(contour: List[int]) -> Tuple[float, float]:
     """
     Calculates the centre of the contour.
@@ -286,6 +287,7 @@ def contour_centre(contour: List[int]) -> Tuple[float, float]:
     """
     m = cv2.moments(contour)
     return m["m10"] / m["m00"], m["m01"] / m["m00"]
+
 
 def filter_contours_by_area(contours: List[List[int]], upper: int, lower: int) -> List[List[int]]:
     """

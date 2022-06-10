@@ -401,7 +401,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -471,7 +471,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -536,7 +536,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -596,7 +596,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -651,7 +651,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -706,52 +706,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Anna's Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -996,7 +996,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -1061,7 +1061,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -1121,7 +1121,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -1176,7 +1176,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -1231,52 +1231,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Anna's Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -1516,7 +1516,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -1576,7 +1576,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -1631,7 +1631,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -1686,52 +1686,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Anna's Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -1966,7 +1966,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -2021,7 +2021,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -2076,52 +2076,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -2351,7 +2351,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -2406,52 +2406,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -2681,52 +2681,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -2956,227 +2956,227 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Common Nightingale", "Hawfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Common Nightingale", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Hawfinch", "Bullfinch"],
 		"food": ["seed"],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -3796,7 +3796,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Blue Jay", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Blue Jay", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -3861,7 +3861,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Juniper Titmouse", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -3921,7 +3921,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -3976,7 +3976,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -4031,52 +4031,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Carolina Chickadee", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -4316,7 +4316,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Juniper Titmouse", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Juniper Titmouse", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -4376,7 +4376,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Mountain Chickadee", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -4431,7 +4431,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -4486,52 +4486,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Blue Jay", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -4766,7 +4766,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -4821,7 +4821,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -4876,52 +4876,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Juniper Titmouse", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -5151,7 +5151,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -5206,52 +5206,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Mountain Chickadee", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -5481,52 +5481,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red-Breasted Nuthatch", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -5756,227 +5756,227 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red-Bellied Woodpecker", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red-Bellied Woodpecker", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "White-Breasted Nuthatch", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "White-Breasted Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "White-Breasted Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "White-Breasted Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "White-Breasted Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "White-Breasted Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "White-Breasted Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red Crossbill", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red Crossbill", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red Crossbill", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red Crossbill", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red Crossbill", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red Crossbill", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Red Crossbill", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Anna's Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Anna's Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Coal Tit", "Red Crossbill", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -6591,7 +6591,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Juniper Titmouse", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Juniper Titmouse", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -6651,7 +6651,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Mountain Chickadee", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -6706,7 +6706,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -6761,52 +6761,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Blue Jay", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -7041,7 +7041,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -7096,7 +7096,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -7151,52 +7151,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Juniper Titmouse", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -7426,7 +7426,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -7481,52 +7481,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Mountain Chickadee", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -7756,52 +7756,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -8031,227 +8031,227 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red-Bellied Woodpecker", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "White-Breasted Nuthatch", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "White-Breasted Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "White-Breasted Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "White-Breasted Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red Crossbill", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red Crossbill", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red Crossbill", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red Crossbill", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red Crossbill", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red Crossbill", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Red Crossbill", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Anna's Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Anna's Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Carolina Chickadee", "Red Crossbill", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -8861,7 +8861,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Mountain Chickadee", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -8916,7 +8916,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -8971,52 +8971,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Juniper Titmouse", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -9246,7 +9246,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -9301,52 +9301,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Mountain Chickadee", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -9576,52 +9576,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red-Breasted Nuthatch", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -9851,227 +9851,227 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red-Bellied Woodpecker", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red-Bellied Woodpecker", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "White-Breasted Nuthatch", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "White-Breasted Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "White-Breasted Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "White-Breasted Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "White-Breasted Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red Crossbill", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red Crossbill", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red Crossbill", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red Crossbill", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red Crossbill", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red Crossbill", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Red Crossbill", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Anna's Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Anna's Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Blue Jay", "Red Crossbill", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -10676,7 +10676,7 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -10731,52 +10731,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Mountain Chickadee", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -11006,52 +11006,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red-Breasted Nuthatch", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -11281,227 +11281,227 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red-Bellied Woodpecker", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red-Bellied Woodpecker", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "White-Breasted Nuthatch", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "White-Breasted Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "White-Breasted Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "White-Breasted Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "White-Breasted Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red Crossbill", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red Crossbill", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red Crossbill", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red Crossbill", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red Crossbill", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red Crossbill", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Red Crossbill", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Anna's Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Juniper Titmouse", "Red Crossbill", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -12106,52 +12106,52 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red-Breasted Nuthatch", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -12381,227 +12381,227 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red-Bellied Woodpecker", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red-Bellied Woodpecker", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "White-Breasted Nuthatch", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "White-Breasted Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "White-Breasted Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "White-Breasted Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "White-Breasted Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red Crossbill", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red Crossbill", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red Crossbill", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red Crossbill", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red Crossbill", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red Crossbill", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Red Crossbill", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Anna's Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Mountain Chickadee", "Red Crossbill", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -13206,227 +13206,227 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red-Bellied Woodpecker", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red-Bellied Woodpecker", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "White-Breasted Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "White-Breasted Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red Crossbill", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red Crossbill", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red Crossbill", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red Crossbill", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red Crossbill", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red Crossbill", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Red Crossbill", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red-Breasted Nuthatch", "Red Crossbill", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -14031,602 +14031,602 @@
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Red Crossbill"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Red Crossbill"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "White-Breasted Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Red Crossbill", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Red Crossbill", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Red Crossbill", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Red Crossbill", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Red Crossbill", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Red Crossbill", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Red Crossbill", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Anna's Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red-Bellied Woodpecker", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red-Bellied Woodpecker", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill", "Anna's Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Red Crossbill", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Red Crossbill", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Red Crossbill", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Red Crossbill", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Anna's Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "White-Breasted Nuthatch", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "White-Breasted Nuthatch", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Anna's Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Anna's Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Anna's Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Red Crossbill", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Red Crossbill", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Eurasian Nuthatch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Ruby-Throated Hummingbird", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Anna's Hummingbird", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Anna's Hummingbird", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Eurasian Nuthatch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Nuthatch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Ruby-Throated Hummingbird", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Ruby-Throated Hummingbird", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow", "Common Nightingale"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow", "Common Nightingale"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Eurasian Tree Sparrow", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Eurasian Tree Sparrow", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Nuthatch", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Nuthatch", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Tree Sparrow", "Common Nightingale", "Hawfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale", "Hawfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Tree Sparrow", "Common Nightingale", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Tree Sparrow", "Common Nightingale", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Eurasian Tree Sparrow", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Eurasian Tree Sparrow", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
 	{
-		"birds": ["Brown-Headed Cowbird", "Red", "Common Nightingale", "Hawfinch", "Bullfinch"],
+		"birds": ["Brown-Headed Cowbird", "Red Crossbill", "Common Nightingale", "Hawfinch", "Bullfinch"],
 		"food": [],
 		"tray": ["Eurasian Nutcracker"]
 	},
@@ -15678,6 +15678,146 @@
 	{
 		"birds": ["Brown-Headed Cowbird", "Eurasian Tree Sparrow", "Common Nightingale", "Hawfinch", "Bullfinch"],
 		"food": [],
+		"tray": ["Eurasian Nutcracker"]
+	},
+  	{
+		"birds": ["Killdeer", "Coal Tit", "Carolina Chickadee"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Coal Tit", "Juniper Titmouse"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Coal Tit", "Mountain Chickadee"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Coal Tit", "Red-Breasted Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Coal Tit", "White-Breasted Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Coal Tit", "Eurasian Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Coal Tit", "Eurasian Tree Sparrow"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Carolina Chickadee", "Juniper Titmouse"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Carolina Chickadee", "Mountain Chickadee"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Carolina Chickadee", "Red-Breasted Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Carolina Chickadee", "White-Breasted Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Carolina Chickadee", "Eurasian Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Carolina Chickadee", "Eurasian Tree Sparrow"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Juniper Titmouse", "Mountain Chickadee"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Juniper Titmouse", "Red-Breasted Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Juniper Titmouse", "White-Breasted Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Juniper Titmouse", "Eurasian Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Juniper Titmouse", "Eurasian Tree Sparrow"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Mountain Chickadee", "Red-Breasted Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Mountain Chickadee", "White-Breasted Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Mountain Chickadee", "Eurasian Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Mountain Chickadee", "Eurasian Tree Sparrow"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Red-Breasted Nuthatch", "White-Breasted Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Red-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Red-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "White-Breasted Nuthatch", "Eurasian Nuthatch"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "White-Breasted Nuthatch", "Eurasian Tree Sparrow"],
+		"food": ["seed", "invertebrate"],
+		"tray": ["Eurasian Nutcracker"]
+	},
+	{
+		"birds": ["Killdeer", "Eurasian Nuthatch", "Eurasian Tree Sparrow"],
+		"food": ["seed", "invertebrate"],
 		"tray": ["Eurasian Nutcracker"]
 	}
 ]

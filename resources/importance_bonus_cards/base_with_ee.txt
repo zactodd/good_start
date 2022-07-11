@@ -18,7 +18,6 @@ Falconer
 Bird Counter
 Historian
 Enclosure Builder
-Citizen Scientist
 Forester
 Ethologist
 Photographer
@@ -30,3 +29,4 @@ Bird Feeder
 Backyard Birder
 Diet Specialist
 Prairie Manager
+Citizen Scientist

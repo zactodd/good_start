@@ -11,7 +11,7 @@ import subprocess
 
 WINGSPAN_PATH = 'C:\\Users\\thoma\\Desktop\\Wingspan.url'
 
-cards.Deck(['base', 'ss', 'ee'])
+cards.Deck().set_deck(('base', ))
 
 root_logger = logging.getLogger()
 root_logger.setLevel(logging.DEBUG)

@@ -1,6 +1,6 @@
 import os.path as osp
 import json
-from typing import List
+from typing import Tuple
 import utils
 from patterns import Singleton
 
@@ -82,7 +82,10 @@ _BONUS_CARD_IMPORTANCE_DECKS = {
 
 class Deck(metaclass=Singleton):
 
-    def __init__(self, sub_decks : List[str] = ['base'] ) -> None:
+    def __init__(self) -> None:
+        self.set_deck()
+
+    def set_deck(self, sub_decks : Tuple[str] = ('base', )) -> None:
         self.birds = []
         self.bonus_cards = []
         for d in sub_decks:

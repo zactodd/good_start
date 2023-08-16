@@ -6,3 +6,4 @@ pytesseract
 pyautoit
 pyyaml
 keyboard
+unidecode

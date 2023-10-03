@@ -7,3 +7,4 @@ pyautoit
 pyyaml
 keyboard
 unidecode
+regex

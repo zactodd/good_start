@@ -1,0 +1,251 @@
+Abbott's Booby
+Acorn Woodpecker
+American Avocet
+American Bittern
+American Coot
+American Crow
+American Goldfinch
+American Kestrel
+American Oystercatcher
+American Robin
+American White Pelican
+Anhinga
+Anna's Hummingbird
+Atlantic Puffin
+Australian Ibis
+Australian Magpie
+Australian owlet nightjar
+Australian Raven
+Australian Shelduck
+Australian Zebra Finch
+Azure Tit
+Bald Eagle
+Baltimore Oriole
+Barn Owl
+Barn Swallow
+Barred Owl
+Barrow's Goldeneye
+Baya Weaver
+Bearded Reedling
+Belted Kingfisher
+Black Chinned Hummingbird
+black noddy
+Black Redstart
+Black Skimmer
+BLACK STORK
+Black Swan
+Black-Bellied Whistling-Duck
+Black-Billed Magpie
+Black-Crowned Night Heron
+black-necked stilt
+Blue Jay
+Blue Rock-Thrush
+Blue-Grey GnatCatcher
+Bluethroat
+Bonelli's Eagle
+Brahminy kite
+Brewer's Blackbird
+Brolga
+Brown Falcon
+Brown Pelican
+Budgerigar
+Bullfinch
+Bushtit
+California quail
+Canada Goose
+Carolina Chickadee
+Carolina Wren
+Cassin's Finch
+Cedar Waxwing
+Cerulean Warbler
+Chestnut-Collared Longspur
+Chihuahuan Raven
+Chipping Sparrow
+Clark’s Nutcracker
+Coal Tit
+Cockatiel
+Common Blackbird
+Common Chaffinch
+Common Chiffchaff
+Common Grackle
+Common Green Magpie
+Common Iora
+Common Kingfisher
+Common Myna
+Common Raven
+Common Tailorbird
+Coppersmith Barbet
+Crimson Chat
+Dark-eyed junco
+Desert Finch
+Downy Woodpecker
+Dunnock
+Eastern Blue Bird
+Eastern Imperial Eagle
+Eastern Screech Owl
+Eastern Whipbird
+Emu
+Eurasian Eagle-Owl
+Eurasian Green Woodpecker
+Eurasian Hoopoe
+Eurasian Kestrel
+Eurasian Marsh Harrier
+Eurasian Tree Sparrow
+European Bee Eater
+European Goldfinch
+European Robin
+European Roller
+European Turtle Dove
+Fish Crow
+Forest Owlet
+Franklin's Gull
+Galah
+Goldcrest
+Golden pheasant
+Gould's Finch
+Grandala
+Gray Catbird
+Great Blue Heron
+Great Cormorant
+Great Crested Flycatcher
+Great Crested Grebe
+Great Hornbill
+Great Horned Owl
+Great Horned Owl
+Great Tit
+Greater roadrunner
+Green Bee-eater
+Green Heron
+Green Pheasant
+Grey Heron
+Griffon Vultureb
+Hawfinch
+Hermit Thrush
+Himalayan Monal
+Hooded Crow
+House Finch
+House Wren
+Indian Peafowl
+Indigo Bunting
+Juniper Titmouse
+Kakapo
+Kea
+Killdeer
+North Island Brown Kiwi
+Kookaburra
+Lazuli Bunting
+Little Owl
+Little Penguin
+Loggerhead Shrike
+LONG TAILED TIT
+Major Mitchell's Cockatoo
+Mandarin Duck
+Many Colored Fruit Dove
+Megascops asio
+Mississippi Kite
+Mistletoe Bird
+Mountain Bluebird
+Mountain Chickadee
+Mourning Dove
+Mute Swan
+Noisy Miner
+Northern Cardinal
+Northern Flicker
+Northern Mockingbird
+Northern Shoveler
+Olive-Backed Sunbird
+Oriental Magpie-Robin
+Osprey
+Painted Bunting
+Painted Whitestart
+Peaceful Dove
+Peregrine Falcon
+Philippine Eagle
+Pied-billed grebe
+Pileated Woodpecker
+Snow Bunting
+PLUMBEUS REDSTART
+Princess Stephanie's Astrapia
+Prothonotary warbler
+Pūkeko
+Purple Gallinule
+Purple Heron
+Pygmy Nuthatch
+Red Avadavat
+Red bellied Woodpecker
+Red Breasted Nuthatch
+Red Crossbill
+Red Kite
+Red Knot
+Red-Capped Robin
+Red-headed Woodpecker
+Red-legged Partridge
+Red-Shouldered Hawk
+Red-tailed Hawk
+Red-winged Blackbird
+Red-Winged Parrot
+Regent Bowerbird
+Reggis Bird of Paradise
+Ring-Billed Gull
+Rock Pigeon
+Rose Ringed Parakeet
+Rose starling
+Rose-Breasted Grosbeak
+Roseate Spoonbill
+Ruby Throated Hummingbird
+Ruby-Crowned Kinglet
+Ruddy Duck
+Ruff
+Rufous Night Heron
+Sandhill Crane and two colts
+Sarus Crane
+Satry Tragopan
+Say's Phoebe
+Scaled Quail
+Scissor Tailed Flycatcher
+Short-eared Owl
+Short-Toed Tree Creeper
+Silvereye
+Small minivet
+Snowy Owl
+Song sparrow
+South Island Robin
+Spoon-billed sandpiper
+Spotted Owl
+Spotted Sandpiper
+Sprague's Pipit
+Sri Lanka Blue-Magpie
+Sri Lankan Frogmouth
+Stellar's Jay
+Stork-Billed Kingfisher
+Sulphur-Crested Cockatoo
+Superb Lyrebird
+Swainson's Hawk
+Swan
+Tawny Frogmouth
+Trumpeter Finch
+Tūī
+Turkey Vulture
+Verditer Flycatcher
+Violet Green Swallow
+Western Meadowlark
+White Backed Woodpecker
+White Bellied Sea Eagle
+White Stork
+White Wagtail
+White-breasted Nuthatch
+White-Browed Tit-Warbler
+White-Crested Laughingthrush
+White-throated Dipper
+White-Throated Kingfisher
+Whooping Crane
+Wild turkey
+Wilson’s Storm-Petrel
+Wood Duck
+Wood Stork
+Yellow Bellied Sap Sucker
+Yellow Bittern
+Yellow Headed Blackbird
+Yellow-Breasted Chat
+Yellow-rumped Warbler
+Yellowhammer

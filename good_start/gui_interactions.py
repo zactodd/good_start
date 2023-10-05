@@ -22,6 +22,7 @@ def _window_bbox_from_name(name: str)-> Tuple[int, int, int, int]:
     return x0, y0, x1, y1
 
 
+
 def window_bbox() -> Tuple[int, int, int, int]:
     """
     Gets the bounding box of the game.
@@ -120,12 +121,15 @@ def click_buttons(buttons, wait=0.5) -> None:
         time.sleep(wait)
 
 
-def menu_from_start() -> None:
+def menu_from_start(update_settings=True) -> None:
     """
     Moves the mouse to the menu from the start screen.
     :return:
     """
-    click_buttons(kp.FIRST_MENU_TRAVERSAL)
+    if update_settings:
+        click_buttons(kp.FIRST_MENU_TRAVERSAL)
+    else:
+        click_buttons(kp.FIRST_MENU_NO_SETTING_CHANGE)
 
 
 def new_game_from_game() -> None:
@@ -143,6 +147,8 @@ def new_game_from_game_with_delete() -> None:
     Moves from the current thought the menus to a new game, while deleting the current game.
     :return:
     """
+    time.sleep(1)
+    exit_game()
     time.sleep(3)
     move_and_click(*kp.PLAY_BUTTON)
     time.sleep(0.2)

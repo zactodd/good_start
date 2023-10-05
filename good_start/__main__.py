@@ -45,7 +45,8 @@ if __name__ == '__main__':
             gi.move_and_click(*kp.OVERVIEW_BUTTON)
             time.sleep(2)
             tray = gi.extract_tray_cards()
-            if any(b in cards.Deck().possible_tray_birds for b in tray):
+            if len(cards.Deck().possible_tray_birds) == 0 or \
+                    any(b in cards.Deck().possible_tray_birds for b in tray):
                 time.sleep(3)
                 # Start Turn
                 gi.move_and_click(*kp.TURN_START_BUTTON)
@@ -63,8 +64,10 @@ if __name__ == '__main__':
                     # Select birds
                     time.sleep(0.5)
                     gi.select_starting_cards(selected_birds, bird_centres, food)
-                    if gi.post_starting_selection_validation(selected_birds, tray):
-                        successes += 1
+                    # if gi.post_starting_selection_validation(selected_birds, tray):
+                    #     successes += 1
+                else:
+                    gi.new_game_from_game_with_delete()
             else:
                 average_time = (average_time * checks + (time.perf_counter() - run_time)) / (checks + 1)
                 checks += 1

@@ -23,6 +23,8 @@ with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss.json'), 'r') as f:
     _BASE_WITH_SS_BIRD_IMPORTANCE = json.load(f)
 with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ee.json'), 'r') as f:
     _BASE_WITH_EE_BIRD_IMPORTANCE = json.load(f)
+with open(osp.join(_BIRD_IMPORTANCE, 'base_with_oe.json'), 'r') as f:
+    _BASE_WITH_OE_BIRD_IMPORTANCE = json.load(f)
 with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss_ee.json'), 'r') as f:
     _BASE_WITH_SS_EE_BIRD_IMPORTANCE = json.load(f)
 with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss_oe.json'), 'r') as f:
@@ -42,6 +44,8 @@ with open(osp.join(_BONUS_CARD_IMPORTANCE, 'base.txt'), 'r') as f:
     _BASE_BONUS_CARD_IMPORTANCE = f.read().splitlines()
 with open(osp.join(_BONUS_CARD_IMPORTANCE, 'base_with_ee.txt'), 'r') as f:
     _BASE_WITH_EE_BONUS_CARD_IMPORTANCE = f.read().splitlines()
+with open(osp.join(_BONUS_CARD_IMPORTANCE, 'base_with_oe.txt'), 'r') as f:
+    _BASE_WITH_OE_BONUS_CARD_IMPORTANCE = f.read().splitlines()
 
 
 BASE_DECK = _BASE_BIRDS
@@ -57,8 +61,8 @@ _BIRD_IMPORTANCE_DECKS = {
     frozenset({'base', 'ss'}): _BASE_WITH_SS_BIRD_IMPORTANCE,
     frozenset({'base', 'ee'}): _BASE_WITH_EE_BIRD_IMPORTANCE,
     frozenset({'base', 'ss', 'ee'}): _BASE_WITH_SS_EE_BIRD_IMPORTANCE,
-    # frozenset({'base', 'oe'}): ,
-    # frozenset({'base', 'ss', 'oe'}): ,
+    frozenset({'base', 'oe'}): _BASE_WITH_OE_BIRD_IMPORTANCE,
+    frozenset({'base', 'ss', 'oe'}): _BASE_WITH_SS_OE_BIRD_IMPORTANCE,
     # frozenset({'base', 'ee', 'oe'}): ,
     # frozenset({'base', 'ss', 'ee', 'oe'}): ,
     # frozenset({'ee', 'oe'}): ,
@@ -77,6 +81,8 @@ _BONUS_CARD_IMPORTANCE_DECKS = {
     frozenset({'base', 'ss'}): _BASE_BIRDS,
     frozenset({'base', 'ee'}): _BASE_WITH_EE_BONUS_CARD_IMPORTANCE,
     frozenset({'base', 'ss', 'ee'}): _BASE_WITH_EE_BONUS_CARD_IMPORTANCE,
+    frozenset({'base', 'oe'}): _BASE_WITH_OE_BONUS_CARD_IMPORTANCE,
+    frozenset({'base', 'ss', 'oe'}): _BASE_WITH_OE_BONUS_CARD_IMPORTANCE,
 }
 
 

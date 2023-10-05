@@ -17,22 +17,22 @@ FOOD = ['Fruit', 'Fish', 'Invertebrate', 'Rodent', 'Seed']
 
 _BIRD_GROUPS_FILE = os.path.join(RESOURCES, 'bird_groups.json')
 
-with open(_BIRD_GROUPS_FILE, 'r') as f:
-    BIRD_GROUPS = {b: g for g, birds in json.load(f).items() for b in birds}
+# with open(_BIRD_GROUPS_FILE, 'r') as f:
+#     BIRD_GROUPS = {b: g for g, birds in json.load(f).items() for b in birds}
 
-_FULL_CARD_INFO_FILE = os.path.join(RESOURCES, 'card_list.tsv')
-with open(_FULL_CARD_INFO_FILE, 'r', encoding='cp437') as f:
-    _FULL_CARD_INFO = csv.DictReader(f, delimiter='\t')
-    _FOOD_COST = FOOD + ['Wild']
-
-    BIRD_HABITATS = {}
-    BIRD_FOOD = {}
-    for r in _FULL_CARD_INFO:
-        BIRD_HABITATS[r['Common name'].strip()] = tuple(h for h in HABITATS if r[h] == 'X')
-
-        food_cost = {f: int(c) for f in _FOOD_COST if (c := r[f])}
-        total = 1 if r['/ (food cost)'] == 'X' else sum(food_cost.values())
-        BIRD_FOOD[r['Common name'].strip()] = (total , food_cost)
+# _FULL_CARD_INFO_FILE = os.path.join(RESOURCES, 'card_list.tsv')
+# with open(_FULL_CARD_INFO_FILE, 'r', encoding='cp437') as f:
+#     _FULL_CARD_INFO = csv.DictReader(f, delimiter='\t')
+#     _FOOD_COST = FOOD + ['Wild']
+#
+#     BIRD_HABITATS = {}
+#     BIRD_FOOD = {}
+#     for r in _FULL_CARD_INFO:
+#         BIRD_HABITATS[r['Common name'].strip()] = tuple(h for h in HABITATS if r[h] == 'X')
+#
+#         food_cost = {f: int(c) for f in _FOOD_COST if (c := r[f])}
+#         total = 1 if r['/ (food cost)'] == 'X' else sum(food_cost.values())
+#         BIRD_FOOD[r['Common name'].strip()] = (total , food_cost)
 
 
 @cache

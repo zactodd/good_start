@@ -121,15 +121,15 @@ def click_buttons(buttons, wait=0.5) -> None:
         time.sleep(wait)
 
 
-def menu_from_start(update_settings=True) -> None:
+def menu_from_start(play_test=False) -> None:
     """
     Moves the mouse to the menu from the start screen.
     :return:
     """
-    if update_settings:
-        click_buttons(kp.FIRST_MENU_TRAVERSAL)
+    if play_test:
+        click_buttons(kp.PLAY_TEST_FIRST_MENU_TRAVERSAL)
     else:
-        click_buttons(kp.FIRST_MENU_NO_SETTING_CHANGE)
+        click_buttons(kp.FIRST_MENU_TRAVERSAL)
 
 
 def new_game_from_game() -> None:

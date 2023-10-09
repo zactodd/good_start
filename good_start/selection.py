@@ -1,6 +1,5 @@
 import utils
 from typing import Set, Tuple, List
-import random
 import cards
 
 

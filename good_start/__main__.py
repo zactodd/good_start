@@ -45,8 +45,7 @@ if __name__ == '__main__':
             gi.move_and_click(*kp.OVERVIEW_BUTTON)
             time.sleep(2)
             tray = gi.extract_tray_cards()
-            if len(cards.Deck().possible_tray_birds) == 0 or \
-                    any(b in cards.Deck().possible_tray_birds for b in tray):
+            if any(b in cards.Deck().possible_tray_birds for b in tray):
                 time.sleep(3)
                 # Start Turn
                 gi.move_and_click(*kp.TURN_START_BUTTON)

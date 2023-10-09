@@ -6,7 +6,10 @@ import selection
 import cards
 import gui_interactions as gi
 import key_positions as kp
+import subprocess
 
+
+WINGSPAN_PATH = 'steam://rungameid/2466010'
 
 cards.Deck().set_deck(('base', 'oe'))
 
@@ -14,17 +17,12 @@ root_logger = logging.getLogger()
 root_logger.setLevel(logging.DEBUG)
 
 
-### PLAY TEST ####
-# Have to manual open the game window after running from steam
-
-
 if __name__ == '__main__':
     average_time = 0
     checks = 0
     successes = 0
-    time.sleep(3)
-    gi.activate_window()
-    gi.menu_from_start(False)
+    if gi.window_exists():
+        gi.kill_window()
     start = time.perf_counter()
     while True:
         if time.perf_counter() - start > 7200:
@@ -33,6 +31,13 @@ if __name__ == '__main__':
             gi.kill_window()
             time.sleep(3)
             start = time.perf_counter()
+        if not gi.is_responding():
+            gi.kill_window()
+            time.sleep(10)
+            subprocess.call(['start', WINGSPAN_PATH], shell=True)
+            time.sleep(20)
+            gi.activate_window()
+            gi.menu_from_start(True)
         run_time = time.perf_counter()
         time.sleep(1)
         try:
@@ -40,29 +45,27 @@ if __name__ == '__main__':
             gi.move_and_click(*kp.OVERVIEW_BUTTON)
             time.sleep(2)
             tray = gi.extract_tray_cards()
+            if any(b in cards.Deck().possible_tray_birds for b in tray):
+                time.sleep(3)
+                # Start Turn
+                gi.move_and_click(*kp.TURN_START_BUTTON)
+                time.sleep(1)
 
-            # if len(cards.Deck().possible_tray_birds) == 0 or \
-            #         any(b in cards.Deck().possible_tray_birds for b in tray):
+                # Read bird cards
+                birds, centres, bird_image = gi.extract_bird_cards()
+                bird_centres = dict(zip(birds, centres))
 
-            time.sleep(3)
-            # Start Turn
-            gi.move_and_click(*kp.TURN_START_BUTTON)
-            time.sleep(1)
-
-            # Read bird cards
-            birds, centres, bird_image = gi.extract_bird_cards()
-            bird_centres = dict(zip(birds, centres))
-
-            # Select birds, food and bonus cards if valid birds in hand
-            if selection_items := selection.bird_selection(birds, tray):
-                selected_birds, food = selection_items
-                logging.info(f'Selected birds: {selected_birds}')
-                gi.new_game_from_game()
-                successes += 1
+                # Select birds, food and bonus cards if valid birds in hand
+                if selection_items := selection.bird_selection(birds, tray):
+                    selected_birds, food = selection_items
+                    logging.info(f'Selected birds: {selected_birds}')
+                    gi.new_game_from_game()
+                else:
+                    gi.new_game_from_game_with_delete()
             else:
-                gi.new_game_from_game_with_delete()
-            average_time = (average_time * checks + (time.perf_counter() - run_time)) / (checks + 1)
-            checks += 1
+                average_time = (average_time * checks + (time.perf_counter() - run_time)) / (checks + 1)
+                checks += 1
+                gi.new_game_from_game()
         except (SystemError, ValueError) as e:
             traceback.print_exception(*sys.exc_info())
             root_logger.error(e)

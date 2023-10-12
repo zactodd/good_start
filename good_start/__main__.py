@@ -55,16 +55,12 @@ if __name__ == '__main__':
                 birds, centres, bird_image = gi.extract_bird_cards()
                 bird_centres = dict(zip(birds, centres))
 
-                # Select birds, food and bonus cards if valid birds in hand
-                if selection_items := selection.bird_selection(birds, tray):
-                    selected_birds, food = selection_items
+                # Select birds
+                if selected_birds := selection.bird_selection(birds, tray):
                     logging.info(f'Selected birds: {selected_birds}')
 
                     # Select birds
                     time.sleep(0.5)
-                    gi.select_starting_cards(selected_birds, bird_centres, food)
-                    # if gi.post_starting_selection_validation(selected_birds, tray):
-                    #     successes += 1
                 else:
                     gi.new_game_from_game_with_delete()
             else:

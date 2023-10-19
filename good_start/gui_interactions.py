@@ -22,13 +22,29 @@ def _window_bbox_from_name(name: str)-> Tuple[int, int, int, int]:
     return x0, y0, x1, y1
 
 
+def _window_bbox_from_active_window() -> Tuple[int, int, int, int]:
+    hwnd = ctypes.windll.user32.GetForegroundWindow()
+    rect = ctypes.wintypes.RECT()
+    ctypes.windll.user32.GetWindowRect(hwnd, ctypes.pointer(rect))
+    x0, y0, x1, y1 = rect.left, rect.top, rect.right, rect.bottom
+    return x0, y0, x1, y1
+
+
+def _open_windows_names():
+    def _all_windows():
+        def _enum_handler(hwnd, ctx):
+            if ctypes.windll.user32.IsWindowVisible(hwnd):
+                yield ctypes.windll.user32.GetWindowText(hwnd)
+        ctypes.windll.user32.EnumWindows(_enum_handler, None)
+    return list(_all_windows())
+
 
 def window_bbox() -> Tuple[int, int, int, int]:
     """
     Gets the bounding box of the game.
     :return: The bounding box of the game, x0, y0, x1, y1.
     """
-    return _window_bbox_from_name('Wingspan')
+    return _window_bbox_from_active_window()
 
 
 def window_dimensions() -> Tuple[int, int]:
@@ -119,6 +135,12 @@ def click_buttons(buttons, wait=0.5) -> None:
     for button in buttons:
         move_and_click(*button)
         time.sleep(wait)
+
+
+def start_without_sync():
+    autoit.win_activate('Steam Dialog')
+    time.sleep(3)
+    move_and_click(*kp.PLAY_WITHOUT_SYNC_BUTTON)
 
 
 def menu_from_start(play_test=False) -> None:
@@ -468,3 +490,5 @@ def extract_highlighted_card(verbose: bool = False) -> str:
         plt.show()
         print(f'Highlighted card: {name}')
     return name
+
+

@@ -29,7 +29,7 @@ if __name__ == '__main__':
             logging.info(f'Average run time: {average_time:.2f}s')
             logging.info(f'Success rate: {successes / checks:.8f}%')
             gi.kill_window()
-            time.sleep(3)
+            time.sleep(5)
             start = time.perf_counter()
         if not gi.is_responding():
             gi.kill_window()
@@ -60,7 +60,7 @@ if __name__ == '__main__':
                 # Select birds
                 if selected_birds := selection.bird_selection(birds, tray):
                     logging.info(f'Selected birds: {selected_birds}')
-                    logging.info(f'\tTray: {tray}')
+                    logging.info(f'Tray: {tray}')
                     successes += 1
                     gi.new_game_from_game()
                 else:

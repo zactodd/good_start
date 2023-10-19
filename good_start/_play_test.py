@@ -60,6 +60,8 @@ if __name__ == '__main__':
                 # Select birds
                 if selected_birds := selection.bird_selection(birds, tray):
                     logging.info(f'Selected birds: {selected_birds}')
+                    logging.info(f'\tTray: {tray}')
+                    successes += 1
                     gi.new_game_from_game()
                 else:
                     gi.new_game_from_game_with_delete()

@@ -120,5 +120,27 @@
     "birds": ["Killdeer"],
     "tray": ["Common Raven", "Chihuahuan Raven", "Dark-Eyed Junco", "Cedar Waxwing", "Major Mitchell's Cockatoo", "Northern Mockingbird",
       "Eastern Rosella"]
+  },
+  {
+    "birds": ["Wood Duck"],
+    "tray": ["Pileated Woodpecker", "Chipping Sparrow", "California Quail", "Barrow's Goldeneye"]
+  },
+  {
+    "birds": ["Wood Duck", "Chipping Sparrow"],
+    "tray": ["Gray Catbird", "Northern Mockingbird", "Galah", "American Robin", "Purple Martin",
+      "House Finch", "Juniper Titmouse", "Mountain Chickadee", "Carolina Chickadee", "Red-Breasted Nuthatch",
+      "White-Breasted Nuthatch"]
+  },
+  {
+    "birds": ["Wood Duck", "California Quail"],
+    "tray": ["Gray Catbird", "Northern Mockingbird", "Galah", "American Robin", "Purple Martin",
+      "House Finch", "Juniper Titmouse", "Mountain Chickadee", "Carolina Chickadee", "Red-Breasted Nuthatch",
+      "White-Breasted Nuthatch"]
+  },
+  {
+    "birds": ["Wood Duck", "Barrow's Goldeneye"],
+    "tray": ["Gray Catbird", "Northern Mockingbird", "Galah", "American Robin", "Purple Martin",
+      "House Finch", "Juniper Titmouse", "Mountain Chickadee", "Carolina Chickadee", "Red-Breasted Nuthatch",
+      "White-Breasted Nuthatch"]
   }
 ]

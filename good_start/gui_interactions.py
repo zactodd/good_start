@@ -492,3 +492,6 @@ def extract_highlighted_card(verbose: bool = False) -> str:
     return name
 
 
+def has_no_goal():
+    return -1
+

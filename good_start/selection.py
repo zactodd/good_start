@@ -9,6 +9,3 @@ def bird_selection(hand: List[str], tray: List[str]) -> List[str]:
         if all(b in hand for b in birds) and any(b in tray_req for b in tray):
             return birds
 
-
-def bonus_selection(bonus_cards: List[str]) -> str:
-    return min(bonus_cards, key=lambda c: cards.Deck().bonus_importance.index(c))

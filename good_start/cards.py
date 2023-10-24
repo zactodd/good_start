@@ -31,23 +31,6 @@ with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss_oe.json'), 'r') as f:
     _BASE_WITH_SS_OE_BIRD_IMPORTANCE = json.load(f)
 
 
-_BONUS_CARDS = osp.join(utils.RESOURCES, 'bonus_cards')
-with open(osp.join(_BONUS_CARDS, 'base.txt'), 'r') as f:
-    _BASE_BONUS_CARDS = f.read().splitlines()
-with open(osp.join(_BONUS_CARDS, 'ee.txt'), 'r') as f:
-    _EE_BONUS_CARDS = f.read().splitlines()
-with open(osp.join(_BONUS_CARDS, 'oe.txt'), 'r') as f:
-    _OE_BONUS_CARDS = f.read().splitlines()
-
-_BONUS_CARD_IMPORTANCE = osp.join(utils.RESOURCES, 'importance_bonus_cards')
-with open(osp.join(_BONUS_CARD_IMPORTANCE, 'base.txt'), 'r') as f:
-    _BASE_BONUS_CARD_IMPORTANCE = f.read().splitlines()
-with open(osp.join(_BONUS_CARD_IMPORTANCE, 'base_with_ee.txt'), 'r') as f:
-    _BASE_WITH_EE_BONUS_CARD_IMPORTANCE = f.read().splitlines()
-with open(osp.join(_BONUS_CARD_IMPORTANCE, 'base_with_oe.txt'), 'r') as f:
-    _BASE_WITH_OE_BONUS_CARD_IMPORTANCE = f.read().splitlines()
-
-
 BASE_DECK = _BASE_BIRDS
 _BIRD_DECKS = {
     'base': _BASE_BIRDS,
@@ -69,38 +52,19 @@ _BIRD_IMPORTANCE_DECKS = {
     frozenset({'ss', 'ee', 'oe'}): _BASE_WITH_SS_OE_BIRD_IMPORTANCE
 }
 
-_BONUS_CARD_DECKS = {
-    'base': _BASE_BONUS_CARDS,
-    'ss': [],
-    'ee': _EE_BONUS_CARDS,
-    'oe': _OE_BONUS_CARDS
-}
-
-_BONUS_CARD_IMPORTANCE_DECKS = {
-    frozenset({'base'}): _BASE_BIRDS,
-    frozenset({'base', 'ss'}): _BASE_BIRDS,
-    frozenset({'base', 'ee'}): _BASE_WITH_EE_BONUS_CARD_IMPORTANCE,
-    frozenset({'base', 'ss', 'ee'}): _BASE_WITH_EE_BONUS_CARD_IMPORTANCE,
-    frozenset({'base', 'oe'}): _BASE_WITH_OE_BONUS_CARD_IMPORTANCE,
-    frozenset({'base', 'ss', 'oe'}): _BASE_WITH_OE_BONUS_CARD_IMPORTANCE,
-}
-
 
 class Deck(metaclass=Singleton):
 
-    def __init__(self) -> None:
-        self.set_deck()
+    def __init__(self, *args, **kwargs) -> None:
+        self.set_deck(*args, **kwargs)
 
     def set_deck(self, sub_decks : Tuple[str] = ('base', )) -> None:
         self.birds = []
         self.bonus_cards = []
         for d in sub_decks:
             self.birds.extend(_BIRD_DECKS[d])
-            self.bonus_cards.extend(_BONUS_CARD_DECKS[d])
 
         decks = frozenset(sub_decks)
         self.bird_importance = _BIRD_IMPORTANCE_DECKS[decks]
-        self.bonus_importance = _BONUS_CARD_IMPORTANCE_DECKS[decks]
-
         self.possible_tray_birds = {b for items in self.bird_importance for b in items['tray']}
 

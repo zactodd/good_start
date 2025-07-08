@@ -1,4 +1,4 @@
-import autoit
+# import autoit
 import key_positions as kp
 import time
 import ctypes
@@ -6,7 +6,7 @@ from typing import List, Tuple, Dict
 import cv2
 import pytesseract
 import numpy as np
-from PIL import ImageGrab
+from PIL import ImageGrab, Image
 import matplotlib.pyplot as plt
 import selection
 import subprocess
@@ -364,25 +364,33 @@ def draw_contours(image: np.ndarray, contours: List[List[int]]) -> None:
     plt.show()
 
 
-def text_from_image(image: np.ndarray, words: List[str]) -> str:
+def text_from_image(image: np.ndarray, words: List[str], has_empty=False) -> str:
     """
     Extracts text from an image.
     :param image: The image to extract from.
     :param words: A list of possible words that are contained within the image.
+    :param has_empty: If the image provide can conatin no text.
     :return: The matched word.
     """
-    img = cv2.resize(image, (0, 0), fx=2.0, fy=1.0, interpolation=cv2.INTER_CUBIC)
-    custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    img = image #_preprocess_image_for_ocr(image)
+    custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist= ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     text = pytesseract.image_to_string(img, config=custom_config).strip()
-    return min(words,
-               key=lambda s: utils.minimum_edit_distance(s.replace(' ', '').replace('-', '').replace('\'', '').upper(),
-                                                         text.replace(' ', '')))
+
+    if not has_empty or len(text.strip()) > 2:
+        min_edits = [(s, utils.minimum_edit_distance(
+                       s.replace(' ', '').replace('-', '').replace('\'', '').upper(),
+                       text.replace(' ', ''))) for s in words]
+        word, edits = min(min_edits, key=lambda x: x[1])
+
+        if not has_empty or edits / len(word) < 0.5:
+            return word
+    return ''
 
 
-def extract_bird_card_text_image(image: np.ndarray) -> Tuple[List[np.ndarray], List[Tuple[float, float]]]:
+def extract_bird_card_text_image(image: np.ndarray, base_image=None) -> Tuple[List[np.ndarray], List[Tuple[float, float]]]:
     card_text_images = []
     centres = []
-    w, h = window_dimensions()
+    w, h = window_dimensions() if base_image is None else base_image.size
     for x0, y0 in kp.BIRD_CARD_POSITIONS:
         sx0, sy0 = int(w * x0), int(h * y0)
         card_text_images.append(image[sy0:sy0 + 40, sx0:sx0 + 155])
@@ -401,19 +409,19 @@ def extract_bonus_card_text_image(image:np.ndarray, contours:List[List[int]]) ->
     return card_text_images, centres
 
 
-def extract_tray_card_text_image(image:np.ndarray) -> List[np.ndarray]:
+def extract_tray_card_text_image(image:np.ndarray, base_image=None) -> List[np.ndarray]:
     card_text_images = []
-    w, h = window_dimensions()
+    w, h = window_dimensions() if base_image is None else base_image.size
     for x0, y0 in kp.TRAY_CARD_POSITIONS:
         sx0, sy0 = int(w * x0), int(h * y0)
         card_text_images.append(image[sy0:sy0 + 18, sx0:sx0 + 160])
     return card_text_images
 
 
-def extract_bird_cards(verbose: bool = False):
+def extract_bird_cards(verbose: bool = False, base_image=None):
     # TODO fix these magic numbers
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
-    card_text_images, centres = extract_bird_card_text_image(image)
+    card_text_images, centres = extract_bird_card_text_image(image, base_image)
     names = [text_from_image(i, cards.Deck().birds) for i in card_text_images]
     if verbose:
         plt.imshow(image)
@@ -422,19 +430,19 @@ def extract_bird_cards(verbose: bool = False):
     return names, centres, image
 
 
-def extract_birds_from_overview(image: np.ndarray) -> Tuple[List[np.ndarray], List[Tuple[float, float]]]:
+def extract_birds_from_overview(image: np.ndarray, base_image=None):
     overview = {}
-    w, h = window_dimensions()
-    for k, (x0, y0, wr, hr) in kp.OVERVIEW_BIRD_NAMES.values():
+    w, h = window_dimensions() if base_image is None else base_image.size
+    for k, (x0, y0, wr, hr) in kp.OVERVIEW_BIRD_NAMES.items():
         sx0, sy0 = int(w * x0), int(h * y0)
         sw, sh = int(w * wr), int(h * hr)
-        overview[k] = text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], cards.Deck().birds)
+        overview[k] = text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], cards.Deck().birds, True)
     return overview
 
 
-def extract_tray_cards(verbose: bool = False) -> List[str]:
+def extract_tray_cards(verbose: bool = False, base_image=None) -> List[str]:
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
-    card_text_images = extract_tray_card_text_image(image)
+    card_text_images = extract_tray_card_text_image(image, base_image)
     names = [text_from_image(i, cards.Deck().birds) for i in card_text_images]
     if verbose:
         plt.imshow(image)

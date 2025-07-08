@@ -14,6 +14,8 @@ with open(osp.join(_BIRD_NAMES, 'ee.txt'), 'r') as f:
     _EE_BIRDS = f.read().splitlines()
 with open(osp.join(_BIRD_NAMES, 'oe.txt'), 'r', encoding='utf8') as f:
     _OE_BIRDS = f.read().splitlines()
+with open(osp.join(_BIRD_NAMES, 'ae.txt'), 'r', encoding='utf8') as f:
+    _AE_BIRDS = f.read().splitlines()
 
 
 _BIRD_IMPORTANCE = osp.join(utils.RESOURCES, 'bird_importance')
@@ -36,7 +38,8 @@ _BIRD_DECKS = {
     'base': _BASE_BIRDS,
     'ss': _SS_BIRDS,
     'ee': _EE_BIRDS,
-    'oe': _OE_BIRDS
+    'oe': _OE_BIRDS,
+    'ae': _AE_BIRDS
 }
 
 _BIRD_IMPORTANCE_DECKS = {
@@ -46,9 +49,14 @@ _BIRD_IMPORTANCE_DECKS = {
     frozenset({'base', 'ss', 'ee'}): _BASE_WITH_SS_EE_BIRD_IMPORTANCE,
     frozenset({'base', 'oe'}): _BASE_WITH_OE_BIRD_IMPORTANCE,
     frozenset({'base', 'ss', 'oe'}): _BASE_WITH_SS_OE_BIRD_IMPORTANCE,
-    # frozenset({'base', 'ee', 'oe'}): ,
-    # frozenset({'base', 'ss', 'ee', 'oe'}): ,
-    # frozenset({'ee', 'oe'}): ,
+
+    # TODO Set deck importance for with AE
+    frozenset({'base', 'ee', 'oe'}): _BASE_WITH_OE_BIRD_IMPORTANCE,
+    frozenset({'base', 'ss', 'ee', 'oe'}): _BASE_WITH_SS_OE_BIRD_IMPORTANCE,
+    frozenset({'base', 'ss', 'ee', 'oe', 'ae'}): _BASE_WITH_SS_OE_BIRD_IMPORTANCE,
+    frozenset({'ee', 'oe'}): _BASE_WITH_SS_OE_BIRD_IMPORTANCE,
+
+
     frozenset({'ss', 'ee', 'oe'}): _BASE_WITH_SS_OE_BIRD_IMPORTANCE
 }
 

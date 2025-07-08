@@ -139,6 +139,15 @@ OVERVIEW_BIRD_NAMES = {
 }
 
 
-DUET_SCORE_BAR = []
+DUET_SCORE_BAR = (
+    621 / 2712,
+    1097 / 1220,
+    1417 / 2712,
+    86 / 1220
+)
+
+DUET_SCORE_TEXT = (
+
+)
 
 

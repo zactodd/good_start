@@ -422,6 +422,16 @@ def extract_bird_cards(verbose: bool = False):
     return names, centres, image
 
 
+def extract_birds_from_overview(image: np.ndarray) -> Tuple[List[np.ndarray], List[Tuple[float, float]]]:
+    overview = {}
+    w, h = window_dimensions()
+    for k, (x0, y0, wr, hr) in kp.OVERVIEW_BIRD_NAMES.values():
+        sx0, sy0 = int(w * x0), int(h * y0)
+        sw, sh = int(w * wr), int(h * hr)
+        overview[k] = text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], cards.Deck().birds)
+    return overview
+
+
 def extract_tray_cards(verbose: bool = False) -> List[str]:
     image = np.asarray(ImageGrab.grab(bbox=window_bbox()))
     card_text_images = extract_tray_card_text_image(image)

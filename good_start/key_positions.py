@@ -139,15 +139,8 @@ OVERVIEW_BIRD_NAMES = {
 }
 
 
-DUET_SCORE_BAR = (
-    621 / 2712,
-    1097 / 1220,
-    1417 / 2712,
-    86 / 1220
-)
-
-DUET_SCORE_TEXT = (
-
-)
+# Duet scor bar positions
+DUET_SCORE_BAR = (0.2289, 0.8992, 0.5225, 0.0705)
+DUET_SCORE_TEXT = (0.7113, 0.9074, 0.0285, 0.0500)
 
 

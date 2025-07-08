@@ -387,6 +387,20 @@ def text_from_image(image: np.ndarray, words: List[str], has_empty=False) -> str
     return ''
 
 
+def number_from_image(image):
+    custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=0123456789"
+    text = pytesseract.image_to_string(image, config=custom_config).strip()
+    return int(text)
+
+
+def extract_duet_score(image, base_image=None):
+    w, h = window_dimensions() if base_image is None else base_image.size
+    x0, y0, rw, rh = kp.DUET_SCORE_TEXT
+    sx0, sy0, sw, sh = int(x0 * w), int(y0 * h), int(rw * w), int(rh * h)
+    return number_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw, :])
+
+
+
 def extract_bird_card_text_image(image: np.ndarray, base_image=None) -> Tuple[List[np.ndarray], List[Tuple[float, float]]]:
     card_text_images = []
     centres = []

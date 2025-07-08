@@ -33,10 +33,10 @@ Grey Warbler
 Grey-Headed Mannikin
 Horsfield's Bronze-Cuckoo
 Horsfield's Bushlark
-Kākāpō
+Kakapo
 Kea
 Kelp Gull
-Kererū
+Kereru
 Korimako
 Laughing Kookaburra
 Lesser Frigatebird
@@ -85,7 +85,7 @@ Stubble Quail
 Sulphur-Crested Cockatoo
 Superb Lyrebird
 Tawny Frogmouth
-Tūī
+Tui
 Wedge-Tailed Eagle
 Welcome Swallow
 White-Bellied Sea-Eagle

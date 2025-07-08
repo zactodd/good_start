@@ -8,3 +8,4 @@ pyyaml
 keyboard
 unidecode
 regex
+imageio[ffmpeg]

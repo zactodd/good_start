@@ -108,12 +108,3 @@ class Deck(metaclass=Singleton):
         self.bird_importance = _BIRD_IMPORTANCE_DECKS[decks]
         self.possible_tray_birds = {b for items in self.bird_importance for b in items['tray']}
 
-
-
-
-
-
-
-
-
-

@@ -373,7 +373,7 @@ def text_from_image(image: np.ndarray, words: List[str], has_empty=False) -> str
     :return: The matched word.
     """
     img = image #_preprocess_image_for_ocr(image)
-    custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist= ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     text = pytesseract.image_to_string(img, config=custom_config).strip()
 
     if not has_empty or len(text.strip()) > 2:
@@ -450,7 +450,15 @@ def extract_birds_from_overview(image: np.ndarray, base_image=None):
     for k, (x0, y0, wr, hr) in kp.OVERVIEW_BIRD_NAMES.items():
         sx0, sy0 = int(w * x0), int(h * y0)
         sw, sh = int(w * wr), int(h * hr)
-        overview[k] = text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], cards.Deck().birds, True)
+
+        birds_options = cards.Deck().birds
+        if 'forest' in k:
+            birds_options |= cards.FOREST_POSSIBLE
+        elif 'grassland' in k:
+            birds_options |= cards.GRASSLAND_POSSIBLE
+        else:
+            birds_options |= cards.WETLANDS_POSSIBLE
+        overview[k] = text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], birds_options, True)
     return overview
 
 

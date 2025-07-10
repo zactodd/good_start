@@ -1,0 +1,2861 @@
+[
+  {
+    "common_name": "Abbott's Booby",
+    "scientific_name": "Papasula abbotti",
+    "set": "oe",
+    "color": "white",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "platform",
+    "egg_limit": 1,
+    "wingspan": 190,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 2
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Acorn Woodpecker",
+    "scientific_name": "Melanerpes formicivorus",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 4,
+    "wingspan": 46,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 3,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "American Avocet",
+    "scientific_name": "Recurvirostra americana",
+    "set": "base",
+    "color": "pink",
+    "victory_points": 6,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 79,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "American Bittern",
+    "scientific_name": "Botaurus lentiginosus",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 7,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 107,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "American Coot",
+    "scientific_name": "Fulica americana",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "platform",
+    "egg_limit": 5,
+    "wingspan": 61,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "American Crow",
+    "scientific_name": "Corvus brachyrhynchos",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 99,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "American Goldfinch",
+    "scientific_name": "Spinus tristis",
+    "set": "base",
+    "color": "white",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 23,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "American Kestrel",
+    "scientific_name": "Falco sparverius",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 3,
+    "wingspan": 56,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 1,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "American Oystercatcher",
+    "scientific_name": "Haematopus palliatus",
+    "set": "base",
+    "color": "white",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 81,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "American Redstart",
+    "scientific_name": "Setophaga ruticilla",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 2,
+    "wingspan": 20,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "American Robin",
+    "scientific_name": "Turdus migratorius",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 1,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "bowl",
+    "egg_limit": 4,
+    "wingspan": 43,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "American White Pelican",
+    "scientific_name": "Pelecanus erythrorhynchos",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "ground",
+    "egg_limit": 1,
+    "wingspan": 274,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 2,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "American Woodcock",
+    "scientific_name": "Scolopax minor",
+    "set": "base",
+    "color": "",
+    "victory_points": 9,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 46,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Anhinga",
+    "scientific_name": "Anhinga anhinga",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 6,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 114,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 2,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Anna's Hummingbird",
+    "scientific_name": "Calypte anna",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 2,
+    "wingspan": 13,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Ash-Throated Flycatcher",
+    "scientific_name": "Myiarchus cinerascens",
+    "set": "base",
+    "color": "white",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 4,
+    "wingspan": 30,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Asian Emerald Dove",
+    "scientific_name": "Chalcophaps indica",
+    "set": "ae",
+    "color": "white",
+    "victory_points": 6,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 44,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 2,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Asian Koel",
+    "scientific_name": "Eudynamys scolopaceus",
+    "set": "ae",
+    "color": "pink",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 0,
+    "wingspan": 62,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Atlantic Puffin",
+    "scientific_name": "Fratercula arctica",
+    "set": "base",
+    "color": "white",
+    "victory_points": 8,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "wild",
+    "egg_limit": 1,
+    "wingspan": 53,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 3
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Audouin's Gull",
+    "scientific_name": "Ichthyaetus audouinii",
+    "set": "ee",
+    "color": "brown",
+    "victory_points": 1,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 132,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Australasian Pipit",
+    "scientific_name": "Anthus novaeseelandiae",
+    "set": "oe",
+    "color": "yellow",
+    "victory_points": 3,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 4,
+    "wingspan": 31,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Australasian Shoveler",
+    "scientific_name": "Spatula rhynchotis",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 4,
+    "wingspan": 75,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Australian Ibis",
+    "scientific_name": "Threskiornis moluccus",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 118,
+    "habitat": [
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Australian Magpie",
+    "scientific_name": "Gymnorhina tibicen",
+    "set": "oe",
+    "color": "yellow",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 75,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Australian Owlet-Nightjar",
+    "scientific_name": "Aegotheles cristatus",
+    "set": "oe",
+    "color": "pink",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 2,
+    "wingspan": 28,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Australian Raven",
+    "scientific_name": "Corvus coronoides",
+    "set": "oe",
+    "color": "yellow",
+    "victory_points": 7,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 3,
+    "wingspan": 100,
+    "habitat": [
+      "Grassland",
+      "Wetland",
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Australian Reed Warbler",
+    "scientific_name": "Acrocephalus australis",
+    "set": "oe",
+    "color": "white",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 21,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Australian Shelduck",
+    "scientific_name": "Tadorna tadornoides",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 4,
+    "wingspan": 113,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Australian Zebra Finch",
+    "scientific_name": "Taeniopygia castanotis",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 1,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 3,
+    "wingspan": 22,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Azure Tit",
+    "scientific_name": "Cyanistes cyanus",
+    "set": "ae",
+    "color": "brown",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 4,
+    "wingspan": 22,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Baird's Sparrow",
+    "scientific_name": "Ammodramus bairdii",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 23,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Bald Eagle",
+    "scientific_name": "Haliaeetus leucocephalus",
+    "set": "base",
+    "color": "white",
+    "victory_points": 9,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 1,
+    "wingspan": 203,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 2,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Baltimore Oriole",
+    "scientific_name": "Icterus galbula",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 9,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 2,
+    "wingspan": 30,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 2,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Barn Owl",
+    "scientific_name": "Tyto alba",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 4,
+    "wingspan": 107,
+    "habitat": [
+      "Grassland",
+      "Wetland",
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 2,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Barn Swallow",
+    "scientific_name": "Hirundo rustica",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 1,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "wild",
+    "egg_limit": 3,
+    "wingspan": 38,
+    "habitat": [
+      "Grassland",
+      "Wetland",
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Barred Owl",
+    "scientific_name": "Strix varia",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 2,
+    "wingspan": 107,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 1,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Barrow's Goldeneye",
+    "scientific_name": "Bucephala islandica",
+    "set": "base",
+    "color": "pink",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 4,
+    "wingspan": 71,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Baya Weaver",
+    "scientific_name": "Ploceus philippinus",
+    "set": "ae",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "wild",
+    "egg_limit": 3,
+    "wingspan": 27,
+    "habitat": [
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Bearded Reedling",
+    "scientific_name": "Panurus biarmicus",
+    "set": "ae",
+    "color": "teal",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 6,
+    "wingspan": 17,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Bell's Vireo",
+    "scientific_name": "Vireo bellii",
+    "set": "base",
+    "color": "white",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "wild",
+    "egg_limit": 2,
+    "wingspan": 18,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Belted Kingfisher",
+    "scientific_name": "Megaceryle alcyon",
+    "set": "base",
+    "color": "pink",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 4,
+    "wingspan": 53,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Bewick's Wren",
+    "scientific_name": "Thryomanes bewickii",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 3,
+    "wingspan": 18,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Black Drongo",
+    "scientific_name": "Dicrurus macrocercus",
+    "set": "ae",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 27,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Black Noddy",
+    "scientific_name": "Anous minutus",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 9,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "platform",
+    "egg_limit": 1,
+    "wingspan": 69,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 3,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Black Redstart",
+    "scientific_name": "Phoenicurus ochruros",
+    "set": "ee",
+    "color": "teal",
+    "victory_points": 0,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 4,
+    "wingspan": 24,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Black Skimmer",
+    "scientific_name": "Rynchops niger",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 6,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 112,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 2,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Black Stork",
+    "scientific_name": "Ciconia nigra",
+    "set": "ae",
+    "color": "teal",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 155,
+    "habitat": [
+      "Forest",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Black Swan",
+    "scientific_name": "Cygnus atratus",
+    "set": "oe",
+    "color": "yellow",
+    "victory_points": 6,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 3,
+    "wingspan": 180,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 2
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Black Tern",
+    "scientific_name": "Chlidonias niger",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 2,
+    "wingspan": 61,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Black Vulture",
+    "scientific_name": "Coragyps atratus",
+    "set": "base",
+    "color": "pink",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 1,
+    "wingspan": 150,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 0
+  },
+  {
+    "common_name": "Black Woodpecker",
+    "scientific_name": "Dryocopus martius",
+    "set": "ee",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 2,
+    "wingspan": 70,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Black-Bellied Whistling-Duck",
+    "scientific_name": "Dendrocygna autumnalis",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "cavity",
+    "egg_limit": 5,
+    "wingspan": 76,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Black-Billed Magpie",
+    "scientific_name": "Pica hudsonia",
+    "set": "base",
+    "color": "pink",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 3,
+    "wingspan": 64,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 2
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Black-Chinned Hummingbird",
+    "scientific_name": "Archilochus alexandri",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 2,
+    "wingspan": 8,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Black-Crowned Night-Heron",
+    "scientific_name": "Nycticorax nycticorax",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 9,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 112,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Black-Headed Gull",
+    "scientific_name": "Chroicocephalus ridibundus",
+    "set": "ee",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 102,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Black-Naped Oriole",
+    "scientific_name": "Oriolus chinensis",
+    "set": "ae",
+    "color": "teal",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 2,
+    "wingspan": 50,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 2,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Black-Necked Stilt",
+    "scientific_name": "Himantopus mexicanus",
+    "set": "base",
+    "color": "white",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 74,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Black-Shouldered Kite",
+    "scientific_name": "Elanus axillaris",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 2,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 3,
+    "wingspan": 87,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 2,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Black-Tailed Godwit",
+    "scientific_name": "Limosa limosa",
+    "set": "ee",
+    "color": "white",
+    "victory_points": 6,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 76,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Black-Throated Diver",
+    "scientific_name": "Gavia arctica",
+    "set": "ee",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 1,
+    "wingspan": 120,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 2,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Blue Grosbeak",
+    "scientific_name": "Passerina caerulea",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 28,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Blue Jay",
+    "scientific_name": "Cyanocitta cristata",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 2,
+    "wingspan": 41,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Blue Rock-Thrush",
+    "scientific_name": "Monticola solitarius",
+    "set": "ae",
+    "color": "brown",
+    "victory_points": 0,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 4,
+    "wingspan": 35,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Blue-Gray Gnatcatcher",
+    "scientific_name": "Polioptila caerulea",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 1,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 15,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Blue-Winged Warbler",
+    "scientific_name": "Vermivora cyanoptera",
+    "set": "base",
+    "color": "",
+    "victory_points": 8,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 2,
+    "wingspan": 20,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Bluethroat",
+    "scientific_name": "Luscinia svecica",
+    "set": "ee",
+    "color": "brown",
+    "victory_points": 7,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 5,
+    "wingspan": 22,
+    "habitat": [
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Blyth's Hornbill",
+    "scientific_name": "Rhyticeros plicatus",
+    "set": "oe",
+    "color": "white",
+    "victory_points": 7,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "cavity",
+    "egg_limit": 2,
+    "wingspan": 150,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 3,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Bobolink",
+    "scientific_name": "Dolichonyx oryzivorus",
+    "set": "base",
+    "color": "white",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 3,
+    "wingspan": 30,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Bonelli's Eagle",
+    "scientific_name": "Aquila fasciata",
+    "set": "ee",
+    "color": "white",
+    "victory_points": 8,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 1,
+    "wingspan": 160,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 3,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Brahminy Kite",
+    "scientific_name": "Haliastur indus",
+    "set": "ae",
+    "color": "brown",
+    "victory_points": 6,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 125,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 1,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Brambling",
+    "scientific_name": "Fringilla montifringilla",
+    "set": "ae",
+    "color": "teal",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "bowl",
+    "egg_limit": 4,
+    "wingspan": 26,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Brant",
+    "scientific_name": "Branta bernicla",
+    "set": "base",
+    "color": "white",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 114,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Brewer's Blackbird",
+    "scientific_name": "Euphagus cyanocephalus",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 41,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Broad-Winged Hawk",
+    "scientific_name": "Buteo platypterus",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 85,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 1,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Brolga",
+    "scientific_name": "Antigone rubicunda",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 6,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 215,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Bronzed Cowbird",
+    "scientific_name": "Molothrus aeneus",
+    "set": "base",
+    "color": "pink",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 0,
+    "wingspan": 36,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Brown Falcon",
+    "scientific_name": "Falco berigora",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 102,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 1,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Brown Pelican",
+    "scientific_name": "Pelecanus occidentalis",
+    "set": "base",
+    "color": "white",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 201,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 2,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Brown Shrike",
+    "scientific_name": "Lanius cristatus",
+    "set": "ae",
+    "color": "brown",
+    "victory_points": 6,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 24,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Brown-Headed Cowbird",
+    "scientific_name": "Molothrus ater",
+    "set": "base",
+    "color": "pink",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 0,
+    "wingspan": 30,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Budgerigar",
+    "scientific_name": "Melopsittacus undulatus",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 0,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "cavity",
+    "egg_limit": 3,
+    "wingspan": 30,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Bullfinch",
+    "scientific_name": "Pyrrhula pyrrhula",
+    "set": "ee",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 4,
+    "wingspan": 24,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 1,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Burrowing Owl",
+    "scientific_name": "Athene cunicularia",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 4,
+    "wingspan": 53,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 1,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Bushtit",
+    "scientific_name": "Psaltriparus minimus",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "wild",
+    "egg_limit": 5,
+    "wingspan": 15,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "California Condor",
+    "scientific_name": "Gymnogyps californianus",
+    "set": "base",
+    "color": "white",
+    "victory_points": 1,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "ground",
+    "egg_limit": 1,
+    "wingspan": 277,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 0
+  },
+  {
+    "common_name": "California Quail",
+    "scientific_name": "Callipepla californica",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 6,
+    "wingspan": 36,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Canada Goose",
+    "scientific_name": "Branta canadensis",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "ground",
+    "egg_limit": 3,
+    "wingspan": 132,
+    "habitat": [
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Canvasback",
+    "scientific_name": "Aythya valisineria",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 4,
+    "wingspan": 82,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Carolina Chickadee",
+    "scientific_name": "Poecile carolinensis",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 3,
+    "wingspan": 20,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Carolina Wren",
+    "scientific_name": "Thryothorus ludovicianus",
+    "set": "base",
+    "color": "white",
+    "victory_points": 1,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 5,
+    "wingspan": 20,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Carrion Crow",
+    "scientific_name": "Corvus corone",
+    "set": "ee",
+    "color": "teal",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 92,
+    "habitat": [
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 1,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Cassin's Finch",
+    "scientific_name": "Haemorhous cassinii",
+    "set": "base",
+    "color": "white",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 30,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Cassin's Sparrow",
+    "scientific_name": "Peucaea cassinii",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "ground",
+    "egg_limit": 2,
+    "wingspan": 20,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Cedar Waxwing",
+    "scientific_name": "Bombycilla cedrorum",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 25,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 2,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Cerulean Warbler",
+    "scientific_name": "Setophaga cerulea",
+    "set": "base",
+    "color": "white",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "bowl",
+    "egg_limit": 2,
+    "wingspan": 20,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Cetti's Warbler",
+    "scientific_name": "Cettia cetti",
+    "set": "ee",
+    "color": "teal",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 17,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Chestnut-Collared Longspur",
+    "scientific_name": "Calcarius ornatus",
+    "set": "base",
+    "color": "white",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "ground",
+    "egg_limit": 4,
+    "wingspan": 25,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Chihuahuan Raven",
+    "scientific_name": "Corvus cryptoleucus",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 3,
+    "wingspan": 112,
+    "habitat": [
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 1,
+      "nectar": 0,
+      "wild": 2
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Chimney Swift",
+    "scientific_name": "Chaetura pelagica",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 2,
+    "wingspan": 36,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Chipping Sparrow",
+    "scientific_name": "Spizella passerina",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 1,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 23,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Clark's Grebe",
+    "scientific_name": "Aechmophorus clarkii",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 2,
+    "wingspan": 61,
+    "habitat": [
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Clark's Nutcracker",
+    "scientific_name": "Nucifraga columbiana",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 5,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 61,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 2,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Coal Tit",
+    "scientific_name": "Periparus ater",
+    "set": "ee",
+    "color": "brown",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 6,
+    "wingspan": 16,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Cockatiel",
+    "scientific_name": "Nymphicus hollandicus",
+    "set": "oe",
+    "color": "brown",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "cavity",
+    "egg_limit": 5,
+    "wingspan": 32,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Common Blackbird",
+    "scientific_name": "Turdus merula",
+    "set": "ee",
+    "color": "white",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "bowl",
+    "egg_limit": 5,
+    "wingspan": 36,
+    "habitat": [
+      "Forest"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 2,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 3
+  },
+  {
+    "common_name": "Common Buzzard",
+    "scientific_name": "Buteo buteo",
+    "set": "ee",
+    "color": "white",
+    "victory_points": 4,
+    "predator": true,
+    "flocking": false,
+    "nest_type": "platform",
+    "egg_limit": 2,
+    "wingspan": 123,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 0,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 1,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Common Chaffinch",
+    "scientific_name": "Fringilla coelebs",
+    "set": "ee",
+    "color": "brown",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "bowl",
+    "egg_limit": 2,
+    "wingspan": 23,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Common Chiffchaff",
+    "scientific_name": "Phylloscopus collybita",
+    "set": "ee",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "ground",
+    "egg_limit": 3,
+    "wingspan": 20,
+    "habitat": [
+      "Forest",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 1,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 1
+  },
+  {
+    "common_name": "Common Cuckoo",
+    "scientific_name": "Cuculus canorus",
+    "set": "ee",
+    "color": "pink",
+    "victory_points": 4,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "wild",
+    "egg_limit": 0,
+    "wingspan": 57,
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ],
+    "food_cost": {
+      "invertebrate": 2,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Common Goldeneye",
+    "scientific_name": "Bucephala clangula",
+    "set": "ee",
+    "color": "teal",
+    "victory_points": 2,
+    "predator": false,
+    "flocking": false,
+    "nest_type": "cavity",
+    "egg_limit": 4,
+    "wingspan": 73,
+    "habitat": [
+      "Forest",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 1,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 0
+    },
+    "total_food_cost": 2
+  },
+  {
+    "common_name": "Common Grackle",
+    "scientific_name": "Quiscalus quiscula",
+    "set": "base",
+    "color": "brown",
+    "victory_points": 3,
+    "predator": false,
+    "flocking": true,
+    "nest_type": "bowl",
+    "egg_limit": 3,
+    "wingspan": 43,
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Wetland"
+    ],
+    "food_cost": {
+      "invertebrate": 1,
+      "seed": 0,
+      "fish": 0,
+      "fruit": 0,
+      "rodent": 0,
+      "nectar": 0,
+      "wild": 1
+    },
+    "total_food_cost": 2
+  }
+]

@@ -59,9 +59,9 @@ with (open(osp.join(utils.RESOURCES, 'birds_info.json'), 'r') as f):
         bird['common_name']: bird['color'] for bird in _BIRD_DATA
     }
     _BIRDS_UNRESTRICTED = {'Common Myna', 'Superb Lyrebird', 'Tui'}
-    FOREST_POSSIBLE = _BIRDS_UNRESTRICTED + {b for b, h in BIRDS_HABITS.items() if 'Forest' in h}
-    GRASSLAND_POSSIBLE = _BIRDS_UNRESTRICTED + {b for b, h in BIRDS_HABITS.items() if 'Grassland' in h}
-    WETLANDS_POSSIBLE = _BIRDS_UNRESTRICTED + {b for b, h in BIRDS_HABITS.items() if 'Wetland' in h}
+    FOREST_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Forest' in h}
+    GRASSLAND_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Grassland' in h}
+    WETLANDS_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Wetland' in h}
 
 
 BASE_DECK = _BASE_BIRDS
@@ -99,14 +99,15 @@ class Deck(metaclass=Singleton):
         self.set_deck(*args, **kwargs)
 
     def set_deck(self, sub_decks : Tuple[str] = ('base', )) -> None:
-        self.birds = []
-        self.bonus_cards = []
+        self.birds = set()
+        self.bonus_cards = set()
         for d in sub_decks:
-            self.birds.extend(_BIRD_DECKS[d])
+            self.birds |= set(_BIRD_DECKS[d])
 
         decks = frozenset(sub_decks)
         self.bird_importance = _BIRD_IMPORTANCE_DECKS[decks]
         self.possible_tray_birds = {b for items in self.bird_importance for b in items['tray']}
+
 
 
 

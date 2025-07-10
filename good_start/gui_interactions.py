@@ -453,11 +453,11 @@ def extract_birds_from_overview(image: np.ndarray, base_image=None):
 
         birds_options = cards.Deck().birds
         if 'forest' in k:
-            birds_options |= cards.FOREST_POSSIBLE
+            birds_options &= cards.FOREST_POSSIBLE
         elif 'grassland' in k:
-            birds_options |= cards.GRASSLAND_POSSIBLE
+            birds_options &= cards.GRASSLAND_POSSIBLE
         else:
-            birds_options |= cards.WETLANDS_POSSIBLE
+            birds_options &= cards.WETLANDS_POSSIBLE
         overview[k] = text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], birds_options, True)
     return overview
 

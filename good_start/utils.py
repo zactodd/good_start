@@ -13,6 +13,13 @@ RESOURCES = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'resources'
 SELECTED_IMAGES = os.path.join(RESOURCES, '.selected')
 HABITATS = ['Forest', 'Grassland', 'Wetland']
 FOOD = ['Fruit', 'Fish', 'Invertebrate', 'Rodent', 'Seed']
+COLOURS = {
+    "brown": (155 / 255, 132 / 255, 89 / 255),
+    "pink": (223 / 255, 49 / 255, 105 / 255),
+    "gold": (247 / 255, 214 / 255, 57 / 255),
+    "white": (180 / 255, 180 / 255, 180 / 255),
+    "teal": (27 / 255, 187 / 255, 173 / 255)
+}
 
 
 _BIRD_GROUPS_FILE = os.path.join(RESOURCES, 'bird_groups.json')

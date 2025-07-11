@@ -1,5 +1,6 @@
 import os.path as osp
 import json
+import csv
 from typing import Tuple
 import utils
 from patterns import Singleton
@@ -63,6 +64,10 @@ with (open(osp.join(utils.RESOURCES, 'birds_info.json'), 'r') as f):
     GRASSLAND_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Grassland' in h}
     WETLANDS_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Wetland' in h}
 
+with (open(osp.join(utils.RESOURCES, 'bird_tags.tsv'), 'r') as f):
+    BIRD_TAGS = {r[0]: r[1] for r in csv.reader(f, delimiter='\t')}
+    TAG_COLOUR = {v: BIRDS_COLOUR[k] for k, v in BIRD_TAGS.items()}
+
 
 BASE_DECK = _BASE_BIRDS
 _BIRD_DECKS = {
@@ -107,4 +112,3 @@ class Deck(metaclass=Singleton):
         decks = frozenset(sub_decks)
         self.bird_importance = _BIRD_IMPORTANCE_DECKS[decks]
         self.possible_tray_birds = {b for items in self.bird_importance for b in items['tray']}
-

@@ -3,6 +3,7 @@ import json
 import csv
 from typing import Iterable, TypeVar, Callable, Any
 from functools import cache
+from itertools import zip_longest
 from threading import Thread
 
 

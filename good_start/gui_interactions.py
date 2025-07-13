@@ -444,20 +444,27 @@ def extract_bird_cards(verbose: bool = False, base_image=None):
 
 
 def extract_birds_from_overview(image: np.ndarray, base_image=None):
-    overview = {}
     w, h = window_dimensions() if base_image is None else base_image.size
-    for k, (x0, y0, wr, hr) in kp.OVERVIEW_BIRD_NAMES.items():
-        sx0, sy0 = int(w * x0), int(h * y0)
-        sw, sh = int(w * wr), int(h * hr)
+    overview_possible = [cards.FOREST_POSSIBLE, cards.GRASSLAND_POSSIBLE, cards.WETLANDS_POSSIBLE]
 
-        birds_options = cards.Deck().birds.copy()
-        if 'forest' in k:
-            birds_options &= cards.FOREST_POSSIBLE
-        elif 'grassland' in k:
-            birds_options &= cards.GRASSLAND_POSSIBLE
-        else:
-            birds_options &= cards.WETLANDS_POSSIBLE
-        overview[k] = text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], birds_options, True)
+    overview = []
+    for h, possible_birds in zip(range(3), overview_possible):
+        last = None
+        habitat_birds = []
+        possible_birds &= cards.Deck().birds
+        for i, (x0, y0, wr, hr) in enumerate(kp.OVERVIEW_BIRD_NAMES[h]):
+            print(i, (x0, y0, wr, hr))
+            if last == '':
+                habitat_birds.extend([''] * (5 - i))
+                break
+            elif last in cards.SIDEWAYS_BIRDS:
+                habitat_birds.append([''])
+            else:
+                sx0, sy0 = int(w * x0), int(h * y0)
+                sw, sh = int(w * wr), int(h * hr)
+                habitat_birds.append(text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], possible_birds, True))
+        overview.append(habitat_birds)
+        print(overview)
     return overview
 
 

@@ -59,10 +59,14 @@ with (open(osp.join(utils.RESOURCES, 'birds_info.json'), 'r') as f):
     BIRDS_COLOUR = {
         bird['common_name']: bird['color'] for bird in _BIRD_DATA
     }
-    _BIRDS_UNRESTRICTED = {'Common Myna', 'Superb Lyrebird', 'Tui'}
-    FOREST_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Forest' in h}
-    GRASSLAND_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Grassland' in h}
-    WETLANDS_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Wetland' in h}
+
+
+_BIRDS_UNRESTRICTED = {'Common Myna', 'Superb Lyrebird', 'Tui'}
+FOREST_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Forest' in h}
+GRASSLAND_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Grassland' in h}
+WETLANDS_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Wetland' in h}
+SIDEWAYS_BIRDS = {'European Roller', 'Grey Heron', 'Long-Tailed Tit', 'Common Blackbird'}
+
 
 with (open(osp.join(utils.RESOURCES, 'bird_tags.tsv'), 'r') as f):
     BIRD_TAGS = {r[0]: r[1] for r in csv.reader(f, delimiter='\t')}

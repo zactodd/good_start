@@ -1,11 +1,9 @@
 import os
-import json
-import csv
-from typing import Iterable, TypeVar, Callable, Any
+from typing import TypeVar, Any, Iterable, Callable, Iterator, Any, List
 from functools import cache
-from itertools import zip_longest
+from itertools import zip_longest, islice
 from threading import Thread
-
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 F = TypeVar('F', bound=Callable[..., Any])
 
@@ -69,18 +67,47 @@ def zip_discard_generator(*iterables, sentinel: Any = object()):
             for iterable in zip_longest(*iterables, fillvalue=sentinel))
 
 
-def parallel_evaluate_iterable(iterable, generate_thread_func: Callable[..., Thread], num_threads: int) -> None:
+def parallel_evaluate_iterable(iterable: Iterable[Any], func: F, num_threads: int) -> Iterator[List[Any]]:
     """
-    Evaluates a function over an iterable in parallel over several threads.
+    Evaluates a task_function over an iterable in parallel using a ThreadPoolExecutor.
+    It processes items in chunks (size = num_threads) and yields the results
+    of each chunk as they are completed.
+
     :param iterable: The items to be evaluated.
-    :param generate_thread_func: The function evaluating the items.
-    :param num_threads: The number of threads to use.
+    :param func: The function to apply to each item from the iterable.
+                          It should take one item and return its result.
+    :param num_threads: The number of worker threads to use in the pool.
+                        This also defines the maximum size of each chunk yielded.
+    :yields: Individual results (Any) from the processed items.
+             The order of individual results is not guaranteed to match
+             the input order, as they are yielded as their tasks complete
+             within each chunk. If a task raises an exception, the exception
+             object itself will be yielded for that task's result.
     """
-    if len(iterable) <= num_threads:
-        threads = map(generate_thread_func, iterable)
-        start_join_threads(threads)
-    else:
-        for g in grouper(iterable, num_threads):
-            threads = map(generate_thread_func, g)
-            start_join_threads(threads)
+    if num_threads <= 0:
+        raise ValueError("num_threads (max_workers and chunk size) must be a positive integer.")
+
+    # Use ThreadPoolExecutor for efficient parallel execution and result collection
+    with ThreadPoolExecutor(max_workers=num_threads) as executor:
+        # Iterate over the iterable in chunks of `num_threads` size
+        for chunk in grouper(iterable, num_threads):
+            # Submit each item in the current chunk to the executor
+            # and store the Future objects
+            futures = {executor.submit(func, item) for item in chunk}
+
+            chunk_results = []
+            # Wait for all futures in the current chunk to complete
+            # `as_completed` yields futures as they finish, so order might not be preserved
+            # relative to the input chunk order, but all results from *this chunk* will be yielded together.
+            for future in as_completed(futures):
+                try:
+                    # Get the result from the completed future
+                    chunk_results.append(future.result())
+                except Exception as exc:
+                    # If a task raised an exception, catch it and store the exception object
+                    chunk_results.append(exc)
+
+            # Yield the collected results for the current chunk
+            for result in chunk_results:
+                yield result
 

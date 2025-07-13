@@ -372,9 +372,8 @@ def text_from_image(image: np.ndarray, words: List[str], has_empty=False) -> str
     :param has_empty: If the image provide can conatin no text.
     :return: The matched word.
     """
-    img = image #_preprocess_image_for_ocr(image)
     custom_config = r"--oem 3 --psm 7 -c tessedit_char_whitelist= ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    text = pytesseract.image_to_string(img, config=custom_config).strip()
+    text = pytesseract.image_to_string(image, config=custom_config).strip()
 
     if not has_empty or len(text.strip()) > 2:
         min_edits = [(s, utils.minimum_edit_distance(
@@ -448,12 +447,11 @@ def extract_birds_from_overview(image: np.ndarray, base_image=None):
     overview_possible = [cards.FOREST_POSSIBLE, cards.GRASSLAND_POSSIBLE, cards.WETLANDS_POSSIBLE]
 
     overview = []
-    for h, possible_birds in zip(range(3), overview_possible):
+    for habitat_idx, possible_birds in zip(range(3), overview_possible):
         last = None
         habitat_birds = []
         possible_birds &= cards.Deck().birds
-        for i, (x0, y0, wr, hr) in enumerate(kp.OVERVIEW_BIRD_NAMES[h]):
-            print(i, (x0, y0, wr, hr))
+        for i, (x0, y0, wr, hr) in enumerate(kp.OVERVIEW_BIRD_NAMES[habitat_idx]):
             if last == '':
                 habitat_birds.extend([''] * (5 - i))
                 break
@@ -464,7 +462,6 @@ def extract_birds_from_overview(image: np.ndarray, base_image=None):
                 sw, sh = int(w * wr), int(h * hr)
                 habitat_birds.append(text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], possible_birds, True))
         overview.append(habitat_birds)
-        print(overview)
     return overview
 
 

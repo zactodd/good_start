@@ -9,38 +9,8 @@ from threading import Thread
 
 F = TypeVar('F', bound=Callable[..., Any])
 
-
 RESOURCES = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'resources')
 SELECTED_IMAGES = os.path.join(RESOURCES, '.selected')
-HABITATS = ['Forest', 'Grassland', 'Wetland']
-FOOD = ['Fruit', 'Fish', 'Invertebrate', 'Rodent', 'Seed']
-COLOURS = {
-    "brown": (155 / 255, 132 / 255, 89 / 255),
-    "pink": (223 / 255, 49 / 255, 105 / 255),
-    "gold": (247 / 255, 214 / 255, 57 / 255),
-    "white": (180 / 255, 180 / 255, 180 / 255),
-    "teal": (27 / 255, 187 / 255, 173 / 255)
-}
-
-
-_BIRD_GROUPS_FILE = os.path.join(RESOURCES, 'bird_groups.json')
-
-# with open(_BIRD_GROUPS_FILE, 'r') as f:
-#     BIRD_GROUPS = {b: g for g, birds in json.load(f).items() for b in birds}
-
-# _FULL_CARD_INFO_FILE = os.path.join(RESOURCES, 'card_list.tsv')
-# with open(_FULL_CARD_INFO_FILE, 'r', encoding='cp437') as f:
-#     _FULL_CARD_INFO = csv.DictReader(f, delimiter='\t')
-#     _FOOD_COST = FOOD + ['Wild']
-#
-#     BIRD_HABITATS = {}
-#     BIRD_FOOD = {}
-#     for r in _FULL_CARD_INFO:
-#         BIRD_HABITATS[r['Common name'].strip()] = tuple(h for h in HABITATS if r[h] == 'X')
-#
-#         food_cost = {f: int(c) for f in _FOOD_COST if (c := r[f])}
-#         total = 1 if r['/ (food cost)'] == 'X' else sum(food_cost.values())
-#         BIRD_FOOD[r['Common name'].strip()] = (total , food_cost)
 
 
 @cache
@@ -97,7 +67,6 @@ def grouper(iterable: Iterable, n: int) -> Iterable:
 def zip_discard_generator(*iterables, sentinel: Any = object()):
     return ((entry for entry in iterable if entry is not sentinel)
             for iterable in zip_longest(*iterables, fillvalue=sentinel))
-
 
 
 def parallel_evaluate_iterable(iterable, generate_thread_func: Callable[..., Thread], num_threads: int) -> None:

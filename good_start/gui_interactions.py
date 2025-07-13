@@ -12,6 +12,7 @@ import selection
 import subprocess
 import utils
 import cards
+import bird_facts as bf
 
 
 def _window_bbox_from_name(name: str)-> Tuple[int, int, int, int]:
@@ -444,7 +445,7 @@ def extract_bird_cards(verbose: bool = False, base_image=None):
 
 def extract_birds_from_overview(image: np.ndarray, base_image=None):
     w, h = window_dimensions() if base_image is None else base_image.size
-    overview_possible = [cards.FOREST_POSSIBLE, cards.GRASSLAND_POSSIBLE, cards.WETLANDS_POSSIBLE]
+    overview_possible = [bf.FOREST_POSSIBLE, bf.GRASSLAND_POSSIBLE, bf.WETLANDS_POSSIBLE]
 
     overview = []
     for habitat_idx, possible_birds in zip(range(3), overview_possible):
@@ -455,7 +456,7 @@ def extract_birds_from_overview(image: np.ndarray, base_image=None):
             if last == '':
                 habitat_birds.extend([''] * (5 - i))
                 break
-            elif last in cards.SIDEWAYS_BIRDS:
+            elif last in bf.SIDEWAYS_BIRDS:
                 habitat_birds.append([''])
             else:
                 sx0, sy0 = int(w * x0), int(h * y0)

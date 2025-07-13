@@ -46,31 +46,7 @@ with open(osp.join(_BIRD_IMPORTANCE, 'base_with_ss_oe.json'), 'r') as f:
 # with open(osp.join(_BIRD_IMPORTANCE, 'base_with_fp.json'), 'r') as f:
 #     _BASE_WITH_FP_BIRD_IMPORTANCE = json.load(f)
 
-with (open(osp.join(utils.RESOURCES, 'birds_info.json'), 'r') as f):
-    _BIRD_DATA = json.load(f)
-    BIRDS_HABITS = {
-        bird['common_name']: bird['habitat'] for bird in _BIRD_DATA
-    }
 
-    BIRDS_NEST = {
-        bird['common_name']: {'type': bird['nest_type'], 'count': bird['egg_limit']} for bird in _BIRD_DATA
-    }
-
-    BIRDS_COLOUR = {
-        bird['common_name']: bird['color'] for bird in _BIRD_DATA
-    }
-
-
-_BIRDS_UNRESTRICTED = {'Common Myna', 'Superb Lyrebird', 'Tui'}
-FOREST_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Forest' in h}
-GRASSLAND_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Grassland' in h}
-WETLANDS_POSSIBLE = _BIRDS_UNRESTRICTED | {b for b, h in BIRDS_HABITS.items() if 'Wetland' in h}
-SIDEWAYS_BIRDS = {'European Roller', 'Grey Heron', 'Long-Tailed Tit', 'Common Blackbird'}
-
-
-with (open(osp.join(utils.RESOURCES, 'bird_tags.tsv'), 'r') as f):
-    BIRD_TAGS = {r[0]: r[1] for r in csv.reader(f, delimiter='\t')}
-    TAG_COLOUR = {v: BIRDS_COLOUR[k] for k, v in BIRD_TAGS.items()}
 
 
 BASE_DECK = _BASE_BIRDS

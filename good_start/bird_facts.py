@@ -16,19 +16,20 @@ COLOURS = {
 
 
 with (open(osp.join(_FACTS, 'birds_info.json'), 'r') as f):
-    BIRDS_DATA = json.load(f)
+    BIRDS_DATA = {info['common_name']: info for info in json.load(f)}
 
     BIRDS_HABITS = {
-        bird['common_name']: bird['habitat'] for bird in BIRDS_DATA
+        bird: info['habitat'] for bird, info in BIRDS_DATA.items()
     }
 
     BIRDS_NEST = {
-        bird['common_name']: {'type': bird['nest_type'], 'count': bird['egg_limit']} for bird in BIRDS_DATA
+        bird: {'type': info['nest_type'], 'count': info['egg_limit']} for bird, info in BIRDS_DATA.items()
     }
 
     BIRDS_COLOUR = {
-        bird['common_name']: bird['color'] for bird in BIRDS_DATA
+        bird: info['color'] for bird, info in BIRDS_DATA.items()
     }
+
 
 
 _BIRDS_UNRESTRICTED = {'Common Myna', 'Superb Lyrebird', 'Tui'}

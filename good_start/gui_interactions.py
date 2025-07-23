@@ -456,12 +456,15 @@ def extract_birds_from_overview(image: np.ndarray, base_image=None):
             if last == '':
                 habitat_birds.extend([''] * (5 - i))
                 break
-            elif last in bf.SIDEWAYS_BIRDS:
-                habitat_birds.append([''])
             else:
                 sx0, sy0 = int(w * x0), int(h * y0)
                 sw, sh = int(w * wr), int(h * hr)
-                habitat_birds.append(text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], possible_birds, True))
+                guess = text_from_image(image[sy0:sy0 + sh, sx0:sx0 + sw], possible_birds, True)
+                habitat_birds.append(guess)
+
+                if last not in bf.SIDEWAYS_BIRDS or guess != '':
+                    last = guess
+
         overview.append(habitat_birds)
     return overview
 
